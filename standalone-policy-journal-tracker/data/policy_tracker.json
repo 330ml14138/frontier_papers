@@ -1,0 +1,971 @@
+{
+  "updated_at": "2026-05-17 05:57:42",
+  "translation": {
+    "engine": "kimi",
+    "model": "moonshot-v1-8k",
+    "enabled": true,
+    "success_count": 15,
+    "fail_count": 0,
+    "failed_examples": [],
+    "note": "Set KIMI_API_KEY to enable Chinese translation."
+  },
+  "policy_tracker": {
+    "topics": [
+      "房地产",
+      "城市治理",
+      "公共政策"
+    ],
+    "topic_keywords": {
+      "房地产": [
+        "housing",
+        "house price",
+        "property",
+        "real estate",
+        "mortgage",
+        "rent",
+        "rental",
+        "land market",
+        "land value",
+        "land use",
+        "homeless",
+        "affordable housing",
+        "房地",
+        "住房",
+        "房价",
+        "土地",
+        "租赁",
+        "租房"
+      ],
+      "城市治理": [
+        "urban",
+        "city",
+        "municipal",
+        "metropolitan",
+        "local government",
+        "urban planning",
+        "zoning",
+        "community governance",
+        "neighborhood",
+        "spatial",
+        "urbanization",
+        "城市治理",
+        "城镇",
+        "社区治理",
+        "城市规划",
+        "空间"
+      ],
+      "公共政策": [
+        "public policy",
+        "policy analysis",
+        "policy reform",
+        "policy design",
+        "governance",
+        "regulation",
+        "public administration",
+        "government intervention",
+        "welfare policy",
+        "tax policy",
+        "transport policy",
+        "education policy",
+        "health policy",
+        "policy",
+        "公共政策",
+        "政策分析",
+        "政策",
+        "公共管理",
+        "政府治理"
+      ]
+    },
+    "max_papers_per_journal": 12,
+    "journals": [
+      {
+        "name": "American Political Science Review",
+        "query_name": "American Political Science Review",
+        "issn": "0003-0554",
+        "resolved_name": "American Political Science Review",
+        "issue_title": "Volume 120, Issue 2",
+        "issue_url": "https://www.cambridge.org/core/journals/american-political-science-review",
+        "matched_count": 9,
+        "total_in_issue": 25,
+        "papers": [
+          {
+            "title_en": "Ideology and Revolution in Civil Wars: The “Marxist Paradox” –CORRIGENDUM",
+            "title_zh": "标题：内战中的意识形态与革命：“马克思主义悖论”——勘误表",
+            "url": "https://doi.org/10.1017/s0003055425101275",
+            "abstract_en": "T he authors regret that they identified a missingness issue in a few variables in their dataset that capture state capacity, and which was due to an error in the merge code.After fixing this issue, the overall interpretation of the findings or the conclusions of the article remain unchanged.Specifically, the R merge code for the state capacity variables (04_merging_capacity_variables.R) contained errors leading to unnecessary NAs in the cross-sectional (final_cross.dta)and panel (final_panel.dta)final datasets for all the variables that were imported from the Hanson and Sigman (2021) (HS) (Capacity, Pre_ capacity, Post_capacity) and O'Reilly and Murphy (2022) (OM) datasets (Pre_sci_comp, Post_sci_comp).It also led to unnecessary NAs in the cross-sectional dataset (final_cross.dta)for the variable Sci_comp_diff, which is calculated as Post_sci_comp minus Pre_sci_ comp.The authors thank Ula Erdodu for letting them know about unnecessary missing cases in one of the variables, which helped identify the problem in the code.The authors have not identified any other errors in the imported state capacity data-only unnecessary missing values.To fix this problem, they hand coded the values of the HS and OM prewar capacity data in the cross-sectional dataset (Pre_capacity and Pre_sci_comp), and the value of the HS capacity data in the panel dataset (Capacity).They also hand coded the measures of postwar state capacity (Post_capacity and Post_sci_comp).These variables are used to calculate \"state capacity difference\" (Capacity_diff and Sci_comp_diff), a variable included in Table 7 of the main paper (and Table B.7 of the SM).They note that, for these variables, they have hand coded only the relevant cases for these analyses, which are wars that started before 1991 and did not end in rebel victory.The missingness issue impacted the following tables and figures in the paper and SM: Table 6 and Table 7 in the main article; Figure B.1, Table B.2, and Table B.7 in the SM.The rest of tables and figures in the article and",
+            "abstract_zh": "作者们遗憾地表示，他们在数据集中发现了一些捕捉国家能力的变量中存在缺失值问题，这是由于合并代码中的错误造成的。在修复了这个问题之后，文章的总体解释或结论保持不变。具体来说，用于国家能力变量的R合并代码（04_merging_capacity_variables.R）存在错误，导致在所有从Hanson和Sigman（2021）年（HS）（能力、前能力、后能力）和O'Reilly和Murphy（2022）年（OM）数据集（前科学竞争、后科学竞争）导入的变量中，横截面（final_cross.dta）和面板（final_panel.dta）最终数据集中出现了不必要的NA值。这也导致了横截面数据集（final_cross.dta）中变量Sci_comp_diff（计算为后科学竞争减去前科学竞争）出现了不必要的NA值。作者感谢Ula Erdodu告知他们其中一个变量中不必要的缺失案例，这帮助他们识别了代码中的问题。作者们没有在导入的国家能力数据中发现其他错误，只有不必要的缺失值。为了解决这个问题，他们手动编码了横截面数据集中HS和OM战前能力数据（前能力、前科学竞争）的值，以及面板数据集中HS能力数据（能力）的值。他们还手动编码了战后国家能力的度量（后能力、后科学竞争）。这些变量用于计算“国家能力差异”（能力差异和科学竞争差异），这是主论文表7（以及SM表B.7）中包含的一个变量。他们指出，对于这些变量，他们只手动编码了这些分析的相关案例，即1991年之前开始且未以叛军胜利结束的战争。缺失值问题影响了论文和SM中的以下表格和图表：主文章中的表6和表7；SM中的图B.1、表B.2和表B.7。文章和SM中的其余表格和图表",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Countering Misinformation Early: Evidence from a Classroom-Based Field Experiment in India",
+            "title_zh": "早期对抗错误信息：来自印度课堂实地实验的证据",
+            "url": "https://doi.org/10.1017/s0003055425101184",
+            "abstract_en": "Misinformation poses serious risks for democratic governance, conflict, and health. This study evaluates whether sustained, classroom-based education against misinformation can equip schoolchildren to become more discerning consumers of information. Partnering with a state government agency in Bihar, India, we conducted a field experiment in 583 villages with 13,500 students, using a 4-month curriculum designed to build skills, shift norms, and enhance knowledge about health misinformation. Intent-to-treat estimates demonstrate that treated respondents were significantly better at discerning true from false information, altered their health preferences, relied more on science, and reduced their dependence on unreliable news sources. We resurveyed participants 4 months post-intervention and found that effects persisted, as well as extended to political misinformation. Finally, we observe within-household treatment diffusion, with parents of treated students becoming more adept at discerning information. As many countries seek long-term solutions to combat misinformation, these findings highlight the promise of sustained classroom-based education.",
+            "abstract_zh": "错误信息对民主治理、冲突和健康构成严重风险。本研究评估了持续的、基于课堂的教育是否能使学童成为更有辨识力的信息消费者。我们与印度比哈尔邦的一个州政府机构合作，在583个村庄对13,500名学生进行了实地实验，使用为期4个月的课程设计，旨在培养技能、转变规范，并增强对健康错误信息的了解。意向治疗估计表明，接受治疗的受访者在辨别真实与虚假信息方面明显更好，改变了他们的健康偏好，更多地依赖科学，并减少了对不可靠新闻来源的依赖。我们在干预后4个月重新调查了参与者，发现效果持续存在，并且扩展到了政治错误信息。最后，我们观察到家庭内治疗扩散，接受治疗的学生的父母在辨别信息方面变得更加熟练。随着许多国家寻求长期解决方案以打击错误信息，这些发现突出了持续的基于课堂的教育的前景。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Race, Democracy, and Public Support for War",
+            "title_zh": "种族、民主与公众对战争的支持",
+            "url": "https://doi.org/10.1017/s0003055425101056",
+            "abstract_en": "Studies have found that voters in democratic countries are far more reluctant to use military force against democracies than against nondemocracies. This pattern may help explain why democracies almost never wage war against other democracies. In an important contribution, Rathbun, Parker, and Pomeroy (2025) propose that the apparent democratic peace in public opinion is an artifact of failing to account for race. Rather than democracy itself influencing support for war, they argue, the term “democracy” cues assumptions about the adversary’s racial composition, and those racialized assumptions are the true drivers of support for war. We reevaluate RPP’s evidence, concluding that their data do not support their predictions. In fact, their novel experiments provide powerful evidence that democracy affects support for war, independent of race. Our findings contribute to major debates about both regime type and race in international relations, as well as the design and interpretation of survey experiments.",
+            "abstract_zh": "研究发现，民主国家的选民对民主国家使用军事力量的意愿远低于对非民主国家。这一模式可能有助于解释为什么民主国家几乎从不与其他国家的民主政权开战。在一项重要贡献中，Rathbun、Parker和Pomeroy（2025年）提出，公众舆论中明显的民主和平是未能考虑种族因素的结果。他们认为，不是民主本身影响对战争的支持，而是“民主”一词引发对对手种族构成的假设，而这些种族化的假设才是支持战争的真正驱动力。我们重新评估了RPP的证据，得出结论认为他们的数据不支持他们的预测。实际上，他们新颖的实验为民主影响对战争的支持提供了有力的证据，且独立于种族因素。我们的发现为关于国际关系中的政权类型和种族的重大辩论，以及调查实验的设计和解释做出了贡献。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "How Partisan Are U.S. Local Elections? Evidence from 2020 Cast Vote Records",
+            "title_zh": "美国地方选举的党派性有多强？来自2020年投票记录的证据",
+            "url": "https://doi.org/10.1017/s0003055425100920",
+            "abstract_en": "Analyzing nominally partisan contests, previous literature has argued that state and local politics have nationalized. Here we use individual ballots from the 2020 general elections covering over 50 million voters to study the relationship between individual national partisanship and voting in over 5,700 contested down-ballot contests, including nonpartisan races and ballot measures. Voting in partisan contests can be explained by voter’s national partisanship, consistent with existing literature. However, we find that voting for local nonpartisan offices and ballot measures is much less partisan. National partisanship explains more than 80% of the within-contest variation in voting for partisan state and local offices but less than 10% for local nonpartisan contests and local ballot measures. The degree of partisanship in local spending measures varies by the type of service—for example, education, roads, public safety, housing. Finally, we find evidence of structure in the pattern of votes on local spending measures.",
+            "abstract_zh": "分析名义上的党派竞争，先前的文献认为州和地方政治已经全国化。在这里，我们使用2020年大选的个人选票，覆盖超过5000万选民，研究个人国家党派身份与超过5700个有争议的下选票竞争之间的关系，包括无党派竞选和选票措施。党派竞争中的投票可以通过选民的国家党派身份来解释，这与现有文献一致。然而，我们发现，对地方无党派职位和选票措施的投票远不那么党派化。国家党派身份解释了党派州和地方职位竞选中超过80%的内部变化，但对地方无党派竞选和地方选票措施不到10%。地方支出措施中的党派程度因服务类型而异——例如，教育、道路、公共安全、住房。最后，我们发现地方支出措施的投票模式中有结构性的证据。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "The Political Transformation of Corporate America, 2001–2022",
+            "title_zh": "2001-2022年美国企业的政治转型",
+            "url": "https://doi.org/10.1017/s0003055425100993",
+            "abstract_en": "This article reconciles conflicting views about the political landscape of corporate America with new data on the revealed political preferences of 97,469 corporate directors and executives at 9,005 different U.S. companies. Driven largely by turnover, I find that average observed ideology for directors and executives has shifted meaningfully to the left over time, changing from modestly conservative in 2001 to roughly centrist by 2022. This finding supports a middle-ground position between conventional wisdom casting “big business” as a conservative stronghold and revisionist views holding the opposite. Counterfactual simulations and a difference-in-differences design suggest multifaceted reasons for these changes, and hand-collected data on corporate stances on LGBTQ-related legislation suggest a strong connection between corporate political activity and individual views. Overall, this transformation has profound implications for American politics, as the individuals comprising one of the most powerful interest groups—corporate elites—appear to be fracturing ideologically and to some degree even switching sides.",
+            "abstract_zh": "本文通过分析97,469名美国9,005家不同公司的企业董事和高管所表现出的政治偏好的新数据，调和了关于美国企业政治格局的冲突观点。我发现，主要是由于人员更替，董事和高管的平均观察意识形态随时间显著左移，从2001年的温和保守转变为2022年的大致居中。这一发现支持了一种中间立场，即传统观点将“大企业”视为保守派的堡垒，而修正主义观点则持相反看法。反事实模拟和差异中的差异设计表明了这些变化的多方面原因，而手工收集的关于企业对LGBTQ相关立法立场的数据表明，企业政治活动与个人观点之间存在强烈联系。总体而言，这种转变对美国政治具有深远影响，因为构成最强大的利益集团之一——企业精英——的个体似乎在意识形态上出现裂痕，甚至在一定程度上转换立场。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Land, Power, and Property Rights: The Political Economy of Land Titling in Sub-Saharan Africa",
+            "title_zh": "土地、权力与产权：撒哈拉以南非洲土地确权的政治经济学",
+            "url": "https://doi.org/10.1017/s0003055425100981",
+            "abstract_en": "Only 15% of African households possess a formal title for their agricultural land, despite the widespread availability of titles and their documented benefits. Local politics combine with national land regimes to explain this empirical anomaly. I combine 170,216 household-level observations of titling across 22 African countries with a novel geospatial measure of land values and the returns to agricultural investment. Households in areas with high returns to potential agricultural investment title more. However, in countries with centralized land tenure regimes, strong customary institutions attenuate this relationship; in countries with decentralized land regimes, strong customary institutions reinforce it. I use a case study in Côte d’Ivoire, including an original survey of 801 households and 194 customary elites, to trace these mechanisms at work. This research documents granular variation in the uptake of land titles, illustrates how local politics explain this variation, and outlines conditions under which customary elites impede development.",
+            "abstract_zh": "尽管土地所有权证书广泛可用且其益处有据可查，但只有15%的非洲家庭拥有其农业土地的正式产权证书。地方政治与国家土地制度相结合，可以解释这一经验上的异常现象。我将22个非洲国家的170,216个家庭级别的土地产权数据与一种新颖的地理空间土地价值和农业投资回报度量相结合。在潜在农业投资回报高的地区，家庭更有可能获得产权证书。然而，在土地产权制度集中的国家，强大的传统制度削弱了这种关系；在土地产权制度分散的国家，强大的传统制度则加强了这种关系。我使用科特迪瓦的案例研究，包括对801个家庭和194个传统精英的原始调查，来追踪这些机制的运作。这项研究记录了土地产权采纳的细微变化，说明了地方政治如何解释这种变化，并概述了传统精英阻碍发展的情况。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Storm from the Steppes: Warfare and Succession Institutions in Pre-Modern Eurasia, 1000–1799 CE",
+            "title_zh": "草原风暴：公元1000至1799年欧亚大陆前现代战争与继承制度",
+            "url": "https://doi.org/10.1017/s000305542510097x",
+            "abstract_en": "A prominent literature on pre-modern warfare and institution-building holds that intense military competition in pre-modern Europe encouraged institutional innovations—for example, centralized bureaucracies and monopolies on coercion—that empowered rulers and enhanced state capacity, with salutary effects on long-run political development. States that adopted these innovations were more likely to survive, whereas those that did not succumbed to invading armies. Yet links between geopolitical competitiveness and capacity building are largely theorized and tested based on the European historical experience. A broader view of that period reveals a more complicated picture. The dominant mode of warfare throughout much of medieval and early modern Eurasia, Inner Asian cavalry warfare (IACW), favored succession institutions that selected for competent military leaders at the expense of long, secure reigns and cumulative capacity-building potential. I explore these links between IACW, succession practices, and rule duration with a novel dataset of over 300 Eurasian dynasties.",
+            "abstract_zh": "大量关于前现代战争和制度建设的文献认为，前现代欧洲激烈的军事竞争鼓励了制度创新——例如，中央集权的官僚机构和对强制力的垄断——这些创新增强了统治者的权力，提高了国家的治理能力，并对长期政治发展产生了积极影响。采纳这些创新的国家更有可能生存下来，而那些没有采纳的国家则屈服于入侵的军队。然而，地缘政治竞争性和能力建设之间的联系主要是基于欧洲历史经验进行理论化和检验的。更广泛地审视那个时期，揭示了一个更为复杂的局面。在整个中世纪和早期现代欧亚大陆，占主导地位的战争模式——内亚骑兵战争（IACW）——倾向于选择有能力的军事领袖作为继承制度，牺牲了长期、安全的统治和累积的能力建设潜力。我利用一个包含300多个欧亚王朝的新数据集，探讨了IACW、继承实践和统治持续时间之间的联系。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "State Legitimacy and Sector-Level Claim-Making: Evidence from East Jerusalem",
+            "title_zh": "国家合法性与部门层面的诉求表达：来自东耶路撒冷的证据",
+            "url": "https://doi.org/10.1017/s0003055425100841",
+            "abstract_en": "In East Jerusalem, the vast majority of Palestinians contest the legitimacy of the Israeli state’s claim to sovereignty. This necessarily affects how Palestinians engage with the state in pursuit of goods and services. But how? Using data from 55 interviews and original observational and experimental survey data from a representative sample of East Jerusalemites, I show that civilians’ engagement with each good, service, and institution of the state is a function of their perceptions of the state’s legitimacy, or right to rule, in that sector. Civilians will avoid engagement with goods, services, and institutions that explicitly affirm the state’s claims to monopolized sovereign rule, without forsaking essential goods and services. This article empirically illustrates that the same individual will make different choices with respect to each state sector, and in doing so builds on the burgeoning recognition of sector-level choices in the citizen claim-making literature.",
+            "abstract_zh": "在东耶路撒冷，绝大多数巴勒斯坦人质疑以色列国家对其主权的合法性主张。这必然影响巴勒斯坦人如何与国家互动以追求商品和服务。但具体是如何影响的呢？利用来自55次访谈的数据，以及来自东耶路撒冷代表性样本的原始观察和实验调查数据，我展示了民众与国家每个商品、服务和机构的互动是他们对国家在该领域合法性或统治权认知的函数。民众会避免与明确肯定国家对垄断性主权统治主张的商品、服务和机构互动，但不会放弃基本的商品和服务。本文通过实证说明了同一个个体在每个国家领域会做出不同的选择，从而在公民主张文献中对领域层面选择的日益增长的认识做出了贡献。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "A Critical Phenomenology of Racialized Vulnerability: Judith Butler and the Rodney King Trial",
+            "title_zh": "种族化脆弱性的现象学批判：朱迪思·巴特勒与罗德尼·金审判",
+            "url": "https://doi.org/10.1017/s0003055425100932",
+            "abstract_en": "This article examines the problem of racialized vulnerability to systemic violence by engaging with the works of Judith Butler and discussing police brutality. Butler has been criticized for presupposing vulnerability as an ontological condition inherent in embodied life and obscuring the distinctive characteristics of racialized vulnerability. Wrestling with these criticisms, the article reads this presupposition as a “contingent foundation,” and it turns to Butler’s longstanding engagements with phenomenology to foreground the norms and frames that inform the ways in which vulnerability is always perceived, interpreted, and adjudicated. Expanding on Butler’s analysis of the 1992 Rodney King trial with the help of Frantz Fanon’s concept of “sociogeny” and working with the trial archives, jurors’ statements, media coverage, and King’s memoir, it outlines a critical phenomenology inquiring into the sociohistorical constitution of racial schemas that turn Black bodies into phobic objects and disproportionately expose them to violence carried out with impunity.",
+            "abstract_zh": "本文探讨了种族化脆弱性对系统性暴力的问题，通过与朱迪思·巴特勒的作品进行对话，并讨论警察暴力。巴特勒因预设脆弱性为身体生活中的本体论条件，并掩盖了种族化脆弱性的独特特征而受到批评。文章在回应这些批评时，将这种预设解读为“偶然基础”，并转向巴特勒长期以来与现象学的互动，以突出那些总是影响脆弱性被感知、解释和裁决的规范和框架。文章借助弗朗茨·法农的“社会生成”概念，结合1992年罗德尼·金审判的档案、陪审团声明、媒体报道和金的回忆录，扩展了巴特勒对审判的分析，勾勒出一种批判性现象学，探讨了将黑人身体转变为恐惧对象并使他们不成比例地暴露于有罪不罚的暴力中的种族图式的社会历史构成。",
+            "matched_topics": [
+              "房地产"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "American Journal of Political Science",
+        "query_name": "American Journal of Political Science",
+        "issn": "0092-5853",
+        "resolved_name": "American Journal of Political Science",
+        "issue_title": "Volume 70, Issue 2",
+        "issue_url": "https://onlinelibrary.wiley.com/journal/15405907",
+        "matched_count": 12,
+        "total_in_issue": 19,
+        "papers": [
+          {
+            "title_en": "Public participation and constitutional compliance",
+            "title_zh": "公众参与与宪法遵循",
+            "url": "https://doi.org/10.1111/ajps.70000",
+            "abstract_en": "Abstract Many constitutions are ratified by referendum, and public participation in earlier stages of constitution‐making is increasingly common. Participation may increase the perceived legitimacy of a constitution and citizens' knowledge about it. If this is true, one expects participation to lead to greater constitutional compliance. We explore this hypothesis using data on public participation in constitution‐making and compliance. Employing matching methods, we find little evidence of a positive effect of participation on compliance generally. However, there is compelling evidence of a positive effect on provisions specific to property rights and the rule of law.",
+            "abstract_zh": "摘要：许多宪法通过公投获得批准，公众在制宪早期阶段的参与也越来越普遍。参与可能会增加宪法的感知合法性以及公民对其的了解。如果这是真的，人们会期望参与能够导致更大的宪法遵守。我们利用关于公众参与制宪和遵守宪法的数据来探索这一假设。采用匹配方法，我们发现参与对遵守宪法的积极影响的证据很少。然而，有令人信服的证据表明，参与对特定于财产权和法治的条款有积极影响。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Unpacking the role of in‐group bias in US public opinion on human rights violations",
+            "title_zh": "解析美国公众对侵犯人权行为的群体内偏见角色",
+            "url": "https://doi.org/10.1111/ajps.12995",
+            "abstract_en": "Abstract Which actor identities and social and political cleavages drive public opinion on human rights violations? While in‐group bias is known to influence public responses to government abuses, the relative impact of different identity characteristics has not been directly tested. Building on social identity theory and moral typecasting theory, I use a conjoint survey experiment in the United States of 3,200 respondents to examine the causal effects of in‐group bias across multiple actor identities (perpetrator, target, and elite cue giver) and social and political divides (partisanship, race, religion, and citizenship). Party loyalty to the perpetrator dominates other group identities; simply changing the perpetrator's political identity can be an important determinant for whether respondents oppose violations. Surprisingly, the target's race, religion, and citizenship has mixed impact, and partisan cues have little effect. These findings highlight when group loyalty outweighs human rights concerns and where public demand for government accountability may be reduced.",
+            "abstract_zh": "摘要：哪些行动者身份和社会政治分歧推动了公众对侵犯人权的看法？虽然已知群体内偏见会影响公众对政府滥用职权的反应，但不同身份特征的相对影响尚未直接测试。基于社会身份理论和道德类型化理论，我在美国对3200名受访者进行了联合调查实验，以检验群体内偏见在多个行动者身份（施害者、目标和精英提示者）和社会政治分歧（党派、种族、宗教和公民身份）中的因果效应。对施害者的党派忠诚度主导了其他群体身份；简单地改变施害者的政治身份可能是受访者是否反对侵权行为的重要决定因素。令人惊讶的是，目标的种族、宗教和公民身份影响复杂，党派提示几乎没有效果。这些发现突出了群体忠诚何时超过人权关切，以及公众对政府问责的需求可能减少的地方。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Argumentation strategies in party competition",
+            "title_zh": "政党竞争中的论证策略",
+            "url": "https://doi.org/10.1111/ajps.12983",
+            "abstract_en": "Abstract Political parties' rhetorical strategies play a crucial role in shaping public opinion and electoral outcomes. To gain insight into what kind of arguments parties present to the public, and under what conditions, we develop a model of argumentation where parties compete to persuade voters before engaging in platform competition. Our model allows us to explore when parties present arguments that highlight the strengths of their ideological positions, as opposed to those that expose the weaknesses of their opponents'; when parties try to persuade voters on the same or on different dimensions; and when parties tacitly collude on an dimension, neither truly attempting to change voters' preferences.",
+            "abstract_zh": "摘要：政党的修辞策略在塑造公众舆论和选举结果中起着至关重要的作用。为了深入了解政党向公众提出何种论点以及在何种条件下提出，我们构建了一个论证模型，其中政党在进行政策竞争之前，先竞争以说服选民。我们的模型使我们能够探索政党何时提出强调其意识形态立场优势的论点，而不是暴露对手弱点的论点；政党何时试图在同一或不同维度上说服选民；以及政党何时在某个维度上默契地合谋，并不真正试图改变选民的偏好。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Polarization and state legislative elections",
+            "title_zh": "极化与州立法选举",
+            "url": "https://doi.org/10.1111/ajps.12973",
+            "abstract_en": "Abstract US state legislatures are critical policymaking institutions that are increasingly polarized, yet data and measurement limitations have prevented researchers from understanding how state legislative elections contribute to this polarization. To address this gap, we construct new measures of candidate ideology based on campaign contributions and roll‐call votes, and we use them to offer the first systematic study of the relationship between candidate ideology and electoral outcomes in primary and general elections in state legislatures, 2000–2022. We find that the set of people running for state legislature has polarized substantially in recent decades. More‐moderate candidates enjoy a meaningful advantage in contested general elections, but that advantage has declined somewhat in recent years. At the same time, more‐extreme candidates are favored in contested primary elections. These new measures and data will allow researchers to build on these basic findings to understand how elections function in lower information, lower salience environments like American state legislatures.",
+            "abstract_zh": "摘要：美国州立法机构是关键的决策机构，其日益加剧的极化现象尚未得到充分理解，因为数据和测量限制阻碍了研究者对州立法选举如何促成这种极化的理解。为了填补这一空白，我们基于竞选捐款和投票记录构建了新的候选人意识形态度量，并利用这些度量首次系统性地研究了2000-2022年间州立法初选和普选中候选人意识形态与选举结果之间的关系。我们发现，近几十年来，竞选州立法机构的人选已经显著极化。在竞争激烈的普选中，更温和的候选人享有实质性的优势，但这一优势在近年来有所下降。与此同时，在竞争激烈的初选中，更极端的候选人更受青睐。这些新的度量和数据将使研究者能够在这些基本发现的基础上进一步理解在信息量较低、关注度较低的环境中，如美国州立法机构，选举是如何运作的。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Brook no compromise: How to negotiate a united front",
+            "title_zh": "绝不妥协：如何谈判统一战线",
+            "url": "https://doi.org/10.1111/ajps.12986",
+            "abstract_en": "Abstract Negotiating factional conflict is crucial to successful coordination: Political parties, rebel alliances, and authoritarian elites must all overcome internal disagreements to survive and achieve collective aims. Actors in these situations sometimes employ hardball tactics to block outcomes they dislike, but at the risk of causing coordination failure. Using a dynamic bargaining model, I explore how the threat and usage of these tactics impact coordination. In the model, two players who prefer different reforms must jointly agree on one to overturn a mutually unfavorable status quo. Neither knows the other's willingness to compromise—whether they prefer the status quo over their less‐preferred outcome. Players who are willing to compromise delay hardball, balancing incentives to preempt the opponent against the benefit of waiting to gather more information. Finally, I identify factors that incentivize players to exercise caution, thereby reducing the incidence of avoidable miscoordination, which results when players preemptively rule out possible compromises.",
+            "abstract_zh": "摘要：成功协调中处理派系冲突至关重要：政党、叛军联盟和威权精英都必须克服内部分歧，以生存并实现集体目标。在这些情况下，行动者有时采用强硬手段来阻止他们不喜欢的结果，但这样做有导致协调失败的风险。通过使用动态讨价还价模型，我探讨了这些策略的威胁和使用如何影响协调。在模型中，两个偏好不同改革的玩家必须共同同意一项改革来推翻双方都不喜欢的现状。他们都不知道对方的妥协意愿——他们是否更倾向于现状而不是他们较不偏好的结果。愿意妥协的玩家会推迟强硬手段，平衡先发制人对手的动机与等待收集更多信息的好处。最后，我确定了激励玩家谨慎行事的因素，从而减少可避免的误协调事件，这发生在玩家预先排除可能的妥协时。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Measuring electoral democracy with observables",
+            "title_zh": "用可观测指标衡量选举民主",
+            "url": "https://doi.org/10.1111/ajps.12968",
+            "abstract_en": "Abstract Most cross‐national indices of democracy rely centrally on coder judgments, which are susceptible to bias and error, and require expensive and time‐consuming coding by experts. We present an approach to measurement based on observables that aim to preserve the nuanced quality of subjectively coded democracy indices. Our observable‐to‐subjective score mapping is free of idiosyncratic coder errors arising from misinformation, slack, or biases. It is less susceptible to systematic bias that may arise from coders’ inferences about a country's regime, for example, from the ideology of the ruler. The data collection procedure and mode of analysis are fully transparent and replicable, and the procedure is based on random forests and is cheap to produce, easy to update, and offers coverage for all polities with sovereign or semisovereign status, surpassing the sample of any existing index. We show that this expansive coverage makes a big difference to our understanding of some causal questions.",
+            "abstract_zh": "摘要：大多数跨国民主指数主要依赖于编码者的判断，这些判断容易受到偏见和错误的影响，并且需要专家进行昂贵且耗时的编码。我们提出了一种基于可观察数据的测量方法，旨在保留主观编码民主指数的细微质量。我们的可观察数据到主观评分的映射不受由于错误信息、懈怠或偏见而产生的编码者特有错误的影响。它不太可能受到编码者对一个国家政权的推断所引起的系统性偏见的影响，例如，从统治者的意识形态推断。数据收集程序和分析模式是完全透明和可复制的，该程序基于随机森林，生产成本低，更新容易，并为所有具有主权或半主权地位的政治实体提供覆盖，超过了任何现有指数的样本。我们表明，这种广泛的覆盖对我们理解某些因果问题产生了重大影响。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "<i>Mano dura</i> : An experimental evaluation of military policing in Cali, Colombia",
+            "title_zh": "《重拳出击》：对哥伦比亚卡利市军事化警务的实验性评估",
+            "url": "https://doi.org/10.1111/ajps.12977",
+            "abstract_en": "Abstract Governments across the Global South rely on their militaries for domestic policing operations. We experimentally evaluate the social and political consequences of a military policing intervention in Cali, Colombia, one of the world's most violent cities. The intervention, Plan Fortaleza , involved recurring, intensive military patrols randomized at the city block level. Our evaluation combines administrative crime and human rights data, surveys of more than 10,000 residents, a conjoint experiment, a “costly” behavioral measure, and qualitative interviews with 49 civil society leaders. Despite null or adverse effects on crime and human rights, we show that Plan Fortaleza improved citizen’ attitudes toward the military and increased their demand for military involvement in domestic law enforcement. It also strengthened citizens’ support for extrajudicial punishment and—alarmingly—for military coups in response to rising crime, potentially signaling a diminished commitment to democracy and the rule of law among the program's intended beneficiaries.",
+            "abstract_zh": "摘要：全球南方的政府依赖其军队进行国内治安行动。我们通过实验评估了在哥伦比亚卡利市——世界上最暴力的城市之一——进行军事治安干预的社会和政治后果。该干预措施，即“堡垒计划”，涉及在城市街区级别随机进行的反复、密集的军事巡逻。我们的评估结合了行政犯罪和人权数据、对超过10,000名居民的调查、联合实验、“昂贵”的行为测量，以及与49位民间社会领袖的定性访谈。尽管对犯罪和人权没有或有不利影响，但我们表明“堡垒计划”改善了公民对军队的态度，并增加了他们对军队参与国内执法的需求。它还加强了公民对法外惩罚的支持——令人警觉的是——对军事政变的支持，以应对犯罪率上升，这可能表明该计划的预期受益者对民主和法治的承诺减弱。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "“Welcome to France.” Can mandatory integration contracts foster immigrant integration?",
+            "title_zh": "“欢迎来到法国”：强制性融入合同能否促进移民融入？",
+            "url": "https://doi.org/10.1111/ajps.12955",
+            "abstract_en": "Abstract European governments, struggling with incorporating diverse immigrant populations, introduced integration contracts. Through language training and compulsory civics courses, these contracts aim to induce new migrants to adopt the host society's culture, respect its values, and improve their labor market outcomes. Despite their popularity, little empirical evidence exists on whether integration contracts catalyze integration or trigger a backlash. To shed light on this question, we leverage the staggered introduction of France's integration contract across metropolitan departments between 2003 and 2006 to implement a regression discontinuity design. We use census data, labor force surveys, and our own survey of refugees to estimate the effect of the contract on integration outcomes. We find the integration contract facilitated employment in the short term without backlash but did not translate into long‐lasting integration gains.",
+            "abstract_zh": "摘要：欧洲各国政府在努力融入多样化的移民群体时引入了融入合同。这些合同通过语言培训和强制性公民课程，旨在促使新移民采纳东道国的文化、尊重其价值观，并改善他们的劳动市场结果。尽管融入合同广受欢迎，但关于它们是否能够促进融入或引发反弹的实证证据却很少。为了阐明这一问题，我们利用2003年至2006年间法国融入合同在大都会部门的分阶段引入，实施了一种回归不连续设计。我们使用人口普查数据、劳动力调查和我们自己的难民调查来估计合同对融入结果的影响。我们发现融入合同在短期内促进了就业，没有引发反弹，但并没有转化为持久的融入收益。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Networks of coercion: Military ties and civilian leadership challenges in China",
+            "title_zh": "强制性网络：中国的军事联系与民间领导挑战",
+            "url": "https://doi.org/10.1111/ajps.12971",
+            "abstract_en": "Abstract Civilian‐led coups are one of the most common routes to losing power in autocracies. How do authoritarian leaders secure themselves from civilian leadership challenges? We argue that autocrats differentiate civilian rivals in part by their social ties to the military. To reduce the threat of coups, leaders buy off civilians with strong military ties by promoting them to lower‐tier institutions—but isolate these same civilians by denying them promotion to higher‐tier institutions that afford opportunities to challenge the leader. We introduce an original data set of over 117,000 postings of 34,140 Chinese military officers and map ties between the entire civilian and military elite between 1927 and 2014. We find that civilian leaders with strong ties to the military improve prospects for promotion to the Central Committee, but degrade the likelihood of promotion to the apex Politburo Standing Committee, particularly for civilians outside the leader's social network.",
+            "abstract_zh": "摘要：平民领导的政变是独裁政权失去权力的最常见途径之一。独裁领导人如何确保自己不受平民领导挑战？我们认为，独裁者部分通过他们与军队的社会联系来区分平民对手。为了减少政变威胁，领导人通过提拔与军队关系密切的平民到低级机构来收买他们，但通过拒绝这些平民晋升到提供挑战领导人机会的高级机构来孤立他们。我们引入了一个包含34,140名中国军官超过117,000个职位的原始数据集，并绘制了1927年至2014年间整个平民和军事精英之间的联系图。我们发现，与军队关系密切的平民领导人提高了晋升到中央委员会的前景，但降低了晋升到最高政治局常委会的可能性，特别是对于领导人社交网络之外的平民。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "National identity after conquest",
+            "title_zh": "征服后的国家认同",
+            "url": "https://doi.org/10.1111/ajps.12970",
+            "abstract_en": "Abstract Conquering powers routinely adopt state‐directed nationalization projects that seek to make the boundaries of the nation coterminous with the (newly expanded) boundaries of the state. To this end, they implement policies that elevate the economic status of individuals who embrace the occupier's national identity and discriminate against those who do not. This paper develops a formal model that illuminates when such policies succeed or fail. We show that the effectiveness of discrimination hinges on the perceived longevity of occupation. If occupier rule is expected to be short‐lived, discrimination will backfire, as dissident parents transmit the marginalized national identity to their children; intense intergenerational socialization more than compensates for the negative wealth effects of discrimination. If occupier rule is instead perceived to be long‐lasting, discrimination will achieve its intended aims. Case studies on the Chilean occupation of Tacna, Peru (1880–1929), and the Prussian occupation of Northern Schleswig (1866–1920) illustrate the logic.",
+            "abstract_zh": "摘要：征服性大国通常采取国家主导的国有化项目，试图使国家的边界与（新扩张的）国家边界相一致。为此，他们实施政策，提升那些接受占领者国家身份的个体的经济地位，并对那些不接受者进行歧视。本文建立了一个正式模型，阐明了这类政策何时成功或失败。我们表明，歧视的有效性取决于对占领持久性的感知。如果预期占领统治是短暂的，歧视将适得其反，因为持不同政见的父母将被边缘化的国家身份传给他们的孩子；强烈的代际社会化远远补偿了歧视的负面财富效应。如果相反，占领统治被认为会持续很长时间，歧视将实现其预期目标。智利占领秘鲁塔克纳（1880-1929年）和普鲁士占领北石勒苏益格（1866-1920年）的案例研究说明了这一逻辑。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Persuasive lobbying and the value of connections",
+            "title_zh": "游说说服与关系价值",
+            "url": "https://doi.org/10.1111/ajps.12965",
+            "abstract_en": "Abstract The inflow of money into politics and the influence of interest groups on policies are well‐documented, but the monetary value of accessing policymakers is less well‐understood. As a result, it is unclear what inferences researchers can draw from lobbying expenditures about interest groups' strategies and their ideological alignment with policymakers. We study a model of informational lobbying with a collective decision‐making body and endogenous reforms to investigate the determinants of the value of access. We show that the funds flowing to a given policymaker depend not only on this policymaker's ideology and procedural power but also on the overall distribution of preferences and power among other policymakers. Two policymakers with the same ideology and procedural power might therefore attract different amounts of contributions, depending on the preferences of fellow policymakers. Our results help clarify empirical research linking lobbying expenditures by interest groups to politicians' ideologies and power.",
+            "abstract_zh": "摘要：资金流入政治和利益集团对政策的影响已有充分记录，但获取决策者的价值却鲜为人知。因此，研究者无法从游说支出中推断出利益集团的策略及其与决策者意识形态的一致性。我们研究了一个信息性游说模型，该模型包含一个集体决策机构和内生改革，以调查获取价值的决定因素。我们表明，流向特定决策者的资金不仅取决于该决策者的意识形态和程序权力，还取决于其他决策者之间的偏好和权力的整体分布。因此，具有相同意识形态和程序权力的两位决策者可能会吸引不同数量的贡献，这取决于其他决策者的偏好。我们的结果有助于阐明将利益集团的游说支出与政治家的意识形态和权力联系起来的实证研究。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Endogenous opposition: Identity and ideology in Kuwaiti electoral politics",
+            "title_zh": "内生性反对：科威特选举政治中的身份与意识形态",
+            "url": "https://doi.org/10.1111/ajps.12960",
+            "abstract_en": "Abstract How do opposition elites succeed in authoritarian elections? Existing theories of authoritarian politics suggest a pivotal role for elections in enhancing the survival of incumbent dictators. Yet, in many contexts, opposition elites attract considerable support and constrain the policymaking authorities of these dictators. This article presents a theory of endogenous opposition that traces the electoral success of opposition elites to the strategic use of symbolic ideological appeals, or campaign appeals that cast politicians as allies of particular ideological movements. I present quantitative and qualitative evidence in support of my argument from Kuwait. I show that minority elites who use symbolic ideological appeals are more likely to capture voters from other minority groups. Once elected, these legislators are more likely to oppose the ruling family in the legislature. These findings challenge existing theories of authoritarian politics and point to ideology as an understudied source of opposition success in authoritarian elections.",
+            "abstract_zh": "摘要：反对派精英如何在威权选举中取得成功？现有的威权政治理论认为选举在增强现任独裁者的生存中扮演着关键角色。然而，在许多情况下，反对派精英吸引大量支持，并限制这些独裁者的决策权力。本文提出了一种内生反对派理论，将反对派精英的选举成功归因于策略性使用象征性意识形态诉求，或将政治人物塑造为特定意识形态运动盟友的竞选诉求。我从科威特提供了定量和定性证据来支持我的论点。我展示了使用象征性意识形态诉求的少数派精英更有可能从其他少数派群体中获得选民。一旦当选，这些立法者更有可能在立法机构中反对统治家族。这些发现挑战了现有的威权政治理论，并指出意识形态是威权选举中反对派成功研究不足的来源。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "Annual Review of Political Science",
+        "query_name": "Annual Review of Political Science",
+        "issn": "1094-2939",
+        "resolved_name": "Annual Review of Political Science",
+        "issue_title": "Volume 28, Issue 1",
+        "issue_url": "https://www.annualreviews.org/journal/polisci",
+        "matched_count": 12,
+        "total_in_issue": 18,
+        "papers": [
+          {
+            "title_en": "Courts in the Global South",
+            "title_zh": "全球南方国家的法院",
+            "url": "https://doi.org/10.1146/annurev-polisci-040623-113225",
+            "abstract_en": "Research on judicial politics has advanced considerably over the past few decades, particularly in the global South, a geopolitical region that has long been subjected to imbalanced relationships with more industrialized countries in the global North. The unique challenges confronting global South countries, including political and economic instabilities, limited state authority, and dilemmas of social integration, have shaped both the form and function of courts in these regions. We explore these implications in four key areas where a critical mass of scholarship has generated new insights and opportunities for future research: courts and stateness, courts in authoritarian regimes, courts in unstable democracies, and courts and social transformation. We show that in these areas, courts are often effective for a variety of purposes and according to standards different from those in the global North. We conclude with reflections on knowledge-building in this region and implications for future theorization and empirical inquiry.",
+            "abstract_zh": "过去几十年来，司法政治研究取得了显著进展，特别是在长期与全球北方工业化国家存在不平衡关系的全球南方地区。全球南方国家面临的政治和经济不稳定、国家权威有限以及社会融合困境等独特挑战，塑造了这些地区法院的形式和功能。我们在四个关键领域探讨了这些影响，这些领域积累了大量学术成果，为未来研究提供了新的见解和机会：法院与国家性、威权体制下的法院、不稳定民主体制下的法院以及法院与社会转型。我们表明，在这些领域，法院往往根据不同于全球北方的标准和目的而有效。最后，我们反思了该地区的知识构建以及对未来理论化和实证研究的影响。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "AI as Governance",
+            "title_zh": "人工智能治理",
+            "url": "https://doi.org/10.1146/annurev-polisci-040723-013245",
+            "abstract_en": "Political scientists have had remarkably little to say about artificial intelligence (AI), perhaps because they are dissuaded by its technical complexity and by current debates about whether AI might emulate, outstrip, or replace individual human intelligence. They ought to consider AI in terms of its relationship with governance. Existing large-scale systems of governance such as markets, bureaucracy, and democracy make complex human relations tractable, albeit with some loss of information. AI's major political consequences can be considered under two headings. First, we may treat AI as a technology of governance, asking how AI's capacities to classify information at scale affect markets, bureaucracy, and democracy. Second, we might treat AI as an emerging form of governance in its own right, with its own particular mechanisms of representation and coordination. These two perspectives reveal new questions for political scientists, encouraging them to reconsider the boundaries of their discipline.",
+            "abstract_zh": "政治学家对人工智能（AI）的讨论相对较少，可能是因为他们被其技术复杂性所吓倒，以及当前关于AI是否可能模仿、超越或取代个体人类智能的辩论。他们应该从AI与治理的关系来考虑AI。现有的大规模治理体系，如市场、官僚制和民主制，使复杂的人际关系变得易于处理，尽管会损失一些信息。AI的主要政治后果可以从两个方面来考虑。首先，我们可以将AI视为治理技术，探讨AI在大规模分类信息方面的能力如何影响市场、官僚制和民主制。其次，我们可以将AI视为一种新兴的治理形式，它有自己的代表性和协调机制。这两种视角为政治学家提出了新的问题，鼓励他们重新考虑自己学科的界限。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Rural Politics in the United States",
+            "title_zh": "美国农村政治",
+            "url": "https://doi.org/10.1146/annurev-polisci-040623-114017",
+            "abstract_en": "Scholars of American politics have recently turned their attention to rural politics, aiming to understand the late twentieth and early twenty-first century nationwide shift of white rural voters to the Republican Party and the ensuing rural–urban political divide. We review research that assesses the potential causes of the rise of place-based polarization, including political–economic transformation, racism, ethnocentrism, and the growing salience of social issues. We also consider its consequences, such as increased levels of social polarization and institutional threats to democracy. Most research to date has focused on individuals, whether to specify rural identity and its correlates or to probe public opinion and political behavior. We recommend that scholars broaden their scope of inquiry to include factors at the meso and macro levels by studying the interplay between place and institutions, public policies, and organizations as well as broader political, economic, and social developments. This will entail attention to change over time. We suggest that scholars resist cordoning off this research area into rural studies and instead engage with broad questions about the functioning of American democracy.",
+            "abstract_zh": "近期，美国政治学者开始关注农村政治，旨在理解20世纪末至21世纪初白人农村选民向共和党的全国性转变以及随之而来的城乡政治分歧。我们回顾了评估基于地方的极化上升潜在原因的研究，包括政治经济转型、种族主义、民族中心主义以及社会问题日益显著。我们还考虑了其后果，如社会极化程度的增加和对民主制度的威胁。迄今为止的大多数研究都集中在个体上，无论是为了明确农村身份及其相关性，还是为了探究公众舆论和政治行为。我们建议学者们扩大他们的研究范围，包括中观和宏观层面的因素，通过研究地方与制度、公共政策和组织之间的相互作用，以及更广泛的政治、经济和社会发展趋势。这将需要关注随时间的变化。我们建议学者们不要将这一研究领域划分为农村研究，而是参与到关于美国民主运作的广泛问题中去。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "How Lobbying Matters",
+            "title_zh": "游说如何起作用",
+            "url": "https://doi.org/10.1146/annurev-polisci-033123-124920",
+            "abstract_en": "For decades, political scientists have struggled to provide empirical evidence that lobbying influences policymaking. A considerable gap arose between widespread public suspicions of lobbying and the literature's findings, which failed to document systematic lobbying influence in politics. This gap has closed within the last decade. Causal inference strategies, high-quality data sets, and attention to lobbying in multiple venues have allowed researchers to document the ways in which lobbying matters. In this review, we summarize three ways lobbying has an effect, as documented in this new literature. First, in line with public suspicions, lobbyists have transactional relationships with public officials in which they exchange money for political access and influence. Second, lobbyists persuade public officials by providing information that changes the positions taken by policymakers. Third, successful mobilization of citizen support or lobbying coalitions helps lobbyists attain policy aims. Jointly, these influence pathways nuance our view of lobbying as both harmful and beneficial for democratic representation.",
+            "abstract_zh": "数十年来，政治科学家一直在努力提供游说影响政策制定的实证证据。公众对游说的普遍怀疑与文献发现之间存在相当大的差距，后者未能记录游说在政治中系统性的影响。在过去十年中，这一差距已经缩小。因果推断策略、高质量的数据集以及对多个场合游说的注意，使研究人员能够记录游说的重要性。在这篇综述中，我们总结了新文献中记录的游说产生影响的三种方式。首先，与公众怀疑一致，游说者与公职人员有交易性关系，他们用金钱换取政治接触和影响力。其次，游说者通过提供信息说服公职人员，这些信息改变了政策制定者的立场。第三，成功动员公民支持或游说联盟有助于游说者实现政策目标。这些影响途径共同细化了我们对游说的看法，认为游说对民主代表性既有害处也有好处。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Is War in Decline?",
+            "title_zh": "战争是否在减少？",
+            "url": "https://doi.org/10.1146/annurev-polisci-041923-115351",
+            "abstract_en": "The claim that war is in decline has gained considerable traction among analysts and policy makers. This review surveys the empirical data as well as the theoretical arguments for a decline of war. It concludes that, while great power wars have declined since 1945, war in general is not necessarily in decline. Critiques of the claim that war is in decline range from the statistical to the anthropological. While war is not necessarily in decline, though, it has changed. Specifically, a major driver of the putative decline of war—international norms, laws, and institutions—has done more to change how war is discussed and presented than whether it is prosecuted. Stronger theories of change are needed in international relations to understand whether these somewhat superficial changes could deepen in ways that produce a true decline in war.",
+            "abstract_zh": "声称战争正在减少的观点在分析人士和政策制定者中获得了相当大的支持。这篇综述调查了战争减少的经验数据和理论论点。它得出的结论是，尽管自1945年以来大国战争有所减少，但战争总体上并不一定在减少。对战争减少这一说法的批评范围从统计学扩展到人类学。尽管战争并不一定在减少，但它已经发生了变化。具体来说，被认为是战争减少的主要驱动力——国际规范、法律和机构——更多地改变了战争的讨论和呈现方式，而不是它是否被进行。国际关系中需要更强有力的变革理论，以理解这些表面上的变化是否能够以某种方式深化，从而真正减少战争。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Gender and Leadership in Executive Branch Politics",
+            "title_zh": "性别与行政分支政治中的领导力",
+            "url": "https://doi.org/10.1146/annurev-polisci-033123-014634",
+            "abstract_en": "Gender influences who has access to power, how leaders behave and are received within institutions, and how institutions are perceived. This review examines gender dynamics in the executive branch, focusing on presidents and prime ministers and their cabinets. We analyze four key areas: access to power, policy priorities, gendered leadership styles, and citizens’ responses. We argue that, despite progress, women remain underrepresented in executive roles, especially as chief executives. Women sometimes bring unique policy interests and leadership styles to the office, but strategic career incentives and institutional constraints shape both men's and women's behavior as leaders. Finally, women's presence in executive positions sends signals about the government, as well as about who is fit to govern and participate in politics. In sum, this review highlights the importance of understanding and addressing these gendered dynamics to move closer to gender equality in the highest levels of political leadership.",
+            "abstract_zh": "性别影响谁能够获得权力，领导者在机构中的行为和接受方式，以及机构的感知方式。本综述考察了行政部门中的性别动态，重点关注总统和总理及其内阁。我们分析了四个关键领域：获得权力的途径、政策优先事项、性别化的领导风格和公民的反应。我们认为，尽管取得了进展，女性在行政角色中，尤其是作为首席行政官，仍然代表性不足。女性有时将独特的政策利益和领导风格带入办公室，但战略性的职业激励和制度约束塑造了男性和女性作为领导者的行为。最后，女性在行政职位上的存在向政府以及谁适合治理和参与政治发出了信号。总之，本综述强调了理解和解决这些性别动态的重要性，以更接近政治领导层中的性别平等。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Revolution as Mass-Based Regime Change",
+            "title_zh": "革命作为基于群众的政权更迭",
+            "url": "https://doi.org/10.1146/annurev-polisci-040623-114124",
+            "abstract_en": "This article makes the case for a broad definition of revolution as mass-based regime change. Recent years have seen an outpouring of research on mass mobilization, responding in part to a succession of global revolutionary waves. But this scholarship has flourished despite conceptual dissensus, with works embracing an array of partly overlapping terms (e.g., uprising, rebellion, civil resistance). Revolution offers a clear and tractable way of characterizing the full range of these mass movements, while still allowing for conceptual narrowing with adjectives. It also provides a conceptual link to related literatures on authoritarianism and democratization, which characterize mass-based regime change as one of the main threats dictators face. After making these arguments, I demonstrate the utility of this broad definition by reviewing two active debates regarding different forms of revolution: the relative merits of nonviolent versus violent resistance and the types of democracy emerging from democratic revolution versus elite-led negotiations.",
+            "abstract_zh": "本文主张将革命定义为基于大众的政权更迭。近年来，对大众动员的研究层出不穷，部分是对全球革命浪潮的回应。尽管存在概念上的分歧，这些研究却蓬勃发展，涉及一系列部分重叠的术语（例如，起义、叛乱、民间抵抗）。“革命”提供了一种清晰且可行的方式来描述这些大众运动的全貌，同时仍允许通过形容词进行概念上的细化。它还提供了与专制主义和民主化相关文献的概念联系，这些文献将基于大众的政权更迭视为独裁者面临的主要威胁之一。在提出这些论点之后，我通过回顾关于不同形式革命的两个活跃辩论来展示这一宽泛定义的实用性：非暴力与暴力抵抗的相对优劣，以及从民主革命中产生的民主类型与精英主导谈判产生的民主类型。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "From Territorial Consolidation to Bureaucratic Dominance: The Long Arc of State Development",
+            "title_zh": "从领土整合到官僚主导：国家发展的漫长轨迹",
+            "url": "https://doi.org/10.1146/annurev-polisci-070723-012505",
+            "abstract_en": "Our understanding of state development—a term that encompasses both state formation and state building—has grown significantly in the last two decades. In this review, I outline the foundations of the literature and identify major conceptual and analytical advancements since the early 2000s, including the development of capacity investment models, the notion of intermediate institutions, and the emphasis on political agency. This review builds on research employing diverse methodologies, draws on examples from advanced economies and developing countries, and is intended for both novice and experienced readers. After taking stock of the state of the field, I discuss and reflect upon three avenues for further research—the big unknowns: Do civil wars make or break the state? How do economic openness and international hierarchy shape the incentives and opportunities for state building? And what are the perils that highly capable states pose for liberal rights and democratic governance?",
+            "abstract_zh": "在过去二十年中，我们对国家发展——一个包含国家形成和国家建设的术语——的理解有了显著增长。在这篇综述中，我概述了文献的基础，并识别了自2000年代初以来的主要概念和分析进展，包括能力投资模型的发展、中间机构的概念，以及对政治主体性的强调。这篇综述基于采用多种方法论的研究，借鉴了发达经济体和发展国家的例子，旨在为新手和经验丰富的读者提供参考。在对领域现状进行盘点之后，我讨论并反思了进一步研究的三个途径——大未知数：内战是建立还是破坏国家？经济开放和国际等级如何塑造国家建设的激励和机会？以及能力极强的国家对自由权利和民主治理构成的危险是什么？",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "The Politics of Childcare",
+            "title_zh": "儿童保育的政治学",
+            "url": "https://doi.org/10.1146/annurev-polisci-040623-113403",
+            "abstract_en": "The politics of childcare has become a vibrant area of research. This review analyzes the evolution of this research over several decades and identifies two phases of scholarship. The first phase concerned the limited public supports for childcare in most countries and how this reinforced a particular gender order. A second current of research took off as many countries expanded their childcare systems and highlighted the role of electoral politics and ideas about public spending on childcare as an investment in human capital. In the drive to explain patterns of policy change, the research focus has narrowed, occluding the substantive impact of different childcare systems. Future research should probe the stubbornness of gender inequalities in paid work and care and how politics and public policies shape different care economies.",
+            "abstract_zh": "儿童保育的政治已成为一个充满活力的研究领域。本综述分析了几十年来这一研究的演变，并确定了两个研究阶段。第一阶段关注的是大多数国家对儿童保育的有限公共支持以及这如何加强了特定的性别秩序。随着许多国家扩大其儿童保育系统，第二波研究兴起，强调了选举政治和将儿童保育公共支出视为人力资本投资的观念的作用。在解释政策变化模式的过程中，研究重点已经缩小，掩盖了不同儿童保育系统的实质性影响。未来的研究应该探讨性别不平等在有偿工作和护理中的顽固性，以及政治和公共政策如何塑造不同的护理经济。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Criminal Violence, the State, and Society",
+            "title_zh": "犯罪暴力、国家与社会",
+            "url": "https://doi.org/10.1146/annurev-polisci-033123-014751",
+            "abstract_en": "The study of criminal violence has received increasing attention in political science over the past 15 years, as organized criminal groups have grown and diversified worldwide, unleashing unprecedented waves of violence. This article presents a critical assessment of the current state of political science scholarship on criminal violence. It discusses the sources and dynamics of organized criminal violence, emphasizing the reconceptualization of state–criminal group relationships in the literature, shifts in illegal markets, and the political incentives fueling criminal wars. It also examines how states and societies respond to criminal violence. State responses include punitive approaches, institutional reform, and community-based interventions, while societal responses can be examined through the lenses of exit (e.g., migration, disengagement), voice (e.g., political participation, collective resistance), and loyalty (i.e., compliance with state authorities or criminal groups). The article also addresses conceptual and methodological challenges, policy implications, and ethical considerations inherent in this field of study and identifies promising pathways for future research.",
+            "abstract_zh": "在过去15年中，随着全球有组织犯罪集团的增长和多样化，释放出前所未有的暴力浪潮，对犯罪暴力的研究在政治学领域受到了越来越多的关注。本文对当前政治学对犯罪暴力的研究状况进行了批判性评估。它讨论了有组织犯罪暴力的来源和动态，强调了文献中对国家-犯罪集团关系概念的重新构想，非法市场的转变，以及推动犯罪战争的政治动机。它还考察了国家和社会如何应对犯罪暴力。国家反应包括惩罚性方法、制度改革和基于社区的干预措施，而社会反应可以通过退出（例如，移民、脱离）、声音（例如，政治参与、集体抵抗）和忠诚（即，遵守国家当局或犯罪集团）的视角来检查。文章还讨论了这一研究领域固有的概念和方法论挑战、政策含义和伦理考虑，并确定了未来研究的有希望的途径。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Re-Imagin(in)g Territorial Conflict",
+            "title_zh": "重新想象领土冲突",
+            "url": "https://doi.org/10.1146/annurev-polisci-041322-024152",
+            "abstract_en": "Territorial disputes continue to fuel both armed conflicts and security threats around the world despite norms against the violent resolution of territorial conflict. The pervasiveness of territorial conflict presents a puzzle since the value of territory has allegedly decreased in an age of globalization and interdependence, and many territorial conflicts involve territory with little tangible value. Our inquiry begins not with states, but with groups and rules of group membership. Changing the unit of analysis to the group and its membership rules exposes the bases for territorial disputes both historically and in current world politics. We show that under different rules of group membership, territory has different meanings. Different rules directly affect which territory will be contested. Conflict is particularly likely and especially difficult to resolve when groups with different rules of membership lay claim to the same territory.",
+            "abstract_zh": "尽管存在反对以暴力方式解决领土冲突的规范，但领土争端仍在全球范围内引发武装冲突和安全威胁。领土冲突的普遍性令人困惑，因为据说在全球化和相互依存的时代，领土的价值已经降低，而且许多领土争端涉及的领土几乎没有实际价值。我们的研究不是从国家开始，而是从群体及其成员资格规则开始。将分析单位改为群体及其成员资格规则，揭示了历史上和当前世界政治中领土争端的基础。我们表明，在不同的群体成员资格规则下，领土具有不同的含义。不同的规则直接影响哪些领土将受到争议。当具有不同成员资格规则的群体对同一领土提出要求时，冲突特别容易发生，且特别难以解决。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Expert Knowledge in Democracies: Promises, Limits, and Conflict",
+            "title_zh": "民主体制中的专家知识：承诺、局限与冲突",
+            "url": "https://doi.org/10.1146/annurev-polisci-033123-020420",
+            "abstract_en": "The article reviews recent literature on bureaucratic experts as political actors in democracies, with a focus on their complex, sometimes conflictive relationships with politicians. First, we present the central promises of expertise for democratic governance: its alleged objectivity, responsiveness to the common good, and effectiveness. Then, we look into two criticisms of this optimistic and apolitical view: Expertise is neither as unbiased nor as effective as claimed. Building on a more political understanding of experts’ power in democracies, we then discuss two topics that illustrate experts’ relationships with politicians: ( a ) the conditions and political dynamics that cause changes in technical policy areas’ influence, preferences, and institutional arrangements (or even experts’ demise) and ( b ) how challenging experts’ power is for democracy and elected politicians. We conclude with suggestions for future research and a call to find more common ground between the literatures focusing on experts and politics.",
+            "abstract_zh": "本文回顾了近期关于民主体制中官僚专家作为政治行动者的研究文献，重点关注他们与政治人物之间复杂且有时冲突的关系。首先，我们提出了专业知识对民主治理的核心承诺：其所谓的客观性、对公共利益的响应性以及有效性。然后，我们探讨了对这种乐观且非政治观点的两种批评：专业知识既不像声称的那样无偏见，也不像声称的那样有效。基于对专家在民主体制中权力的更政治化理解，我们接着讨论了两个主题，以说明专家与政治人物的关系：(a)导致技术政策领域影响、偏好和制度安排变化（甚至专家的消亡）的条件和政治动态，以及(b)对民主和民选政治人物来说，挑战专家权力的难度。我们以对未来研究的建议和呼吁在关注专家和政治的文献之间找到更多共同点作为结论。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "International Journal of Housing Policy",
+        "query_name": "International Journal of Housing Policy",
+        "issn": "1461-6718",
+        "resolved_name": "International Journal of Housing Policy",
+        "issue_title": "Volume 9, Issue 4",
+        "issue_url": "https://www.tandfonline.com/journals/reuj20",
+        "matched_count": 9,
+        "total_in_issue": 11,
+        "papers": [
+          {
+            "title_en": "A Review of “Social Housing in Europe II: A Review of Policies and Outcomes”",
+            "title_zh": "《欧洲社会住房II：政策与成果评述》",
+            "url": "https://doi.org/10.1080/14616710903357268",
+            "abstract_en": "Whereas Social Housing in Europe part I (2007) furnishes a rather descriptive inventory of social housing in Europe, the ambition of this volume is to outline cross-national, historical transformat...",
+            "abstract_zh": "尽管《欧洲社会住房第一部分（2007年）》提供了一份关于欧洲社会住房的描述性清单，但本卷的目标是概述跨国、历史性的转变……",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "A Review of “The Future of Social Housing”",
+            "title_zh": "《社会住房的未来》综述",
+            "url": "https://doi.org/10.1080/14616710903357243",
+            "abstract_en": "Edited by specialists in housing issues, Suzanne Fitzpatrick and Mark Stephens, and supported by Shelter, the housing and homeless charity, The Future of Social Housing is an interesting collective...",
+            "abstract_zh": "由住房问题专家苏珊·菲茨帕特里克和马克·斯蒂芬斯编辑，并得到住房和无家可归慈善机构Shelter的支持，《社会住房的未来》是一个有趣的集体……",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Housing and Urban Regeneration Experiences and Critical Remarks Dealing with Turin",
+            "title_zh": "都灵住房与城市再生经验及批判性评论",
+            "url": "https://doi.org/10.1080/14616710903357193",
+            "abstract_en": "Abstract This article examines housing policy trends in Italy over the last years, focusing on the case of Turin. Turin is argued to be a good example in enabling us to grasp the progressive changes in the nature of the ‘housing question’, the emergence of new local policies to provide affordable housing, and the relationship between housing and urban regeneration policies. Starting with Turin's case, the article tests, on the one hand, whether actual housing policies exemplify a neo-liberal approach to housing, and, on the other hand, discusses the main critical aspects of these same policies.",
+            "abstract_zh": "摘要 本文考察了近年来意大利住房政策的趋势，重点关注都灵的案例。文章认为都灵是一个很好的例子，使我们能够把握“住房问题”性质的逐步变化、提供可负担住房的新地方政策的出现，以及住房与城市更新政策之间的关系。从都灵的案例出发，文章一方面测试实际的住房政策是否体现了住房的新自由主义方法，另一方面讨论了这些政策的主要批评方面。",
+            "matched_topics": [
+              "房地产",
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "A Review of “Housing Market Renewal and Social Class”",
+            "title_zh": "“住房市场更新与社会阶层”综述",
+            "url": "https://doi.org/10.1080/14616710903357276",
+            "abstract_en": "Housing and class may at first sight appear as a ‘natural’ combination, dating back to the seminal work of Rex and Moore (1967). In their controversial theory on ‘housing classes’, Rex and Moore cl...",
+            "abstract_zh": "住房与阶级乍一看似乎是“自然”的组合，可以追溯到雷克斯和摩尔（1967年）的开创性工作。在他们关于“住房阶级”的有争议理论中，雷克斯和摩尔……",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "A Review of “The Ideology of Home Ownership: Homeowner Societies and the Role of Housing”",
+            "title_zh": "《房屋所有权意识形态：房主社会与住房角色》综述",
+            "url": "https://doi.org/10.1080/14616710903357284",
+            "abstract_en": "Published in May 2008, after the onset of the subprime crisis in the United States, but – considering the length of time it takes to publish a book – well before the deepening and spreading to the ...",
+            "abstract_zh": "2008年5月出版，在美国次贷危机爆发之后，但考虑到出版一本书所需的时间——远在危机加深和蔓延到...之前。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Towards a Better Balance on the Dutch Housing Market? Analysis and Policy Propositions",
+            "title_zh": "荷兰房地产市场寻求更好平衡？分析与政策建议",
+            "url": "https://doi.org/10.1080/14616710903357235",
+            "abstract_en": "Although Dutch housing policies seem quite developed in terms of money and instruments, the Dutch housing market is not functioning effectively. Housing shortages are prevalent in areas of economic growth, property prices are high, and substantial segments of the population are experiencing accessibility and affordability problems. We think that this is partly due to the fact that the current Dutch housing policy is inconsistent and ineffective. The government provides strong support for the demand for housing (via mortgage interest relief for owner-occupiers and rent allowances for tenants) but, at the same time, it is enforcing regulations and planning restrictions that are hampering the production of housing. Furthermore, the rent allowance is means-tested whereas owner-occupiers from all income groups are eligible for fiscal support. This creates a gap between the rental sector and the owner-occupier sector and obstructs movement between the two. In order to tackle these problems, the VROM-council – an advisory body to the Dutch government – has submitted proposals for a major reform of Dutch housing policy. This paper describes the analysis and the reform proposals in the VROM-council's report to which the authors of this paper contributed. The last Section of the paper also addresses the political context in which the report was presented. This context is relevant because housing policy reforms are a politically very sensitive issue in the Netherlands, as in most other countries.",
+            "abstract_zh": "尽管荷兰的住房政策在资金和工具方面看似相当发达，但荷兰的住房市场并未有效运作。在经济增长地区普遍存在住房短缺，房价高企，大量人口面临可获得性和可负担性问题。我们认为，这在一定程度上是因为当前荷兰住房政策不一致且无效。政府为住房需求提供强有力的支持（通过为自住业主提供按揭利息减免和为租户提供租金补贴），但同时，它正在实施阻碍住房生产的法规和规划限制。此外，租金补贴是按收入测试的，而所有收入群体的自住业主都有资格获得财政支持。这在租赁部门和自住业主部门之间造成了差距，并阻碍了两者之间的流动。为了解决这些问题，VROM委员会——荷兰政府的咨询机构——提交了对荷兰住房政策进行重大改革的提议。本文描述了VROM委员会报告中的分析和改革提议，本文作者对此有所贡献。文章的最后一部分还讨论了报告提出的政治背景。这一背景是相关的，因为住房政策改革在荷兰和大多数其他国家都是一个政治上非常敏感的问题。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Second Generation Stock Transfers in Britain: Impacts on Social Housing Governance and Organisational Culture",
+            "title_zh": "英国第二代股票转让：对社会保障性住房治理和组织文化的影响",
+            "url": "https://doi.org/10.1080/14616710903357201",
+            "abstract_en": "Abstract By 2008, ownership transfers of former council housing had been proceeding for 20 years. Since 1997, the process has encompassed many larger urban local authorities, with housing departments which could have been fairly characterised as monolithic, producer-oriented bureaucracies. Drawing on new research evidence from England, Scotland and Wales, this paper considers the extent to which these ‘second generation’ transfers have delivered against policy objectives to reform the governance and organisational culture of social housing. The empirical evidence suggests that second generation transfers have provided a substantial stimulus to tenant involvement and to the development of more consumer-focused, inclusive and commercially minded organisations. However, ministerial aspirations for transfer as a vehicle for community empowerment have not always been realised. And, to the extent that they have triggered beneficial change in governance and organisational culture, questions remain about the durability of such gains.",
+            "abstract_zh": "摘要：到2008年，前公有住房所有权转移已经进行了20年。自1997年以来，这一过程涵盖了许多较大的城市地方当局，这些地方的住房部门可以被恰当地描述为单一的、以生产者为导向的官僚机构。本文基于来自英格兰、苏格兰和威尔士的新研究证据，考虑了这些“第二代”转移在实现改革社会住房治理和组织文化的政策目标方面取得了多大程度的成效。实证证据表明，第二代转移极大地促进了租户参与，并推动了更加以消费者为中心、包容性和商业意识更强的组织的发展。然而，部长们将转移作为社区赋权工具的期望并不总是能够实现。而且，就它们在治理和组织文化方面触发了有益变化而言，这些成果的持久性仍然存在疑问。",
+            "matched_topics": [
+              "房地产",
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Mortgage Equity Withdrawal in Australia and Britain: Towards a Wealth-fare State?",
+            "title_zh": "澳大利亚和英国的抵押贷款权益提取：走向财富福利国家？",
+            "url": "https://doi.org/10.1080/14616710903357185",
+            "abstract_en": "Abstract Across the decade to 2007, a combination of house price appreciation and relaxed credit constraints gave a boost to consumption through the mechanism of mortgage equity withdrawal (MEW). Arguably, this kept developed economies buoyant, even through periods of recession. This paper uses panel data on British and Australian homeowners to show that, notwithstanding its macro-economic effects, such borrowing has far-reaching implications for the micro-economy of households. The data indicate that, for the period 2001–2005, equity borrowing was a common tactic. The sums involved were not trivial, were not limited to older cohorts, or the province simply of the rich. In fact, the events and circumstances associated with equity borrowing at the zenith of the last housing cycle were consistent with an insurance, as well as a general consumption, role for MEW. As house prices fall and credit constraints are re-introduced, the options for such borrowing will shrink. Recent financial shocks may, by reducing the availability of a key channel from housing wealth into consumption, prompt a crisis of welfare. They pose challenges for housing and social policy as well as for economic management.",
+            "abstract_zh": "摘要：从2000年到2007年这十年间，房价上涨和信贷约束的放松通过抵押贷款权益提取（MEW）机制促进了消费，这在一定程度上保持了发达经济体的繁荣，即使在经济衰退时期也是如此。本文利用英国和澳大利亚房主的面板数据表明，尽管MEW对宏观经济有影响，但这种借贷对家庭微观经济也有深远的影响。数据显示，在2001-2005年期间，权益借贷是一种常见的策略。涉及的金额并非微不足道，也不仅限于年长群体，或仅限于富人。实际上，与上一个房地产周期顶峰时期的权益借贷相关的事件和情况与MEW作为保险和一般消费角色是一致的。随着房价下跌和信贷约束的重新引入，这种借贷的选择将减少。最近的金融冲击可能通过减少从住房财富到消费的关键渠道的可用性，引发福利危机。它们对住房和社会政策以及经济管理提出了挑战。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Attitudes of Owners and Renters in a Deprived Neighbourhood",
+            "title_zh": "贫困社区业主和租户的态度",
+            "url": "https://doi.org/10.1080/14616710903357219",
+            "abstract_en": "Abstract Housing policies often promote homeownership in order to stabilise a given urban neighbourhood, assuming that investment in housing will result as well in investment in the neighbourhood. This reasoning has been guiding housing policies in many countries and is supported by many empirical studies. Does this thesis hold true for deprived areas as well? Is increasing ownership an appropriate strategy to ‘stabilize’ deprived neighbourhoods? To investigate these questions, we analysed data from a representative survey in a deprived neighbourhood in Cologne, Germany. We asked both owners and renters about their attitudes towards disorder, collective efficacy and social control. Results indicate significant differences between these groups: owners perceive more social control and more social capital in the neighbourhood and less disorder. The policy implications of these findings are discussed.",
+            "abstract_zh": "摘要：住房政策常常通过促进房屋所有权来稳定特定城市社区，假设对住房的投资也会转化为对社区的投资。这种推理指导着许多国家的住房政策，并得到了许多实证研究的支持。这一论点是否也适用于贫困地区？增加所有权是否是“稳定”贫困地区的适当策略？为了调查这些问题，我们分析了德国科隆一个贫困地区代表性调查的数据。我们询问了业主和租户对无序、集体效能和社会控制的态度。结果表明，这些群体之间存在显著差异：业主感知到更多的社会控制和社区社会资本，以及更少的无序。本文讨论了这些发现的政策含义。",
+            "matched_topics": [
+              "房地产",
+              "城市治理",
+              "公共政策"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "Housing Policy Debate",
+        "query_name": "Housing Policy Debate",
+        "issn": "1051-1482",
+        "resolved_name": "Housing Policy Debate",
+        "issue_title": "Volume 36, Issue 2",
+        "issue_url": "https://www.tandfonline.com/journals/rhpd20",
+        "matched_count": 6,
+        "total_in_issue": 7,
+        "papers": [
+          {
+            "title_en": "“It’s a Process—But It Shouldn’t Take This Long”: The Psychological Burden of Waiting for Rental Assistance",
+            "title_zh": "“这是一个过程——但不应该这么久”：等待租房援助的心理负担",
+            "url": "https://doi.org/10.1080/10511482.2026.2622683",
+            "abstract_en": "A growing and severe shortage of affordable housing in the U.S. has led to an increase in cost-burdened households and housing insecurity nationwide. The U.S. Department of Housing and Urban Development (HUD) provides rental assistance through programs such as Housing Choice Vouchers and public or project-based housing to increase access to affordable housing. However, available funding for these programs limits their supply, creating extensive waitlists for rental assistance. While the physical and mental health consequences of housing insecurity and cost-burdens are well documented, less is known about how the experience of waiting for rental assistance may contribute to these adverse outcomes. This paper examines qualitative data from a longitudinal mixed-methods study about rental assistance and diabetes self-management. Through thematic analysis of 116 semi-structured interviews collected from 30 unique participants, we describe how the uncertainty of one's waitlist status, an obligation to wait, and a sense of powerlessness in the waiting process contribute to poor mental health among rental assistance applicants. Our findings suggest that the experience of waiting and specific features of the waiting process may exacerbate stressors associated with housing insecurity to the detriment of applicants' psychological wellbeing.",
+            "abstract_zh": "美国日益严重的可负担住房短缺导致全国成本负担过重的家庭和住房不安全问题增加。美国住房和城市发展部（HUD）通过住房选择券和公共或基于项目的住房等项目提供租赁援助，以增加可负担住房的获取。然而，这些项目的可用资金限制了它们的供应，导致租赁援助的等待名单非常长。虽然住房不安全和成本负担对身心健康的影响已有充分记录，但关于等待租赁援助的经历如何导致这些不利结果的了解较少。本文通过定性数据分析，研究了一项关于租赁援助和糖尿病自我管理的纵向混合方法研究。通过对30名独特参与者收集的116次半结构化访谈进行主题分析，我们描述了等待名单状态的不确定性、等待的义务以及等待过程中的无力感如何导致租赁援助申请者中普遍存在的心理健康状况不佳。我们的发现表明，等待的经历和等待过程的特定特征可能会加剧与住房不安全相关的应激因素，从而损害申请者的心理福祉。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Economic Mobility or Safety Net? Examining Employment Status and Wage Trajectories of Housing Choice Voucher Recipients",
+            "title_zh": "经济流动性还是安全网？考察住房选择券领取者的就业状况和工资轨迹",
+            "url": "https://doi.org/10.1080/10511482.2025.2591667",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Mitigating the Stress of Housing Instability: The Impact of Housing Choice Vouchers on Social Supports, Behavioral Health, and Criminal Justice Involvement",
+            "title_zh": "缓解住房不稳定的压力：住房选择券对社会支持、行为健康和刑事司法涉入的影响",
+            "url": "https://doi.org/10.1080/10511482.2025.2578944",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Evaluating Rent Control Intensity in California Cities, 2010–2019",
+            "title_zh": "2010-2019年加州城市租金控制强度评估",
+            "url": "https://doi.org/10.1080/10511482.2025.2582717",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Rent and Eviction Filing at Enterprise-Backed Rental Properties",
+            "title_zh": "企业支持的租赁房产中的租金和驱逐申请",
+            "url": "https://doi.org/10.1080/10511482.2025.2581673",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "State Affordable Housing Tax Credits and Renter Outcomes: Evidence from Illinois",
+            "title_zh": "州级经济适用房税收抵免与租户结果：来自伊利诺伊州的证据",
+            "url": "https://doi.org/10.1080/10511482.2025.2578166",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "Population, Space and Place",
+        "query_name": "Population, Space and Place",
+        "issn": "1544-8444",
+        "resolved_name": "Population Space and Place",
+        "issue_title": "Volume 32, Issue 4",
+        "issue_url": "https://onlinelibrary.wiley.com/journal/15448452",
+        "matched_count": 12,
+        "total_in_issue": 16,
+        "papers": [
+          {
+            "title_en": "Spatial Jensen–Shannon Divergence: A Local, Multiscalar Measure of Multigroup Compositional Dissimilarity",
+            "title_zh": "空间詹森-香农散度：一种局部的、多尺度的多群体构成差异度量",
+            "url": "https://doi.org/10.1002/psp.70279",
+            "abstract_en": "ABSTRACT This paper develops a spatial formulation of the Jensen–Shannon divergence to measure multigroup compositional dissimilarity between each municipality and its surrounding context. Building on information theory, the index compares local group distributions with neighbourhood‐lagged compositions defined through two distance‐based systems: a Gaussian kernel and a Max–Min sequence of connectivity thresholds. The measure is symmetric, bounded and decomposable into group‐specific contributions, allowing identification of both the magnitude of local divergence and the groups responsible for it. Using data on the 10 largest foreign citizenships across 7887 Italian municipalities in 2024, the analysis reveals that significant local divergence is concentrated in a limited subset of municipalities and exhibits a clear multiscalar structure. South‐Asian and selected North‐African groups consistently account for the highest contributions, while many Eastern‐European groups show patterns of local alignment with surrounding areas. The Gaussian kernel produces smooth spatial gradients, whereas the Max–Min system highlights breakpoints in connectivity and reveals stepwise evolutions in local mismatch. A Monte Carlo spatial randomisation test confirms that the observed patterns deviate systematically from space‐composition independence. Overall, the spatial Jensen–Shannon framework provides a flexible diagnostic tool for identifying enclave‐like configurations and assessing multiscalar socio‐spatial contrasts with potential relevance for integration policies.",
+            "abstract_zh": "摘要 本文发展了一种基于空间的杰森-香农散度公式，用以测量各市镇与其周边环境之间多群体构成差异。该指数基于信息论，将本地群体分布与通过两个基于距离的系统定义的邻域滞后构成进行比较：一个高斯核和一个最大-最小连接阈值序列。该度量是对称的、有界的，并且可以分解为群体特定的贡献，允许识别本地差异的大小及其负责的群体。利用2024年意大利7887个市镇中10个最大外国国籍的数据，分析揭示了显著的本地差异集中在有限的市镇子集中，并表现出清晰的多尺度结构。南亚和选定的北非群体始终贡献最高，而许多东欧群体显示出与周边地区的本地对齐模式。高斯核产生平滑的空间梯度，而最大-最小系统突出了连接的断点，并揭示了本地不匹配的逐步演变。蒙特卡洛空间随机化测试证实，观察到的模式系统地偏离了空间-构成独立性。总体而言，空间杰森-香农框架提供了一个灵活的诊断工具，用于识别类似飞地的配置，并评估可能与融合政策相关的多尺度社会空间对比。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Parental Co‐Residence and the Transition to Homeownership Among Young Adults in the UK",
+            "title_zh": "标题：父母同住与英国年轻成年人向购房过渡的关系",
+            "url": "https://doi.org/10.1002/psp.70280",
+            "abstract_en": "ABSTRACT Young people are living with their parents for longer. Little is known about how this behaviour, along with the divergent socio‐economic outcomes it entails, affects young adults' homeownership. Using UKHLS data adjusted for panel attrition, this study compares first‐time homeownership transitions between young adults living with parents (home‐stayers) and those who have left home to live independently in the private rental sector (home‐leavers), while accounting for the mediating effects of socio‐economic outcomes via the KHB modelling framework. The results reveal that, although home‐stayers experience higher unemployment, lower income, and residence in more affordable areas, these factors do not significantly affect transitions to homeownership. Instead, their higher likelihood of having savings and more favourable financial situations is associated with an increased probability of homeownership, while lower rates of partnership formation are associated with a substantial reduction. Once partnership formation is accounted for, the difference in homeownership transitions between the two groups disappears.",
+            "abstract_zh": "摘要：年轻人与父母同住的时间越来越长。目前对于这种行为及其带来的不同社会经济结果如何影响年轻人的购房行为知之甚少。本研究利用调整了面板流失的英国家庭纵向调查数据，通过KHB模型框架考虑社会经济结果的中介效应，比较了与父母同住的年轻成年人（留家者）和离开家独立在私人租赁部门生活的年轻成年人（离家者）之间的首次购房转变。结果显示，尽管留家者经历更高的失业率、更低的收入和居住在更便宜的地区，这些因素并没有显著影响购房转变。相反，他们更有可能拥有储蓄和更有利的财务状况与购房概率的增加有关，而较低的伴侣形成率与购房概率的大幅降低有关。一旦考虑了伴侣形成，两组之间的购房转变差异就消失了。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "When ‘Skilled Migrants’ Becomes an Expansive Category: Multi‐Layered Inequality Among Former International Students in Japan",
+            "title_zh": "当“技术移民”成为一个宽泛类别：日本前国际学生中的多层次不平等",
+            "url": "https://doi.org/10.1002/psp.70276",
+            "abstract_en": "ABSTRACT Literature on the social construction of skilled migration has demonstrated how the selective admission of ‘skilled migrants’ by host states produces unequal outcomes, admitting some as ‘skilled’ while excluding others with seemingly similar qualifications. This study examines the other side of this construction and its connection with inequality: how the state's inclusion of individuals with differing skill levels into the same ‘skilled migrants’ category generates stratification. It focuses on Japan, where international students with varying levels of Japanese language proficiency have been admitted as ‘skilled migrants’ after graduation under recent policy changes. Drawing on interviews with foreign graduates working in Japan, the study argues that the state's expansion of the ‘skilled migrants’ category produces a form of stratification characterized by multi‐layered inequality, comprising three domains: labour markets, legal rights and (in)formal status. Furthermore, the study finds that these domains are interconnected. While different skill profiles directly shape labour market inequality, this inequality in turn affects legal rights stratification through bureaucratic practices that allocate different periods of residence based on applicants' economic potential. Additionally, labour market inequality connects with (in)formal status stratification through the state's issuance of skilled migration visas to those performing work that falls outside state‐defined ‘skilled’ (mostly white‐collar) work, an unintended policy outcome largely driven by employers' misuse of visa applications amid labour shortages in low‐wage sectors. Multi‐layered inequality thus highlights the interlocked nature of multiple domains of inequality, compounding disadvantages for those with lower skill profiles and implying divergent trajectories of integration among ‘skilled migrants’.",
+            "abstract_zh": "摘要：关于技术移民社会构建的文献已经展示了东道国选择性接纳“技术移民”如何产生不平等的结果，即接纳一些人为“技术”移民，同时排除那些看似具有相似资格的其他人。本研究考察了这种构建的另一面及其与不平等的联系：国家将不同技能水平的个体纳入同一“技术移民”类别如何产生分层。研究以日本为重点，在日本最近的移民政策变化下，不同日语水平的国际学生毕业后被接纳为“技术移民”。通过对在日本工作的外国毕业生进行访谈，研究认为国家扩大“技术移民”类别产生了一种以多层次不平等为特征的分层形式，包括三个领域：劳动力市场、法律权利和（非）正式身份。此外，研究发现这些领域是相互联系的。不同的技能配置直接塑造了劳动力市场的不平等，而这种不平等反过来又通过根据申请人的经济潜力分配不同居住期限的官僚实践影响法律权利的分层。此外，劳动力市场的不平等通过国家向那些从事国家定义的“技术”（主要是白领）工作之外的工作的人发放技术移民签证，与（非）正式身份的分层联系在一起，这是一个主要由雇主在低薪部门劳动力短缺中滥用签证申请所驱动的意外政策结果。因此，多层次不平等突出了多个不平等领域的相互锁定性质，加剧了那些技能配置较低者的不利地位，并意味着“技术移民”之间不同的融合轨迹。",
+            "matched_topics": [
+              "房地产",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Exploring Excess Migration in Nordic Rural Municipalities: Pre‐Pandemic Trajectories and Pandemic‐Era Disruption",
+            "title_zh": "探索北欧农村地区的过度移民：疫情前轨迹与疫情期间的中断",
+            "url": "https://doi.org/10.1002/psp.70274",
+            "abstract_en": "ABSTRACT Renewed interest in rural areas during the COVID‐19 pandemic generated a sense of optimism concerning the fate of declining rural areas, with the notion of a ‘rural revival’ evident in both popular and academic discourse. While many studies have explored urban–rural migration during the pandemic, few have done so from the specific perspective of declining rural areas. This paper responds to this gap, combining analysis of pre‐pandemic population development trends with an exploration of pandemic‐era internal migration patterns in Nordic rural areas. The paper uses sequence analysis to identify the most typical population development trajectories of Nordic rural municipalities in the two decades preceding the pandemic. Following this, a measure of ‘excess migration’ is used to explore which types of rural municipalities were the most likely to experience higher‐than‐expected inflows of internal migrants following the onset of the pandemic. The analysis highlights considerable diversity in the population development trajectories of Nordic rural municipalities—while population decline was the most common experience, it was by no means the only one, with many rural populations stable, and even growing. Further, the paper finds that, while most rural municipalities experienced higher‐than‐expected inflows in the pandemic era, the greatest deviations from expectations were evident in municipalities with the least favourable pre‐pandemic population development trajectories. Further monitoring of migrant flows, along with more detailed analysis of flows among different groups, will be important next steps in clarifying the extent to which these short‐term disruptions have any longer‐term bearing on demographic decline in Nordic rural areas.",
+            "abstract_zh": "摘要：在COVID-19大流行期间，对农村地区的重新关注产生了对衰落农村地区命运的乐观情绪，\"农村复兴\"的概念在流行和学术话语中都很明显。尽管许多研究探讨了大流行期间的城乡迁移，但很少有研究从衰落农村地区的特定视角进行探讨。本文旨在填补这一空白，结合对大流行前人口发展趋势的分析，探索北欧农村地区大流行时期的内部迁移模式。本文使用序列分析来识别北欧农村市镇在大流行前二十年中最典型的人口发展轨迹。随后，使用“超额迁移”的度量来探讨哪些类型的农村市镇最有可能在大流行开始后经历高于预期的内部移民流入。分析突出了北欧农村市镇人口发展轨迹的显著多样性——尽管人口下降是最常见的经历，但绝非唯一，许多农村人口稳定甚至增长。此外，本文发现，尽管大多数农村市镇在大流行时期经历了高于预期的流入，但与预期的最大偏差出现在大流行前人口发展轨迹最不利的市镇。进一步监测移民流动，以及对不同群体间流动进行更详细的分析，将是澄清这些短期中断对北欧农村地区人口下降的长期影响程度的重要下一步。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Health Shocks and the Spatial Dynamics of Intergenerational Proximity in South Korea: Evidence From 2006 to 2022",
+            "title_zh": "韩国健康冲击与代际邻近的空间动态：2006至2022年的证据",
+            "url": "https://doi.org/10.1002/psp.70284",
+            "abstract_en": "ABSTRACT Adult children's geographic proximity to aging parents is a fundamental component of the spatial opportunity structure for intergenerational solidarity. Using nine waves of the Korean Longitudinal Study of Ageing (2006–2022), this study employs a dynamic panel event study design to investigate the spatiotemporal dynamics of family relocation following a parent's first diagnosis of chronic illness. We analyze how distinct care trajectories of cancer, cerebrovascular disease, and cardiovascular disease, alongside the gender of adult children, shape these spatial adjustments. The results indicate that health shocks serve as a driver for spatial convergence, suggesting that formal care through the universal Long‐Term Care Insurance (LTCI) complements rather than crowds out family support. However, relocation patterns exhibit significant heterogeneity by disease type. Acute circulatory conditions (cerebrovascular and cardiovascular diseases) prompt an immediate but short‐term spatial response, whereas cancer leads to a delayed and sustained restructuring process. Furthermore, we find a shifting ‘geography of care’ in Korea: contrary to traditional male‐centered norms, daughters have emerged as the primary agents of sustained spatial support. These findings highlight the spatial labor families undertake to compensate for the lack of formal support within the modern welfare system.",
+            "abstract_zh": "摘要：成年子女与年迈父母之间的地理邻近性是代际团结空间机会结构的一个基本组成部分。本研究利用韩国纵向老龄化研究（2006-2022年）的九个波次数据，采用动态面板事件研究设计，探讨了父母首次被诊断出慢性病后家庭搬迁的时空动态。我们分析了癌症、脑血管疾病和心血管疾病的不同护理轨迹，以及成年子女的性别如何塑造这些空间调整。结果表明，健康冲击是空间收敛的驱动力，表明通过普遍的长期护理保险（LTCI）提供的正式护理补充而非挤出家庭支持。然而，搬迁模式在疾病类型上表现出显著的异质性。急性循环状况（脑血管疾病和心血管疾病）促使立即但短期的空间响应，而癌症则导致延迟和持续的结构重组过程。此外，我们发现韩国的“护理地理”正在发生变化：与男性中心的传统规范相反，女儿已成为持续空间支持的主要行动者。这些发现突出了家庭为弥补现代福利体系中缺乏正式支持而承担的空间劳动。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Mobile and Disappearing Migrant Geographies: Reflections on Makeshift Camp Fragments and Methodologies",
+            "title_zh": "流动与消失的移民地理：对临时营地碎片与方法论的反思",
+            "url": "https://doi.org/10.1002/psp.70278",
+            "abstract_en": "ABSTRACT Along clandestine journeys, migrants occupy a whole variety of temporary and informal dwellings or ‘makeshift camps’, where they may rest, wait, gather resources and make further attempts at crossing the borders and reaching destinations. Makeshift camps have proliferated across cities and border‐zones around Europe, becoming widely recognised as crucial geographies of contemporary migration, as nodes for migrant strategy and mobilities, solidarities and smuggling, temporary social and political orderings as well as all kinds of violence to which residents are exposed. Yet these spaces are also understood as inherently fleeting and mobile, characterised by constant police evictions and destruction, the abandonment or departure of their residents, the relocation and vanishing of structures formerly occupied – all of which make them difficult to study. Drawing upon extensive multi‐sited ethnographic research across a variety of makeshift camps (past and present) in the border city of Bihać, Bosnia‐Herzegovina, this paper considers methodological questions of how to examine migrants' informal dwellings en route whose upheaval and ephemerality has emerged, not as an aberration, but as a constant thread over the last several years. Within a context of acute transience, shape‐shifting and disappearance, this paper offers methodological reflections on rendering visible the fleeting and subversive geographies of makeshift camps while maintaining a steadfast commitment to not expose the strategies and hiding places of residents in ways that would compromise their safety, privacy or success along their clandestine journeys.",
+            "abstract_zh": "摘要：在秘密旅途中，移民占据了各种临时和非正式的住所或“临时营地”，他们可以在那里休息、等待、收集资源，并进一步尝试穿越边境和到达目的地。临时营地在欧洲的城市和边境地区大量涌现，被广泛认为是当代移民的关键地理区域，是移民策略和流动、团结和走私、临时社会和政治秩序以及居民所面临的各种暴力的节点。然而，这些空间也被认为是本质上短暂和流动的，特点是不断的警察驱逐和破坏、居民的遗弃或离开、结构的搬迁和消失——所有这些都使得它们难以研究。本文基于在波斯尼亚-黑塞哥维那边境城市比哈奇的各种临时营地（过去和现在）进行的广泛的多地点民族志研究，考虑了如何研究移民在途中的非正式住所的方法论问题，这些住所的动荡和短暂性在过去几年中并非异常，而是作为一种持续的线索出现。在极度短暂、变化和消失的背景下，本文提供了方法论反思，即如何在不以危及居民安全、隐私或成功的方式暴露居民的策略和藏身之处的同时，使临时营地的短暂和颠覆性地理变得可见。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Does Digital Infrastructure Facilitate Rural‐to‐Urban Migration? Evidence From China",
+            "title_zh": "数字基础设施是否促进了农村到城市的迁移？来自中国的证据",
+            "url": "https://doi.org/10.1002/psp.70270",
+            "abstract_en": "ABSTRACT This paper exploits the staggered rollout of the Broadband China Policy as a quasi‐natural experiment to examine the impact of digital infrastructure expansion on rural‐to‐urban migration in China. Using data from the 2012 and 2018 waves of the China Family Panel Studies, we provide robust evidence that improvements in digital infrastructure significantly increase the probability of rural residents migrating to urban areas by 4.7%, corresponding to an approximately 18% increase relative to the migration rate in the sample. Mechanism analysis indicates that digital infrastructure facilitates migration mainly by reducing information frictions, strengthening social networks, and easing liquidity constraints. Heterogeneity analyses reveal that (i) the effects are stronger among individuals with lower educational attainment, middle‐aged and older cohorts, and women; (ii) migration is primarily promoted within counties and across counties or cities within the same province, while no significant effect is found for interprovincial migration; and (iii) migration induced by digital infrastructure expansion is concentrated in mid‐ and low‐skill occupations rather than high‐skill professional jobs.",
+            "abstract_zh": "摘要 本文利用宽带中国政策的分阶段实施作为准自然实验，检验数字基础设施扩张对中国农村向城市迁移的影响。利用2012年和2018年的中国家庭追踪调查数据，我们提供了强有力的证据，表明数字基础设施的改善显著增加了农村居民向城市地区迁移的概率4.7%，相对于样本中的迁移率大约增加了18%。机制分析表明，数字基础设施主要通过减少信息摩擦、加强社会网络和缓解流动性约束来促进迁移。异质性分析揭示了：（i）受教育程度较低的个体、中年和老年群体以及女性中的影响更强；（ii）迁移主要在县内以及同一省内的县或城市之间促进，而对跨省迁移没有发现显著影响；（iii）由数字基础设施扩张引起的迁移集中在中低技能职业而非高技能专业工作。",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Editorial Introduction to Special Issue on Fertility in the Context of Forced Migration, Ethnic Marginalisation and Recent Crises",
+            "title_zh": "特刊编辑引言：在被迫迁移、族群边缘化和近期危机背景下的生育问题",
+            "url": "https://doi.org/10.1002/psp.70249",
+            "abstract_en": "Abstract This paper is the editorial introduction to the Special Issue on “Fertility in the context of forced migration, ethnic marginalisation and recent crises.” The Special Issue contains six empirical papers that examine fertility behaviour and intentions in migrant and ethnic minority groups across European countries. The aim of bringing these papers together is to draw attention to similarities between different types of marginalised groups and their demographic responses to crises and disruptive events. The paper collection opens with two papers on international migrants and their fertility behaviours during the migration process and after arrival in European destination countries, with a focus on refugees. A second pair of papers focuses on fertility preferences among international migrants in specific vulnerable situations, namely uncertainty after war and in situations of economic and geopolitical instability. Finally, a third set of articles examines ethnic minority groups in two major countries bordering the European Union, exploring how their fertility outcomes relate to various external factors. In both contexts, minority status and ethnic marginalisation are intensified because these groups face particularly vulnerable situations due to external crises or political measures. This editorial introduction provides an overview of the similarities and differences between migrant and autochthonous ethnic minority groups in Europe, summarises the empirical and theoretical contributions of the Special Issue and concludes with implications and suggestions for future research.",
+            "abstract_zh": "摘要 本文是关于“在被迫迁移、民族边缘化和近期危机背景下的生育问题”特刊的编辑引言。特刊包含六篇实证论文，这些论文考察了欧洲各国移民和少数民族群体的生育行为和意愿。将这些论文汇集在一起的目的是强调不同类型边缘化群体之间的相似性，以及他们对危机和破坏性事件的人口学反应。论文集首先包括两篇关于国际移民及其在迁移过程中和到达欧洲目的地国家后的生育行为的论文，重点关注难民。第二对论文关注特定弱势情况下国际移民的生育偏好，即战后不确定性以及经济和地缘政治不稳定的情况。最后，第三组文章考察了与欧盟接壤的两个主要国家的少数民族群体，探讨他们的生育结果如何与各种外部因素相关。在这两种情况下，由于这些群体因外部危机或政治措施而面临特别脆弱的情况，少数民族地位和民族边缘化被加剧。这篇编辑引言提供了欧洲移民和土著少数民族群体之间的相似性和差异性的概述，总结了特刊的实证和理论贡献，并以对未来研究的影响和建议作为结论。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Who Moves and Where Do They Go? Generational Differences in Urban‐to‐Rural Migration in South Korea",
+            "title_zh": "谁在迁移，他们去了哪里？韩国城乡迁移中的代际差异",
+            "url": "https://doi.org/10.1002/psp.70269",
+            "abstract_en": "ABSTRACT Research on counterurbanization has often emphasized macrolevel structural changes, such as urban expansion and population redistribution, while overlooking the selective nature of migration in relation to individuals' life‐course transitions. Yet, migration between urban and rural areas constitutes a key spatial process mediating major life changes. Drawing on a life‐course perspective, this study examines generational differences in migration determinants and spatial preferences among young and older migrants who relocated from Seoul, South Korea, to rural areas. At the individual level, binary logistic regression identifies factors associated with migration; at the regional level, rural typologies—Creative–Innovation Area, Eco‐Welfare Rural Residential Area, and Remote Agricultural‐Based Area—derived through fuzzy clustering (Fuzzy C‐Means) are incorporated into a multilevel logistic model. The results show that young adults' rural migration is closely associated with life‐course transitions related to family formation and employment conditions, with particularly high mobility observed among non‐employed and career‐interrupted women. In contrast, older adults' migration reflects active‐aging motivations, particularly retirement timing and health status. Regionally, Creative–Innovation Areas attract younger migrants, while Eco‐Welfare and Remote Agricultural‐Based Areas appeal to older migrants. These findings demonstrate that rural areas function as multilayered socio‐spatial arenas that mediate generational life transitions.",
+            "abstract_zh": "摘要：关于逆城市化的研究常常强调宏观层面的结构变化，如城市扩张和人口再分布，而忽视了与个体生活过程转换相关的迁移选择性。然而，城乡之间的迁移构成了调节重大生活变化的关键空间过程。本研究从生命历程的视角出发，考察了从韩国首尔迁移到农村地区的年轻和老年移民在迁移决定因素和空间偏好上的代际差异。在个体层面，二元逻辑回归识别了与迁移相关的因素；在区域层面，通过模糊聚类（Fuzzy C-Means）得出的农村类型——创意-创新区、生态-福利型农村居住区和偏远农业型区域——被纳入多级逻辑模型。结果显示，年轻人的农村迁移与家庭形成和就业条件相关的生活过程转换密切相关，特别是未就业和职业中断的女性流动性特别高。相比之下，老年人的迁移反映了积极老龄化的动机，尤其是退休时间和健康状况。在区域上，创意-创新区吸引年轻移民，而生态-福利和偏远农业型区域则吸引老年移民。这些发现表明，农村地区作为多层次的社会空间场所，调节着代际生活转换。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Chineseness and Affective Spatialities: New Chinese Migrants' (Dis)Orienting Experiences of Chinese Voluntary Associations in Singapore",
+            "title_zh": "中国性与情感空间性：新加坡新中国移民在中国志愿组织中的（失）定位体验",
+            "url": "https://doi.org/10.1002/psp.70273",
+            "abstract_en": "ABSTRACT This paper explores how new Chinese migrants negotiate Chineseness through their engagement with Chinese voluntary associations (CVAs) in host societies. Drawing on ethnographic fieldwork with new migrants involved in CVAs in Singapore, I conceptualize CVAs as affective spaces that generate (dis)orienting effects, shaping new migrants' negotiation of Chineseness in a context of ‘togetherness‐in‐difference’. Specifically, CVAs function as ‘convivial spaces’ where new migrants rely on a primordial form of Chineseness to gain familiarity, connectivity, and a sense of orientation in a new settlement. At the same time, CVAs serve as contact zones infused with disorienting encounters with local Singaporean Chinese, producing variegated understandings of Chineseness. By highlighting the affective spatialities of CVAs, this paper advances a geographical approach to understanding Chineseness and contributes to the existing literature on migrant (dis)orientation.",
+            "abstract_zh": "摘要 本文探讨了新移民如何通过参与东道国的华人志愿组织（CVAs）来协商华人身份。基于对新加坡参与CVAs的新移民的民族志田野调查，我将CVAs概念化为产生（失）导向效应的情感空间，塑造了新移民在“差异中的共同性”背景下对华人身份的协商。具体来说，CVAs作为“友好空间”，新移民依赖于一种原始的华人身份，以获得熟悉感、连通性和在新定居地的定位感。同时，CVAs作为充满失导向遭遇的接触区，与当地新加坡华人的互动产生了对华人身份的多样化理解。通过强调CVAs的情感空间性，本文推进了理解华人身份的地理学方法，并为现有关于移民（失）导向的文献做出了贡献。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Spatially Contingent Contact: How Geographical Distance and Borders Shape Grandparent‐Grandchild Communication in Poland",
+            "title_zh": "空间性接触：地理距离和边界如何塑造波兰祖孙沟通",
+            "url": "https://doi.org/10.1002/psp.70275",
+            "abstract_en": "ABSTRACT The geographies of modern families are increasingly stretched by migration and mobility, raising crucial questions for population geography about the maintenance of intergenerational bonds. This study investigates the frequency of social contact between Polish grandparents and their grandchildren (both minor and adult), explicitly analyzing how these dynamics are contingent upon spatial context. Drawing on a 2019–2020 survey of grandparents ( N = 1,000) and integrating insights from social presence and media niche theories, we employ ordered logit regression to compare face‐to‐face and ICT‐mediated contact across three distinct spatial categories of grandchildren: local (within 25 km), domestically distant (elsewhere in Poland), and transnational (abroad). Findings reveal that geographical distance and the presence of national borders fundamentally shape contact patterns. Results support a mixed, context‐dependent model: remote communication serves a compensatory function for transnational grandchildren, substituting for a lack of physical co‐presence. Conversely, it provides a cumulative function for local grandchildren, supplementing frequent in‐person contact. Domestically distant grandchildren represent an intermediary group. This research contributes to spatial demography by demonstrating how technology and geography intersect to reshape intergenerational solidarity within an ageing population context marked by high rates of mobility and migration.",
+            "abstract_zh": "摘要：现代家庭的地理分布因迁移和流动性而日益扩展，这对人口地理学提出了关于维持代际联系的重要问题。本研究调查了波兰祖父母与孙辈（包括未成年人和成年人）之间的社会接触频率，并明确分析了这些动态如何依赖于空间背景。基于2019-2020年对1000名祖父母的调查，并整合了社会存在和媒体生态位理论的见解，我们采用有序逻辑回归比较了三类不同空间类别孙辈的面对面和信息通信技术（ICT）中介接触：本地（25公里以内）、国内远距离（波兰其他地区）和跨国（国外）。研究结果揭示了地理距离和国界的存在根本上塑造了接触模式。结果支持了一个混合的、依赖于上下文的模型：远程通信为跨国孙辈提供了补偿功能，替代了缺乏身体共存的情况。相反，它为本地孙辈提供了累积功能，补充了频繁的面对面接触。国内远距离孙辈代表了中间群体。这项研究通过展示技术和地理如何交叉重塑老龄化背景下高流动性和迁移率的代际团结，为空间人口统计学做出了贡献。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Multidimensional Segregation Among Asian American Voters: Racial, Income, and Partisan Sorting in New York and California",
+            "title_zh": "亚裔美国选民的多维隔离：纽约和加利福尼亚的种族、收入和党派分化",
+            "url": "https://doi.org/10.1002/psp.70271",
+            "abstract_en": "ABSTRACT This study examines multidimensional segregation by race, income, and partisanship among Asian Americans, whose ethnic subgroups differ in migration history, socioeconomic position, and political alignment. Using voter registration records for 33 million voters in New York and California, including 2.55 million Asian American voters, we estimate individual‐level spatial isolation with a k‐nearest neighbours approach. On average, Asian Americans show lower racial isolation than Black and Hispanic voters, while their income and partisan isolation are closer to those of White voters. At the subgroup level, Chinese and Vietnamese Americans show high racial isolation, while Chinese Americans show intermediate income and partisan isolation. Japanese Americans show low racial and income isolation but higher partisan isolation. Indian Americans show the highest income isolation, whereas Vietnamese Americans show low partisan isolation. These findings show that Asian American residential patterns vary across subgroups and suggest that partisanship may represent an additional dimension shaping everyday residential experiences.",
+            "abstract_zh": "摘要 本研究考察了亚裔美国人在种族、收入和党派身份方面的多维隔离情况，亚裔美国人的各个族群在迁移历史、社会经济地位和政治立场上存在差异。利用纽约和加利福尼亚州3300万选民的选民登记记录，包括255万亚裔美国选民，我们采用k最近邻方法估计个体层面的空间隔离。平均而言，亚裔美国人的种族隔离程度低于黑人和西班牙裔选民，而他们的收入和党派隔离程度更接近白人选民。在亚裔美国人的各个族群中，华裔和越南裔美国人表现出较高的种族隔离，而华裔美国人表现出中等的收入和党派隔离。日裔美国人表现出较低的种族和收入隔离，但党派隔离程度较高。印度裔美国人表现出最高的收入隔离，而越南裔美国人表现出较低的党派隔离。这些发现表明，亚裔美国人的居住模式因族群而异，并暗示党派身份可能是塑造日常居住体验的另一个维度。",
+            "matched_topics": [
+              "城市治理"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "中国土地科学",
+        "query_name": "中国土地科学",
+        "issn": "1001-8158",
+        "resolved_name": "中国土地科学",
+        "issue_title": "Latest issue (Crossref)",
+        "issue_url": "http://www.clss.org.cn/",
+        "matched_count": 0,
+        "total_in_issue": 0,
+        "papers": [],
+        "error": "ISSN lookup failed: GET failed for https://api.crossref.org/journals/1001-8158: 404 Client Error: Not Found for url: https://api.crossref.org/journals/1001-8158"
+      },
+      {
+        "name": "International Public Management",
+        "query_name": "International Public Management Journal",
+        "issn": "1096-7494",
+        "resolved_name": "International Public Management Journal",
+        "issue_title": "Volume 29, Issue 2",
+        "issue_url": "https://www.tandfonline.com/journals/upmj20",
+        "matched_count": 0,
+        "total_in_issue": 6,
+        "papers": [],
+        "error": null
+      },
+      {
+        "name": "International Review of Administrative",
+        "query_name": "International Review of Administrative Sciences",
+        "issn": "0020-8523",
+        "resolved_name": "International Review of Administrative Sciences",
+        "issue_title": "Volume 92, Issue 1",
+        "issue_url": "https://journals.sagepub.com/home/ras",
+        "matched_count": 6,
+        "total_in_issue": 8,
+        "papers": [
+          {
+            "title_en": "Factors affecting chief executive officers’ managerial autonomy in municipally owned corporations: a qualitative study",
+            "title_zh": "影响市政所有公司首席执行官管理自主权的因素：一项定性研究",
+            "url": "https://doi.org/10.1177/00208523251369314",
+            "abstract_en": "The importance of managerial autonomy for organizational performance and accountability is increasingly acknowledged in municipally owned corporations (MOCs) operating within competitive environments. However, few studies have examined the factors enabling or restricting chief executive officers' (CEOs') managerial autonomy in companies reliant on local and central governments. Using the public agency autonomy perspective, we investigate the subjective perceptions of MOCs’ executives concerning three intertwined political and bureaucratic mechanisms. The results of our 18 semi-structured interviews with CEOs of such corporations in various Israeli municipal authorities identified three factors on the micro, meso and macro levels affecting their autonomy. These findings reveal a pattern whereby local political and bureaucratic actors try to engage in framed autonomy, in contrast to the administrative bureaucracy model of the central government that curtails the CEOs’ autonomy substantially. Consequently, this dynamic impedes MOCs from achieving their goals. This interplay of micro, meso and macro factors explains how tensions between local and central governments are reflected in the managerial operations of MOCs. Points for practitioners Leverage Supportive Political Relationships to Navigate Constraints: Building trust-based ties with supportive political actors can help mitigate regulatory burdens and enable more adaptive decision-making within bureaucratic constraints. Balance Board Governance with Managerial Discretion: Practitioners should remain alert to how political appointments may influence operations and develop strategies to preserve managerial discretion while maintaining accountability. Promote Two-Way Engagement with Central Authorities: Public executives should advocate for more reciprocal relationships with central agencies, encouraging support-oriented oversight that acknowledges on-the-ground realities.",
+            "abstract_zh": "在竞争环境中运营的市属公司（MOCs）中，管理者自主权对组织绩效和问责的重要性日益得到认可。然而，很少有研究考察了使首席执行官（CEOs）的管理者自主权得以实现或受限的因素，尤其是在依赖地方和中央政府的公司中。利用公共机构自主权视角，我们调查了MOCs高管对三个相互交织的政治和官僚机制的主观认知。我们对以色列不同市政当局中此类公司的CEO进行了18次半结构化访谈，结果识别出影响他们自主权的三个微观、中观和宏观层面的因素。这些发现揭示了一种模式，即地方政治和官僚行为者试图参与框架内的自主权，与中央政府的行政官僚模式形成对比，后者大幅限制了CEO的自主权。因此，这种动态阻碍了MOCs实现其目标。微观、中观和宏观因素之间的相互作用解释了地方和中央政府之间的紧张关系如何在MOCs的管理运作中得到反映。实践者要点：利用支持性政治关系来导航约束：与支持性政治行为者建立基于信任的关系可以帮助减轻监管负担，并在官僚约束内实现更具适应性的决策。平衡董事会治理与管理自主权：实践者应保持警觉，了解政治任命如何影响运营，并制定策略，在保持问责的同时维护管理自主权。促进与中央当局的双向参与：公共高管应倡导与中央机构建立更互惠的关系，鼓励支持型监督，承认一线现实。",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Meta-analysis in public administration research: An interdisciplinary perspective review in the age of open science",
+            "title_zh": "元分析在公共行政研究中的应用：开放科学时代的跨学科视角综述",
+            "url": "https://doi.org/10.1177/00208523251398486",
+            "abstract_en": "This study combines content analysis and systematic literature review to examine the landscape of meta-analyses in public administration. Content analysis of 107 articles shows that research spans both micro- and macro-level topics, with particular emphasis on public policy, governance, and service delivery. We propose a structured framework for conducting meta-analyses and critically review 34 studies from five leading journals published over the past decade (2015–2024). Building on these findings, we offer four interdisciplinary recommendations to enhance methodological rigor, strengthen theoretical integration, and foster cumulative knowledge development in the era of open science. By highlighting the potential of meta-analysis to reconcile divergent findings, improve cross-national comparability, and inform evidence-based policy, this study consolidates its role as a foundational tool in public administration scholarship. Points for practitioners Meta-analysis equips public administrators and policymakers with a rigorous tool to synthesize empirical findings, reconcile inconsistent results, and compare policy effects across diverse institutional and national contexts. Meta-analyses in public administration address both macro-level issues (e.g. public policy, service delivery, climate governance) and micro-level concerns (e.g. trust, citizen satisfaction, employee motivation), highlighting their relevance for evidence-informed decision making. Researchers should follow established protocols while embracing open science practices—transparency, reproducibility, and contextual sensitivity—to enhance the credibility, comparability, and practical relevance of meta-analytic findings.",
+            "abstract_zh": "本研究结合内容分析和系统文献综述，考察了公共管理领域元分析的现状。对107篇文章的内容分析显示，研究涵盖了微观和宏观层面的主题，特别强调公共政策、治理和服务交付。我们提出了一个进行元分析的结构化框架，并从过去十年（2015-2024年）发表的五个顶级期刊中批判性地回顾了34项研究。基于这些发现，我们提出了四个跨学科建议，以增强方法论严谨性、加强理论整合，并在开放科学时代促进累积知识发展。通过强调元分析在调和不同发现、提高跨国可比性以及为循证政策提供信息方面的潜力，本研究巩固了其作为公共管理学术研究中基础工具的角色。对实践者而言，元分析为公共管理者和政策制定者提供了一个严谨的工具，以综合实证发现、调和不一致的结果，并在多样化的制度和国家背景下比较政策效果。公共管理中的元分析涉及宏观问题（例如公共政策、服务交付、气候治理）和微观问题（例如信任、公民满意度、员工动机），突出了其对循证决策的相关性。研究人员应遵循既定协议，同时拥抱开放科学实践——透明度、可复制性和情境敏感性——以增强元分析结果的可信度、可比性和实际相关性。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Developing trust to achieve complementarity for collaborative governance: Lessons from a government programme",
+            "title_zh": "培养信任以实现协同治理的互补性：来自政府计划的教训",
+            "url": "https://doi.org/10.1177/00208523251390857",
+            "abstract_en": "This article examines the community as a new arena in which political–administrative relations unfold, and it investigates how, within the context of collaborative governance, the involvement of societal organizations in policymaking influences the trust-based interactions between politicians and administrators that underpin complementarity. The study is based on qualitative interviews conducted with politicians, civil servants and societal organization representatives participating in a government programme in the Basque Country (northern Spain). Our findings suggest that closer ties with citizens may shape complementary relationships between politicians and civil servants by broadening the basis for trust. More specifically, the study identifies responsiveness − alongside ability, benevolence and integrity − as a predominant trust driver that also influences the others. Perceptions of effective complementarity between politics and administration appear to hinge on responsiveness, a key vector of trustworthiness that supports and sustains collaborative governance. Points for practitioners −in collaborative governance, openness to citizens’ participation may shape perceptions of competence, benevolence and integrity; −conversely, lack of responsiveness may lead to the perception that competence, benevolence and integrity are also lacking; −a responsive administration can enhance trustworthiness; −this depends also on a constructive relationship between politicians and civil servants; and −effective collaborative governance also depends on the perception of an effective complementarity of politics and administration.",
+            "abstract_zh": "本文考察了社区作为政治-行政关系展开的新舞台，并研究了在协作治理的背景下，社会组织参与政策制定如何影响政治家和行政官员之间的基于信任的互动，这种互动支撑着互补性。研究基于与参与巴斯克地区（西班牙北部）政府计划的政治家、公务员和社会组织实施代表进行的定性访谈。我们的发现表明，与公民更紧密的联系可能通过扩大信任基础来塑造政治家和公务员之间的互补关系。更具体地说，研究确定反应性——与能力、仁慈和正直一起——作为一个主要的信任驱动因素，也影响着其他因素。对政治与行政之间有效互补性的感知似乎取决于反应性，这是支持和维持协作治理的关键信任因素。实践者要点——在协作治理中，对公民参与的开放性可能塑造对能力、仁慈和正直的感知；——相反，缺乏反应性可能导致认为能力、仁慈和正直也缺乏的感知；——反应性的行政可以增强可信度；——这也取决于政治家和公务员之间的建设性关系；——有效的协作治理还取决于对政治和行政有效互补性的感知。",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Building local public action against a backdrop of ecological emergency: A public management paradigms-based approach",
+            "title_zh": "构建生态紧急背景下的地方公共行动：基于公共管理范式的方法",
+            "url": "https://doi.org/10.1177/00208523251388778",
+            "abstract_en": "This article examines the production of local public action relating to environmental issues, in the specific case of coastal areas, which are subject to specific challenges in the context of ecological emergency. The research focuses on the public management paradigms underlying the production of public action. The approach adopted aims to identify the organizational routines at work in the production of environmental public action, in order to reveal its the founding paradigm or paradigms. The data, collected as part of a comparative study of two French Atlantic coastal conurbations, is based on observations and on interviews with stakeholders involved in the production of environmental public action. The results reveal that this production takes place within a combination of paradigmatic frameworks, inducing organizational tensions which require implicit or explicit coping strategies that differ between cases. They also highlight the advantages of co-producing environmental public action. Points for practitioners The comparative analysis of how environmental public action is produced in two coastal local authorities, conducted in this article, serves to inform elected officials and local authority managers in two ways: • it reveals the need to implement coping strategies in response to the combination of paradigmatic frameworks within which environmental public action is produced; • it underscores the value of co-producing environmental public action as a means of overcoming the paradoxes arising from the coexistence of different paradigmatic frameworks.",
+            "abstract_zh": "本文考察了与环境问题相关的本地公共行动的生产，特别是在生态紧急情况下面临特殊挑战的沿海地区。研究重点在于生产公共行动背后的公共管理范式。所采用的方法旨在识别生产环境公共行动中的组织例程，以揭示其基础范式或范式。数据收集基于对两个法国大西洋沿海城市群的比较研究，基于对参与环境公共行动生产的利害关系人的观察和访谈。结果揭示了这种生产发生在范式框架的组合中，引发组织紧张，需要不同案例之间隐含或明确的应对策略。它们还强调了共同生产环境公共行动的优势。实践者要点 本文进行的两个沿海地方政府如何生产环境公共行动的比较分析，以两种方式为当选官员和地方政府管理者提供信息：• 它揭示了在生产环境公共行动的范式框架组合中实施应对策略的必要性；• 它强调了共同生产环境公共行动的价值，作为克服不同范式框架共存所产生的悖论的手段。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Streamlining governance: How the “One Matter Initiative” reduces administrative burden and optimizes the regulatory climate in cities",
+            "title_zh": "精简治理：如何通过“一事一议”倡议减轻城市行政负担并优化监管环境",
+            "url": "https://doi.org/10.1177/00208523251381187",
+            "abstract_en": "Administrative burden has emerged as a critical lens for understanding the unintended consequences of public service delivery and regulatory practices. While the concept has been extensively applied to analyze citizen–state interactions, less attention has been paid to how administrative burden affects private actors. This study addresses this gap by extending administrative burden theory to the domain of public–private partnerships, with a focus on how “one matter initiatives” in developing countries can alleviate regulatory barriers. Drawing on firm-level data from the World Bank Enterprise Survey, we examine whether and how streamlining governance reduces administrative burden and improves the regulatory climate. The empirical results show that streamlining governance significantly reduces administrative burden and enhances the regulatory climate. These effects are more pronounced for small and medium-sized enterprises, underscoring the reform's distributional impact. Mediation analysis shows that administrative burden serves as a key mechanism through which reform initiatives influence business perceptions of government performance. The findings highlight the relevance of administrative burden theory in non-Western governance contexts and demonstrate the value of incorporating business perspectives into public administration research. By offering empirical evidence from China’s “One Matter Initiative”, this study contributes to a more global and nuanced understanding of how streamlining governance can foster a more enabling environment for enterprise development. Points for practitioners This study highlights that streamlining administrative procedures through initiatives like China’s “One Matter Initiative” significantly reduces administrative burden. For practitioners, the findings suggest that procedural simplification can effectively improve public–private partnerships, particularly in non-Western governance systems. Focusing on service coordination and reducing transaction friction is key to responsive and business-oriented public administration. Megacity Governance in China shows how reform-driven streamlining governance can reshape regulatory practices. The “One Matter Initiative” demonstrates that reducing administrative burden is not only a technical efficiency but also a strategic step toward building good city governance. For practitioners, the key lesson is that coordinated service delivery and burden reduction carry broader significance: they reinforce city governance capacity and offer a replicable model for reform in other contexts.",
+            "abstract_zh": "行政负担已成为理解公共服务交付和监管实践意外后果的关键视角。尽管这一概念已广泛应用于分析公民与国家之间的互动，但对于行政负担如何影响私人行为者的关注较少。本研究通过将行政负担理论扩展到公私合作伙伴关系的领域，填补了这一空白，重点关注发展中国家的“一事一议”倡议如何减轻监管障碍。利用世界银行企业调查的公司层面数据，我们检验了简化治理是否以及如何减少行政负担并改善监管环境。实证结果表明，简化治理显著减少了行政负担并增强了监管环境。这些效应在中小企业中更为明显，突显了改革的分配影响。中介分析显示，行政负担是改革举措影响企业对政府绩效感知的关键机制。研究结果强调了行政负担理论在非西方治理环境中的相关性，并证明了将商业视角纳入公共行政研究的价值。通过提供中国“一事一议”倡议的实证证据，本研究有助于更全面、细致地理解简化治理如何促进企业发展的更有利环境。实践者要点：本研究强调，通过中国“一事一议”等倡议简化行政程序显著减少了行政负担。对于实践者来说，研究结果表明，程序简化可以有效改善公私合作伙伴关系，特别是在非西方治理体系中。专注于服务协调和减少交易摩擦是响应迅速、以业务为导向的公共行政的关键。中国的超大城市治理展示了改革驱动的简化治理如何重塑监管实践。“一事一议”倡议表明，减少行政负担不仅是技术效率问题，也是建设良好城市治理的战略步骤。对于实践者来说，关键教训是协调服务交付和负担减轻具有更广泛的意义：...",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "The devil in the details: Equalization in Italian municipal federalism",
+            "title_zh": "魔鬼在细节中：意大利市政联邦主义中的均等化",
+            "url": "https://doi.org/10.1177/00208523251364184",
+            "abstract_en": "This paper provides the first independent and reproducible assessment of the redistributive effects of Italy's municipal federalism, a system recognized by the Organisation for Economic Co-operation and Development as a sophisticated gap-filling model for reducing territorial disparities. The actual redistributive outcomes of these mechanisms remain largely unexplored. Therefore, the research question is: What is the impact of municipal federalism across Italian territories with respect to the horizontal and vertical components of equalization? To answer this, the paper reconstructs institutional background and conducts a quantitative analysis of a statistically representative sample of 79 provincial capital municipalities of Italy's Ordinary Statute Regions, covering the period 2015–2024. Findings reveal that the equalization goals established in the enabling federalist laws have not been achieved due to a series of operational details. While limited in scope, this study contributes to understanding of how technical implementation of municipal federalism may affect equity goals in federal systems. It may also open new avenues for future research into the political and administrative dynamics behind equalization mechanisms. Points for practitioners Define and implement essential levels of services (LEPs): without clear LEPs, equalization formulas tend to assign larger needs, and therefore resources, to municipalities with higher expenditure or services. Increase the weight of vertical equalization transfers to reduce territorial disparities. Expand the quota of equalized fiscal capacity to better reflect true revenue-generating potential and address structural inequalities among municipalities. Eliminate hidden mechanisms that offset equalization gains: the presence of non-transparent technical adjustments undermines redistributive goals.",
+            "abstract_zh": "本文首次独立且可复现地评估了意大利市政联邦制的再分配效应，该制度被经济合作与发展组织视为一种复杂的填补差距模型，用于减少地区差异。这些机制的实际再分配结果尚未得到充分探索。因此，研究问题是：市政联邦制对意大利各地区在横向和纵向均衡方面的再分配影响是什么？为了回答这个问题，本文重构了制度背景，并对战后意大利普通法令区域79个省级首府城市进行了统计代表性样本的定量分析，覆盖了2015-2024年期间。研究结果揭示了，由于一系列操作细节，联邦制法律中确立的均衡目标并未实现。尽管范围有限，但这项研究有助于理解市政联邦制的技术实施如何影响联邦系统中的公平目标。它还可能为未来研究均衡机制背后的政治和行政动态开辟新途径。对实践者的建议：定义并实施基本服务水平（LEPs）：没有明确的LEPs，均衡公式倾向于为支出或服务更高的城市分配更大的需求，因此资源也更多。增加纵向均衡转移的权重，以减少地区差异。扩大均衡财政能力的配额，以更好地反映真正的收入生成潜力，并解决城市之间的结构性不平等。消除抵消均衡收益的隐性机制：不透明的技术调整的存在破坏了再分配目标。",
+            "matched_topics": [
+              "房地产",
+              "城市治理"
+            ]
+          }
+        ],
+        "error": null
+      },
+      {
+        "name": "Journal of Comparative Policy Analysis: Research and Practice",
+        "query_name": "Journal of Comparative Policy Analysis: Research and Practice",
+        "issn": "1387-6988",
+        "resolved_name": "Journal of Comparative Policy Analysis Research and Practice",
+        "issue_title": "Volume 28, Issue 2",
+        "issue_url": "https://www.tandfonline.com/journals/fcpa20",
+        "matched_count": 7,
+        "total_in_issue": 7,
+        "papers": [
+          {
+            "title_en": "Comparative Analysis of Policy and Practice for Atrocity Prevention",
+            "title_zh": "暴行预防政策与实践的比较分析",
+            "url": "https://doi.org/10.1080/13876988.2026.2617924",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Impact Assessment of the Maputo Protocol on Mass Atrocity Prevention in Africa: A Comparative Analysis of Policy Integration in Ghana and Cameroon",
+            "title_zh": "《马普托议定书对非洲大规模暴行预防影响评估：加纳与喀麦隆政策整合的比较分析》",
+            "url": "https://doi.org/10.1080/13876988.2026.2614546",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Comparative Insights on Social Media as an Atrocity Prevention Tool: Policy Implications",
+            "title_zh": "社交媒体作为暴行预防工具的比较洞见：政策含义",
+            "url": "https://doi.org/10.1080/13876988.2025.2582019",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Cultivating Crisis: Comparative Cases of Policy Complicity, Slow Violence, and Cultural Genocide",
+            "title_zh": "培育危机：政策共谋、慢性暴力与文化灭绝的比较案例",
+            "url": "https://doi.org/10.1080/13876988.2025.2594030",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理",
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "The Prevention of Torture: A Comparative Analysis of Policy and Practice",
+            "title_zh": "预防酷刑：政策与实践的比较分析",
+            "url": "https://doi.org/10.1080/13876988.2025.2568901",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "公共政策"
+            ]
+          },
+          {
+            "title_en": "Organized Demands: Comparative Perspectives on People’s Tribunals as a Mass Atrocity Prevention Tool",
+            "title_zh": "有组织的诉求：人民法庭作为大规模暴行预防工具的比较视角",
+            "url": "https://doi.org/10.1080/13876988.2025.2557418",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "The Human Rights Sequence Theory of Atrocity: A Comparative Analysis",
+            "title_zh": "暴行人权序列理论：比较分析",
+            "url": "https://doi.org/10.1080/13876988.2025.2551039",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理"
+            ]
+          }
+        ],
+        "error": null
+      }
+    ],
+    "note": "Filter by title/abstract keywords for real estate, urban governance, and public policy in the latest issue TOC of each tracked journal."
+  }
+}

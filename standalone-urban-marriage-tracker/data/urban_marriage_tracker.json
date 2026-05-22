@@ -1,0 +1,23 @@
+{
+  "updated_at": "",
+  "translation": {
+    "engine": "kimi",
+    "model": "moonshot-v1-8k",
+    "enabled": false,
+    "success_count": 0,
+    "fail_count": 0,
+    "failed_examples": [],
+    "note": "Run standalone-urban-marriage-tracker/scripts/update_urban_marriage_tracker.py to generate data."
+  },
+  "urban_marriage_tracker": {
+    "topics": [
+      "城市治理",
+      "房地产",
+      "婚姻"
+    ],
+    "topic_keywords": {},
+    "max_papers_per_journal": 12,
+    "journals": [],
+    "note": "Seed file. Run the updater to fetch current latest-issue data."
+  }
+}

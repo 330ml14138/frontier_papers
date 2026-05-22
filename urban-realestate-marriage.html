@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Urban Governance, Real Estate and Marriage Literature Tracker</title>
+  <meta name="description" content="追踪国内外经济学、政治学、公共管理学、社会学顶级期刊中有关城市治理、房地产、婚姻方向的最新文献。">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/urban-marriage-app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Interdisciplinary Literature Tracker</p>
+      <h1>城市治理 · 房地产 · 婚姻</h1>
+      <p class="hero-subtitle">
+        追踪国内外经济学、政治学、公共管理学、社会学顶级期刊和相关领域期刊的最新一期目录，并按主题筛选文献。
+      </p>
+      <div class="hero-meta">
+        <span id="update-time">加载中...</span>
+        <button id="refresh-btn" type="button">刷新数据</button>
+        <a href="standalone-urban-marriage-tracker/data/urban_marriage_tracker.json" target="_blank" rel="noopener">查看原始 JSON</a>
+        <a href="./index.html">政策追踪页</a>
+        <a href="./econ-frontier.html">经济学扩展页</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls controls-four">
+      <label class="control">
+        <span>主题</span>
+        <select id="topic-filter">
+          <option value="">全部主题</option>
+        </select>
+      </label>
+
+      <label class="control">
+        <span>学科</span>
+        <select id="field-filter">
+          <option value="">全部学科</option>
+        </select>
+      </label>
+
+      <label class="control">
+        <span>期刊</span>
+        <select id="journal-filter">
+          <option value="">全部期刊</option>
+        </select>
+      </label>
+
+      <label class="control control-search">
+        <span>关键词</span>
+        <input id="search-input" type="search" placeholder="例如 housing / municipal / marriage / 彩礼">
+      </label>
+    </section>
+
+    <section id="summary-cards" class="summary-cards" aria-live="polite"></section>
+    <section id="error-box" class="error-box" hidden></section>
+    <section id="journal-list" class="journal-list" aria-live="polite"></section>
+  </main>
+</body>
+</html>
