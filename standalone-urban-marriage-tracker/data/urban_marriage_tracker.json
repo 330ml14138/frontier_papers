@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-24 06:52:03",
+  "updated_at": "2026-05-31 07:15:07",
   "translation": {
     "engine": "kimi",
     "model": "moonshot-v1-8k",
     "enabled": true,
-    "success_count": 3,
+    "success_count": 34,
     "fail_count": 0,
     "failed_examples": [],
     "note": "Set KIMI_API_KEY to enable Chinese translation."
@@ -106,62 +106,11 @@
         "query_name": "American Economic Review",
         "issn": "0002-8282",
         "resolved_name": "American Economic Review",
-        "issue_title": "Volume 116, Issue 5",
+        "issue_title": "Volume 116, Issue 6",
         "issue_url": "https://www.aeaweb.org/journals/aer",
-        "matched_count": 5,
-        "total_in_issue": 11,
-        "papers": [
-          {
-            "title_en": "Conservation Priorities and Environmental Offsets: Markets for Florida Wetlands",
-            "title_zh": "保护优先事项与环境补偿：佛罗里达湿地市场",
-            "url": "https://doi.org/10.1257/aer.20231016",
-            "abstract_en": "We introduce an empirical framework for valuing markets in environmental offsets. Using newly collected data on wetland conservation and offsets, we apply this framework to evaluate a set of decentralized markets in Florida, where land developers purchase offsets from long-lived producers who restore wetlands over time. We find offsets led to substantial private gains from trade, creating $2.4 billion of net surplus from 1995 to 2020 relative to direct conservation. Offset trading also generated new hydrological externalities. A locally differentiated Pigouvian tax would have prevented $1.6 billion of new flood damage while preserving more than two-thirds of the private gains from trade. (JEL D47, D62, H23, Q24, Q54, Q57, R14)",
-            "abstract_zh": "我们引入了一个用于评估环境补偿市场价值的经验框架。利用新收集的湿地保护和补偿数据，我们将这一框架应用于评估佛罗里达州的一系列分散市场，在那里，土地开发商从长期恢复湿地的生产商那里购买补偿。我们发现，补偿导致了显著的私人贸易收益，从1995年到2020年相对于直接保护创造了24亿美元的净剩余。补偿交易还产生了新的水文外部性。一个本地差异化的庇古税本可以防止16亿美元的新洪水损害，同时保留超过三分之二的私人贸易收益。（JEL D47, D62, H23, Q24, Q54, Q57, R14）",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Labor Market Competition and the Assimilation of Immigrants",
-            "title_zh": "劳动市场竞争与移民同化",
-            "url": "https://doi.org/10.1257/aer.20220865",
-            "abstract_en": "This paper shows that the wage assimilation of immigrants is the result of the intricate interplay between individual skill accumulation and dynamic labor market equilibrium effects. When immigrants and natives are imperfect substitutes, rising immigrant inflows widen the wage gap between them. Using a production function framework in which workers supply both general and host-country-specific skills, we show that this labor market competition channel explains about one-fifth of the large increase in the average immigrant–native wage gap across arrival cohorts in the United States since the 1960s. The results further reveal substantial heterogeneity across different groups of immigrants. (JEL J22, J23, J24, J31, J61, K37, O33)",
-            "abstract_zh": "本文表明，移民的工资同化是个体技能积累与动态劳动市场均衡效应之间复杂相互作用的结果。当移民和本地人是不完全替代品时，移民流入的增加会扩大他们之间的工资差距。我们使用一个生产函数框架，其中工人提供一般技能和东道国特定技能，表明这种劳动市场竞争渠道解释了自20世纪60年代以来美国不同入境队列中移民与本地人平均工资差距大幅增加的约五分之一。结果还揭示了不同移民群体之间的显著异质性。（JEL J22, J23, J24, J31, J61, K37, O33）",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Internal versus Institutional Barriers to Gender Equality: Evidence from British Politics",
-            "title_zh": "内部与制度障碍对性别平等的影响：来自英国政治的证据",
-            "url": "https://doi.org/10.1257/aer.20241127",
-            "abstract_en": "Weekly lotteries determine which politicians ask the UK prime minister a question in front of a male-dominated, noisy chamber. Lottery winners receive 4 percent higher vote margin in the next election, but women are 12 percent less likely to submit questions than same-cohort men. The gender gap does not close with lottery-induced experience asking a question, but it closes after a format change, with questions asked to a smaller, quieter audience. The switch differentially draws in women with quieter voices. Our findings support institutional change, rather than experience, as a response to gender gaps in adversarial settings like the UK Parliament. (JEL D44, D72, J16)",
-            "abstract_zh": "每周的彩票决定哪些政治家在英国首相面前的男性主导、嘈杂的议事厅中提问。彩票赢家在下一次选举中获得4%更高的投票率，但女性提交问题的可能性比同组男性低12%。性别差距并没有因为通过彩票获得提问经验而缩小，但在格式变化后缩小了，问题被问向一个更小、更安静的听众。这种转变特别吸引声音更柔和的女性。我们的发现支持制度变革，而不是经验，作为应对英国议会等对抗性环境中性别差距的回应。（JEL D44, D72, J16）",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "The Gender Pay Gap: Micro Sources and Macro Consequences",
-            "title_zh": "性别工资差距：微观来源与宏观后果",
-            "url": "https://doi.org/10.1257/aer.20231107",
-            "abstract_en": "Using linked employer-employee data from Brazil, we document a significant gender pay gap, which is largely attributed to women working at lower-paying employers. To interpret this fact, we develop an equilibrium search model with endogenous firm pay, amenities, and hiring. We provide a constructive proof of identification of all model parameters. The estimated model suggests that amenities are important for both men and women, and that compensating differentials account for half of the gender pay gap. Equal treatment policies partly close gender gaps but are not output- or welfare-improving. (JEL E24, J16, J23, J31, J32, M51, O15)",
-            "abstract_zh": "利用巴西的雇主-雇员匹配数据，我们记录了一个显著的性别工资差距，这在很大程度上归因于女性在低薪雇主处工作。为了解释这一事实，我们开发了一个具有内生企业薪酬、便利设施和招聘的均衡搜索模型。我们提供了所有模型参数识别的建设性证明。估计模型表明，便利设施对男性和女性都很重要，补偿性差异占性别工资差距的一半。平等待遇政策部分缩小了性别差距，但并未提高产出或福利。（JEL E24, J16, J23, J31, J32, M51, O15）",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Effects of Parental Death on Labor Market Outcomes",
-            "title_zh": "父母去世对劳动市场结果的影响",
-            "url": "https://doi.org/10.1257/aer.20240432",
-            "abstract_en": "We use Danish administrative data to examine the effects of parental death on labor market outcomes. Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men’s earnings decline by 2 percent, while women’s earnings decline by 3 percent following a parental death. Both women and men experience mental health deterioration, leading to increased use of psychological assistance and prescriptions for mental health conditions and opioids. Women with young children experience a comparatively larger earnings decline (around 4 percent) likely due to the loss of informal childcare. (JEL D91, I12, J13, J16, J31)",
-            "abstract_zh": "我们利用丹麦行政数据来检验父母死亡对劳动市场结果的影响。利用突发性首次父母死亡的时间以及匹配控制的差异-差异策略，我们发现父母死亡后男性收入下降2%，而女性收入下降3%。女性和男性都经历了心理健康恶化，导致心理援助的使用增加，以及精神健康状况和阿片类药物的处方增加。有年幼子女的女性收入下降幅度相对较大（约4%），可能由于失去了非正式的儿童照护。（JEL D91, I12, J13, J16, J31）",
-            "matched_topics": [
-              "房地产"
-            ]
-          }
-        ],
+        "matched_count": 0,
+        "total_in_issue": 10,
+        "papers": [],
         "error": null
       },
       {
@@ -214,19 +163,20 @@
         "query_name": "Journal of Political Economy",
         "issn": "0022-3808",
         "resolved_name": "Journal of Political Economy",
-        "issue_title": "Volume 134, Issue 5",
+        "issue_title": "Volume 134, Issue 6",
         "issue_url": "https://www.journals.uchicago.edu/journals/jpe",
         "matched_count": 1,
         "total_in_issue": 9,
         "papers": [
           {
-            "title_en": "A Model of Social Duties",
-            "title_zh": "社会职责模型",
-            "url": "https://doi.org/10.1086/739834",
-            "abstract_en": "We develop and test a model of social duties. The model distinguishes unconditional duties to take or avoid certain actions from conditional duties that depend on the actions’ payoffs. It also distinguishes strict duties (must do) from liberal duties (ought to do). The disutility associated with duty violation depends on the duty’s strictness and is proportional to the externality the violation causes. The model rationalizes behavioral patterns that are incompatible with consequentialist preferences. Our tests comprise parameter estimation based on subjects’ behavior across different situations as well as measurement of duties through spectators’ appropriateness ratings.",
-            "abstract_zh": "我们开发并测试了一个社会责任模型。该模型区分了无条件的行动或避免某些行为的责任与依赖于行动收益的条件责任。它还区分了严格责任（必须做）和自由责任（应该做）。违反责任所带来的不便利与责任的严格性相关，并且与违反行为所引起的外部性成正比。该模型合理化了与后果主义偏好不兼容的行为模式。我们的测试包括基于不同情境下受试者行为的参数估计以及通过旁观者的适当性评分来测量责任。",
+            "title_en": "Revolutionary Transition: Inheritance Change and Fertility Decline",
+            "title_zh": "革命性转变：遗产变化与生育率下降",
+            "url": "https://doi.org/10.1086/739821",
+            "abstract_en": "We test Le Play's (1875) hypothesis that the French Revolution contributed to France's early fertility decline by imposing equal partition of inheritance among all children, including women. We combine new data on local inheritance rules before the Revolution and individual-level demographic data from historical sources and crowdsourced genealogies. Difference-in-differences and regression-discontinuity estimates show that the inheritance reforms enacted during the Revolution reduced completed fertility by 0.5 children. A key mechanism was the desire to avoid land fragmentation across generations. These reforms closed the fertility gap between regions with different historical inheritance rules and crucially contributed to France's demographic transition.",
+            "abstract_zh": "我们检验了勒普莱（1875年）的假设，即法国大革命通过在所有子女，包括女性中实行平等继承权，促成了法国早期的生育率下降。我们结合了大革命前地方继承规则的新数据和来自历史资料及众包家谱的个体层面人口数据。差异-差异和回归不连续估计表明，大革命期间实施的继承改革使完成生育率降低了0.5个孩子。一个关键机制是避免土地在代际间分割的愿望。这些改革缩小了不同历史继承规则地区之间的生育率差距，并为法国的人口转变做出了重要贡献。",
             "matched_topics": [
-              "房地产"
+              "房地产",
+              "婚姻"
             ]
           }
         ],
@@ -346,37 +296,15 @@
         "query_name": "Journal of Urban Economics",
         "issn": "0094-1190",
         "resolved_name": "Journal of Urban Economics",
-        "issue_title": "Published 2026-05",
+        "issue_title": "Published 2026-08",
         "issue_url": "https://www.sciencedirect.com/journal/journal-of-urban-economics",
-        "matched_count": 6,
-        "total_in_issue": 12,
+        "matched_count": 2,
+        "total_in_issue": 5,
         "papers": [
           {
-            "title_en": "Asian immigrants, school quality, and the U.S. housing market",
-            "title_zh": "亚洲移民、学校质量与美国住房市场",
-            "url": "https://doi.org/10.1016/j.jue.2026.103860",
-            "abstract_en": "This paper investigates how Asian immigrants affect U.S. housing prices and identifies the mechanisms underlying these effects. Using annual county-level data from 2009 to 2018 and a dual instrumental variable approach, we decompose the overall impact of Asian immigrants into education-related and non-education channels. We find that roughly 30%–40% of the housing price increase associated with Asian immigration is driven by the capitalization of improved educational amenities, while the remaining 60%–70% reflects non-education forces, such as home-biased foreign capital inflows and other neighborhood changes. The education-related capitalization effects are greater in counties with a higher share of Asian school-aged children, underscoring the key insight that immigrant composition — specifically, who arrives — matters for how immigration shapes local housing markets.",
-            "abstract_zh": "本文研究了亚洲移民如何影响美国房价，并识别了这些影响背后的机制。利用2009年至2018年的年度县级数据和双重工具变量方法，我们将亚洲移民对房价的整体影响分解为与教育相关的和非教育渠道。我们发现，与亚洲移民相关的房价上涨中，大约30%-40%是由改善教育设施的资本化推动的，而剩余的60%-70%反映了非教育因素，如偏向本国的外国资本流入和其他社区变化。与教育相关的资本化效应在亚洲学龄儿童比例较高的县更大，这强调了一个关键见解：移民构成——特别是谁到来——对移民如何塑造当地住房市场至关重要。",
-            "matched_topics": [
-              "城市治理",
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Judge for yourself? The impact of controls on the rental market in interwar New York",
-            "title_zh": "自行判断？战间纽约租赁市场控制的影响",
-            "url": "https://doi.org/10.1016/j.jue.2026.103859",
-            "abstract_en": "This paper examines the impact of early 20th-century rent control laws in New York City, exploiting judicial discretion as a source of variation. The 1920 regulations empowered municipal court judges to decide whether rent increases were “reasonable”, with rulings shaped by partisan affiliation. We assemble a new dataset of over 20,000 rental listings from the New York Times (1918–1930) and more than 7000 archival building permits, linked to records on 125 district judges. Using a Regression Discontinuity Design at municipal court district boundaries, we find that market rents rose by nearly 10 percent when crossing from Democrat- to Republican-controlled districts after rent control. We examine supply effects using a difference-in-differences design. We show that judicially enforced rent control substantially reduced residential investment: total residential investment was about 76 percent higher in landlord-friendly districts during the rent-control period. Together, these findings demonstrate how judicial discretion shaped both prices and investment, leading to systematic differences in profits and construction activity across districts, which likely shaped the medium-run build environment.",
-            "abstract_zh": "本文考察了20世纪初纽约市租金控制法的影响，利用司法自由裁量权作为变化的来源。1920年的法规赋予市政法院法官决定租金上涨是否“合理”的权力，裁决受到党派归属的影响。我们汇编了一个新的数据集，包含来自《纽约时报》（1918-1930年）的超过20,000个租赁列表，以及7000多个档案建筑许可证，这些数据与125名地区法官的记录相关联。我们使用市政法院辖区边界的回归不连续设计，发现在租金控制后，从民主党控制区到共和党控制区，市场租金上涨了近10%。我们使用差异-差异设计来检验供应效应。我们展示了司法执行的租金控制大幅减少了住宅投资：在租金控制期间，房东友好区的总住宅投资大约高出76%。这些发现共同表明，司法自由裁量权如何塑造了价格和投资，导致各区利润和建筑活动出现系统性差异，这可能影响了中期建筑环境。",
-            "matched_topics": [
-              "城市治理",
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Corrigendum to “Judge for Yourself? The Impact of Controls on the Rental Market in Interwar New York” [Journal of Urban Economics, Volume 153 (2026), Article 103859]",
-            "title_zh": "《自行判断？对两战间纽约租赁市场控制的影响》[《城市经济学杂志》，第153卷（2026年），文章编号103859]勘误表",
-            "url": "https://doi.org/10.1016/j.jue.2026.103865",
+            "title_en": "Development approval times and new housing supply: Evidence from Los Angeles",
+            "title_zh": "开发审批时间与新房供应：来自洛杉矶的证据",
+            "url": "https://doi.org/10.1016/j.jue.2026.103872",
             "abstract_en": "",
             "abstract_zh": "",
             "matched_topics": [
@@ -384,33 +312,13 @@
             ]
           },
           {
-            "title_en": "Property tax competition: A quantitative assessment",
-            "title_zh": "财产税竞争：一项定量评估",
-            "url": "https://doi.org/10.1016/j.jue.2026.103861",
-            "abstract_en": "We develop a model of property taxation and characterize equilibria under three alternative taxation regimes often used in the public finance literature: decentralized taxation, centralized taxation, and “rent seeking” regimes. We show that decentralized taxation results in inefficiently high tax rates, whereas centralized taxation yields a common optimal tax rate, and tax rates in the rent-seeking regime can be either inefficiently high or low. We quantify the effects of switching from the observed tax system to the three regimes for Japan and Germany. The decentralized or rent-seeking regime best describes the Japanese tax system, whereas the centralized regime does so for Germany. We also quantify the welfare effects of regime changes.",
-            "abstract_zh": "我们构建了一个财产税模型，并在公共财政文献中常用的三种替代税收制度下描述了均衡：分权税收、集中税收和“寻租”制度。我们表明，分权税收导致效率低下的高税率，而集中税收产生共同的最优税率，寻租制度下的税率可能过高或过低。我们量化了从观察到的税收体系转向日本和德国的三种制度的影响。分权或寻租制度最好地描述了日本的税收体系，而集中制度则适用于德国。我们还量化了制度变化的福利效应。",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "The impact of natural disasters on rental markets: Heterogeneous effects, rental subsidies, and equity in disaster recovery",
-            "title_zh": "自然灾害对租赁市场的影响：异质性效应、租赁补贴与灾后恢复中的公平性",
-            "url": "https://doi.org/10.1016/j.jue.2026.103862",
+            "title_en": "Fracking ghost towns: How neighborhood exposure drives population decline",
+            "title_zh": "水力压裂鬼城：邻里暴露如何导致人口下降",
+            "url": "https://doi.org/10.1016/j.jue.2026.103870",
             "abstract_en": "",
             "abstract_zh": "",
             "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Extrapolative households and strategic firms: Evidence from China’s land and housing market",
-            "title_zh": "外推型家庭与策略型企业：来自中国土地和住房市场的证据",
-            "url": "https://doi.org/10.1016/j.jue.2026.103864",
-            "abstract_en": "This paper examines households’ extrapolative behaviors and developers’ strategic responses in China’s land and housing markets. Our stylized model predicts that when households extrapolate in the housing market, developers with nearby land holdings strategically bid higher, anticipating rising housing prices to boost the value of their existing stock. Using the exogenous timing of land auctions, we show that higher land premiums increase transaction prices and volumes of nearby houses. Furthermore, developers with nearby land stocks consistently pay higher premiums in the land auctions. We exploit a policy reform and implement various tests to support the hypothesis that developers strategically influence homebuyers’ expectations.",
-            "abstract_zh": "本文研究了中国土地和住房市场中家庭的外推行为和开发商的战略反应。我们的风格化模型预测，当家庭在住房市场中进行外推时，拥有附近土地的开发商会策略性地出更高的价格，预期房价上涨以提升他们现有库存的价值。利用土地拍卖的外生时机，我们展示了更高的土地溢价增加了附近房屋的交易价格和数量。此外，拥有附近土地库存的开发商在土地拍卖中始终支付更高的溢价。我们利用政策改革并实施各种测试来支持开发商战略性地影响购房者预期的假设。",
-            "matched_topics": [
-              "房地产"
+              "城市治理"
             ]
           }
         ],
@@ -435,33 +343,11 @@
         "query_name": "China Economic Review",
         "issn": "1043-951X",
         "resolved_name": "China Economic Review",
-        "issue_title": "Published 2026-05",
+        "issue_title": "Published 2026-07",
         "issue_url": "https://www.sciencedirect.com/journal/china-economic-review",
-        "matched_count": 2,
-        "total_in_issue": 20,
-        "papers": [
-          {
-            "title_en": "Impacts of administrative policy changes on housing prices: Evidence from the removal of China's housing purchase and resale restrictions",
-            "title_zh": "行政政策变动对房价的影响：来自中国取消住房购买和转售限制的证据",
-            "url": "https://doi.org/10.1016/j.chieco.2026.102716",
-            "abstract_en": "Since 2022, China's local governments have progressively lifted housing purchase (HP) and housing sales (HS) restrictions that had been in place for many years in an effort to stimulate local housing markets. In this study, using a large dataset of transaction data from Beike, we employ an event study approach to assess the impacts of these policy changes on secondhand housing prices. The results indicate that the removal of HP restrictions alone does not have any significantly effect on housing prices. However, the simultaneous removal of both HP and HS restrictions leads to a 3.1% reduction in housing prices, with a more pronounced effect observed for higher-priced properties. Additionally, we explore the mechanisms through which the removal of HP and HS restrictions affects housing prices, focusing on supply and demand dynamics in the secondhand housing market.",
-            "abstract_zh": "自2022年以来，中国地方政府逐步解除了多年来实施的住房购买（HP）和住房销售（HS）限制，以刺激当地住房市场。在本研究中，我们利用贝壳的大量交易数据集，采用事件研究方法评估这些政策变化对二手房价格的影响。结果表明，仅解除HP限制对房价没有显著影响。然而，同时解除HP和HS限制导致房价下降3.1%，对高价房产的影响更为明显。此外，我们探讨了解除HP和HS限制影响房价的机制，重点关注二手房市场的供需动态。",
-            "matched_topics": [
-              "城市治理",
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Information leverage: Housing market dynamics in public rehabilitation projects",
-            "title_zh": "信息杠杆：公共康复项目中住房市场动态",
-            "url": "https://doi.org/10.1016/j.chieco.2026.102722",
-            "abstract_en": "",
-            "abstract_zh": "",
-            "matched_topics": [
-              "房地产"
-            ]
-          }
-        ],
+        "matched_count": 0,
+        "total_in_issue": 1,
+        "papers": [],
         "error": null
       },
       {
@@ -907,7 +793,7 @@
             "title_zh": "为政策设计行为洞察：过程、能力与机构 作者：伊沙尼·穆克吉和阿塞尔·穆萨古洛娃，剑桥大学出版社，英国剑桥，2024年。84页，23美元。ISBN：978-1-00-926446-4",
             "url": "https://doi.org/10.1111/puar.70119",
             "abstract_en": "Much scholarship on Behavioral Public Policy focuses on questions of ethics, effectiveness, and implementation (Einfeld 2025). Designing Behavioural Insights for Policy: Processes, Capacities and Institutions from Ishani Mukhurjee and Assel Mussagulova brings a new perspective to an under-theorized area of scholarship, focusing on the policy design, instrumentation, and innovation of behavioral insights. Designing Behavioural Insights for Policy is a Cambridge Element, which are succinct academic publications that sit in length between a traditional book and a journal article. The use of Behavioral Public Policy continues to grow. The approach has been described as a “paradigm shift” by the OECD, and there are now over 300 behavioral insights teams around the world (OECD 2023). Academic scholarship is also increasingly attending to behavioral insights (Leong and Howlett 2020). This scholarship has focused on defining behavioral insights and evaluating outcomes, with less attention paid to the administrative processes in the design and decisions to use behavioral public policy. This Element theorizes the support needed to embed behavioral insights in policy practice. It asks the compelling question “What are the key capacity and procedural prerequisites for the integration of BI into the design of policy tools?” It proceeds to answer the question through a framework that brings together theory on policy capacity, policy design and tools, and policy innovation. In doing so it makes a useful contribution to the policy and public administration literature, building on the authors' expertise in these areas. Ishani Mukherjee is a policy expert who has written extensively on policy design, as well as policy advice and policy capacity. The Element also demonstrates Assel Mussagulova's expertise in public administration and innovation. The authors cleverly bring their knowledge together with the hopes of developing more nuance in policy design with regards to rationality, and a more rigorous understanding of the tools in behavioral insights. Chapter 1 introduces behavioral insights in the policy design and instrumentation literature. The authors argue convincingly that policy design and instrumentation is one approach that would help theorize behavioral public policy processes, while also enriching the policy design literature by developing a more nuanced account of assumptions of rationality in policy communities. Chapter 2 then identifies the limited engagement between behavioral public policy and policy design theory. The chapter provides an overview of Hood and Margetts (2007) influential NATO framework, considering the role of behavior in Nodality, Authority, Treasury, and Organization. The authors note the gap theorizing the organizational design and administration of behavioral public policy and introduce the role of procedural tools and the analytical capacities. Chapter 3 considers the capacity requirements using the framework of innovation adoption. Each stage of innovation adoption is examined and considered in light of the institutionalization of behavioral insights, an analysis they develop in their case studies in Chapter 4. These case studies of the Netherlands, Australia, and Singapore are well-researched areas of behavioral insights adoption, with the countries enthusiastically leading the way in institutionalization of the approach. Australia provides an example of a structured collaborative approach, the Netherlands a networked, bottoms-up approach, and Singapore as a centrally supported networked approach. Chapter 5 re-emphasizes the gap in the literature on the lack of theory of the administrative requirements to support BI. It offers a framework that can be used to understand the different capacities and capabilities needed in a typical project, before highlighting some of the remaining puzzles, including the need to categorize different behavioral tools. Designing Behavioural Insights for Policy represents an impressive effort to marry academic scholarship on the form of behavioral public policy and practice literature on the experience of using behavioral insights, clearly identifying the gap of using policy design theory with behavioral insights. The case studies are well chosen, given that the Netherlands, Australia, and Singapore were all at the forefront of the development and adoption of behavioral public policy. It would be interesting in the future to compare this to other bureaucracies, particularly in the global south with different administrative contexts. The authors aim for neutrality and deliberately do not engage in the raging ethical, normative and political debates on behavioral insights, beyond a brief mention of politics in the case studies. Greater engagement with more critical work might have enriched the work further. Foregrounding the ethical and political reasons why behavioral insights may or may not assume the same innovation trajectory or institutionalization in different contexts would make the theoretical framework more compelling. The Element covers policy capacity, policy design and tools, and innovation adoption. In providing the necessary summaries and justifications of including these theories to develop insights, Designing Behavioural Insights for Policy struggles for space to develop its application and analysis to behavioral insights. For example, in the Netherlands case, the authors note that organizational arrangements and political support for a more formal approach to behavioral public policy came later, but include limited examination of what capacity was needed for this organizational support and what institutional contestations and challenges were faced. In bringing together so many concepts, the commitment to exploring these in the context of behavioral public policy is somewhat left diluted. The short form of the Element may also be why other interesting questions, such as the need to conceptualize the proliferation of behavioral public policy tools, were ultimately left as remaining puzzles. Focusing on fewer theoretical frameworks and deeper engagement with behavioral public policy would brought greater balance to the Element. Nonetheless, Designing Behavioural Insights for Policy demonstrates an innovative approach to theory development in bringing together multiple policy theories to develop new understandings of policy processes. The author declares no conflicts of interest.",
-            "abstract_zh": "许多关于行为公共政策的学术研究集中在伦理、效果和实施问题上（Einfeld 2025）。Ishani Mukhurjee和Assel Mussagulova的《为政策设计行为洞察：过程、能力和机构》为这个理论不足的学术领域带来了新视角，专注于行为洞察的政策设计、工具和创新。《为政策设计行为洞察》是一部剑桥元素作品，这是一种简洁的学术出版物，篇幅介于传统书籍和期刊文章之间。行为公共政策的使用持续增长。经合组织将其描述为“范式转变”，全球现在有超过300个行为洞察团队（OECD 2023）。学术研究也越来越关注行为洞察（Leong和Howlett 2020）。这些研究集中于定义行为洞察和评估结果，对设计和决策中使用行为公共政策的行政过程关注较少。这个元素理论化了将行为洞察嵌入政策实践所需的支持。它提出了一个引人入胜的问题：“将行为洞察（BI）整合到政策工具设计中的关键能力和程序先决条件是什么？”然后通过一个框架来回答这个问题，该框架汇集了政策能力、政策设计和工具以及政策创新的理论。这样做为政策和公共管理文献做出了有益的贡献，基于作者在这些领域的专业知识。Ishani Mukherjee是一位政策专家，广泛撰写了关于政策设计、政策建议和政策能力的文章。该元素还展示了Assel Mussagulova在公共管理和创新方面的专业知识。作者巧妙地将他们的知识结合起来，希望在政策设计中发展出更细微的理性理解，以及对行为洞察工具更严格的理解。第1章介绍了政策设计和工具文献中的行为洞察。作者有说服力地论证了政策设计和工具是帮助理论化行为公共政策过程的一种方法，同时也通过发展对政策社区中理性假设的更细微解释，丰富了政策设计文献。第2章接着识别了有限的参与……",
+            "abstract_zh": "许多关于行为公共政策的学术研究集中在伦理、效果和实施问题上（Einfeld 2025）。Ishani Mukhurjee和Assel Mussagulova的《为政策设计行为洞察：过程、能力和机构》为这个理论不足的学术领域带来了新视角，专注于行为洞察的政策设计、工具和创新。《为政策设计行为洞察》是一部剑桥元素作品，这是一种简洁的学术出版物，篇幅介于传统书籍和期刊文章之间。行为公共政策的使用持续增长。经合组织将其描述为“范式转变”，全球现在有超过300个行为洞察团队（OECD 2023）。学术研究也越来越关注行为洞察（Leong和Howlett 2020）。这些研究集中于定义行为洞察和评估结果，对设计和决策中使用行为公共政策的行政过程关注较少。这一元素理论化了将行为洞察嵌入政策实践所需的支持。它提出了一个引人入胜的问题：“将行为洞察（BI）整合到政策工具设计中的关键能力和程序先决条件是什么？”然后通过一个框架来回答这个问题，该框架汇集了政策能力、政策设计和工具以及政策创新的理论。这样做为政策和公共行政文献做出了有益的贡献，基于作者在这些领域的专业知识。Ishani Mukherjee是一位政策专家，广泛撰写了关于政策设计、政策建议和政策能力的文章。该元素还展示了Assel Mussagulova在公共行政和创新方面的专业知识。作者巧妙地将他们的知识结合起来，希望在政策设计中发展出更细微的理性理解，以及对行为洞察工具更严格的理解。第1章介绍了政策设计和工具文献中的行为洞察。作者有说服力地论证了政策设计和工具是帮助理论化行为公共政策过程的一种方法，同时也通过发展对政策社区中理性假设的更细微解释，丰富了政策设计文献。第2章随后识别了有限的参与……",
             "matched_topics": [
               "房地产"
             ]
@@ -917,7 +803,7 @@
             "title_zh": "公共部门的创新与创业。陈文迪、大卫·B·奥德里斯科尔著，纽约：牛津大学出版社，2025年。221页，39.95美元。ISBN：978‐0‐19‐767944‐9",
             "url": "https://doi.org/10.1111/puar.70120",
             "abstract_en": "It was a pleasure to read INNOVATION AND ENTREPRENEURSHIP IN THE PUBLIC SECTOR by Wendy Chen and David Audretsch. Within the pages of 10 well-written chapters, the authors take the reader from a historical overview of the role of the public sector in socially important innovation to a meaningful appreciation of decades of academic and policy thought about the manifestation of entrepreneurial behavior within an innovation process. Chapter 2 asks the question: Where did public innovation begin? The authors are meticulous in their trace that begins with the ancient powers in the Mesopotamian Region and with the establishment of the National Science Foundation in the United States. This is the most comprehensive such history that I have seen, and it offers appropriate context for the topics that follow. Chapter 3 addresses new frontiers in public innovation that have been brought about through digitization. All forms of electric information exchanges are described, in an evolutionary perspective, in a readable and understandable manner. Others will likely rely on this foundation to begin their own study of quantum technologies and the role of the public sector in its development. Hinting at the inevitable, namely policies to enhance entrepreneurial-based public innovation, collaboration is the topic of Chapter 4. It is touted as a mechanism for the exchange of information that is needed to develop entrepreneurial perceptions for potential government innovation. The authors make the case that government can advocate collaboration as well as facilitate collaborations in which it itself participates. The direction that public innovation should proceed to maximize the social impact of new innovative technology is the topic of Chapter 5. And the key takeaway from this chapter, again with an eye toward public policy, is that the role of government is to enhance bottom-up approaches for the creation of new innovations. This so-called democratic perspective eschews government picking winner and loser technologies. That perspective forms the scope of Chapter 6. In what might be called a forward looking perspective by the authors who come from different disciplines, an innovation ecosystem is set forth in Chapter 7. A hallmark of the strength of such an ecosystem will be for the government training of public entrepreneurs, which will require a culture change for the public domain. This view is set forth in a justifiable manner. Drawing on the demonstrated expertise of other notables who are introduced in Chapter 8, the authors offer a roadmap for how to increase an entrepreneurial ecosystem and environment that fosters public entrepreneurs. As expected, that roadmap begins with a change in governmental culture that would initiate incentives through organizational leadership. And, before a final summary chapter, the authors demonstrate their own insight by offering a detailed discussion of the challenges a government faces in managing an entrepreneurial innovation nexus. This objective approach to the arguments set forth in the earlier chapters is to be applauded, as is the entire book.",
-            "abstract_zh": "很高兴阅读了陈文迪和大卫·奥德里斯奇合著的《公共部门的创新与创业》。在10章精心撰写的内容中，作者带领读者从公共部门在社会重要创新中的历史角色概述，到对数十年来关于创新过程中创业行为表现的学术和政策思想的深刻理解。第2章提出了一个问题：公共创新从何开始？作者们一丝不苟地追溯，从美索不达米亚地区的古代力量开始，到美国国家科学基金会的建立。这是我见过的最全面的此类历史，为后续主题提供了适当的背景。第3章讨论了数字化带来的公共创新新前沿。所有形式的电子信息交换都在进化的视角下，以一种可读且易懂的方式被描述。其他人可能会依赖这个基础来开始他们自己对量子技术和公共部门在其发展中作用的研究。第4章暗示了不可避免的趋势，即增强基于创业的公共创新的政策，合作是本章的主题。它被吹捧为交换信息的机制，这是发展潜在政府创新的创业观念所需的。作者们认为，政府可以倡导合作，也可以促进它自己参与的合作。第5章讨论了公共创新应该朝哪个方向发展，以最大化新创新技术的社会影响。本章的关键收获，再次着眼于公共政策，是政府的角色是增强自下而上的方法来创造新创新。这种所谓的民主视角摒弃了政府挑选胜者和败者技术的做法。这种视角构成了第6章的范围。在第7章中，作者们提出了一个创新生态系统，这可以被称为一种前瞻性的视角，他们来自不同的学科。这样一个生态系统的强项标志将是政府对公共企业家的培训，这将需要公共领域的文化变革。这一观点以一种合理的方式被提出。",
+            "abstract_zh": "很高兴阅读了陈文迪和大卫·奥德里斯奇合著的《公共部门的创新与创业》。在10章精心撰写的内容中，作者带领读者从公共部门在社会重要创新中的历史角色概述，到对数十年来关于创新过程中创业行为表现的学术和政策思想的深刻理解。第2章提出了一个问题：公共创新从何开始？作者们一丝不苟地追溯，从美索不达米亚地区的古代力量开始，到美国国家科学基金会的建立。这是我见过的最全面的此类历史，为后续主题提供了适当的背景。第3章讨论了数字化带来的公共创新新前沿。所有形式的电子信息交换都在进化的视角下，以一种可读且易于理解的方式被描述。其他人可能会依赖这个基础来开始他们自己对量子技术和公共部门在其发展中作用的研究。第4章暗示了不可避免的趋势，即增强基于创业的公共创新的政策，合作是本章的主题。它被吹捧为交换信息的机制，这是发展潜在政府创新的创业观念所需的。作者们认为，政府可以倡导合作，也可以促进它自己参与的合作。第5章讨论了公共创新应该朝哪个方向发展，以最大化新创新技术的社会影响。本章的关键收获，再次着眼于公共政策，是政府的角色是增强自下而上的方法来创造新创新。这种所谓的民主视角摒弃了政府挑选胜者和败者技术的做法。这种视角构成了第6章的范围。在第7章中，作者们提出了一个创新生态系统，这可以被称为一种前瞻性的视角，他们来自不同的学科。这样一个生态系统的强项将是政府培训公共企业家，这将需要公共领域的文化变革。这一观点以一种合理的方式提出。",
             "matched_topics": [
               "房地产"
             ]
@@ -984,7 +870,7 @@
         "issue_title": "Volume 45, Issue 3",
         "issue_url": "https://onlinelibrary.wiley.com/journal/15206688",
         "matched_count": 2,
-        "total_in_issue": 11,
+        "total_in_issue": 13,
         "papers": [
           {
             "title_en": "Measuring the effects of <i>Obergefell v. Hodges</i> : Revisiting same‐sex marriage legalization and mortgage demand",
@@ -1018,9 +904,19 @@
         "resolved_name": "Governance",
         "issue_title": "Volume 39, Issue 3",
         "issue_url": "https://onlinelibrary.wiley.com/journal/14680491",
-        "matched_count": 3,
-        "total_in_issue": 8,
+        "matched_count": 4,
+        "total_in_issue": 9,
         "papers": [
+          {
+            "title_en": "Do Medical Health Ministers Make Different Health System Choices?",
+            "title_zh": "医疗健康部长会做出不同的卫生系统选择吗？",
+            "url": "https://doi.org/10.1111/gove.70135",
+            "abstract_en": "ABSTRACT Healthcare decision‐making is a highly specialized domain of government, particularly at the central or federal level, which may partly explain why medical professionals are sometimes appointed to ministerial roles within government cabinets. However, does a minister with medical expertise in healthcare make a difference in the outcomes and outputs of a health system? We examine original data on the medical doctor (MD) backgrounds of health ministers in Western countries to disentangle these effects. Drawing on longitudinal evidence from a long panel of OECD countries over 21 years, and a differences in differences design we find that, although MD ministers do not increase overall healthcare spending, they do engage in some level of strategic budget reallocation by spending 11%–14% more on preventative care such as vaccines, irrespective of political leanings, though results are weaker under coalition governments. Notably, we find some evidence that MD ministers reduce overall mortality and increase the density of physicians in European Union (EU) countries and nurses in small countries.",
+            "abstract_zh": "摘要：卫生决策是政府的一个高度专业化领域，特别是在中央或联邦层面，这可能部分解释了为什么医学专业人士有时会被任命为政府内阁中的部长级职位。然而，拥有医学专业知识的部长是否对卫生系统的结果和产出产生影响？我们检验了西方国家卫生部部长的医学博士（MD）背景的原始数据，以解开这些效应。利用21年来OECD国家长期面板的纵向证据，并采用差异中的差异设计，我们发现，尽管MD部长并没有增加总体卫生支出，但他们确实通过在预防性护理（如疫苗）上多花费11%-14%来进行一定程度的战略预算重新分配，这与政治倾向无关，尽管在联合政府下结果较弱。值得注意的是，我们发现一些证据表明MD部长降低了欧盟（EU）国家的总体死亡率，并增加了小国家的医生密度和护士数量。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
           {
             "title_en": "The Supply Chain of Economic Ideas: Institutional Discourse and Policy Change in U.S. Economic Governance, 1945–2024",
             "title_zh": "经济思想的供应链：美国经济治理中的制度话语与政策变迁，1945-2024",
@@ -1060,77 +956,58 @@
         "query_name": "Policy Studies Journal",
         "issn": "0190-292X",
         "resolved_name": "Policy Studies Journal",
-        "issue_title": "Volume 54, Issue 1",
+        "issue_title": "Volume 54, Issue 2",
         "issue_url": "https://onlinelibrary.wiley.com/journal/15410072",
-        "matched_count": 7,
+        "matched_count": 5,
         "total_in_issue": 22,
         "papers": [
           {
-            "title_en": "Editorial Introduction: Institutions, Attention, Narratives, and Policy Outcomes in the Policy Process",
-            "title_zh": "编辑导言：政策过程中的制度、注意力、叙事与政策结果",
-            "url": "https://doi.org/10.1111/psj.70116",
-            "abstract_en": "As we kick off Volume 54 of the Policy Studies Journal (PSJ) with this first issue of the year, we are reminded of the strength and resilience of the policy community that supports the journal again. PSJ continues to thrive because of the collective efforts of authors, reviewers, readers, editorial team members, and other contributors who dedicate their time and expertise to advancing policy scholarship. We are deeply grateful for this global network of scholars whose intellectual curiosity and collaborative spirit make PSJ possible. The start of a new volume also provides an opportunity to reflect briefly on the journal's ongoing activities and the people who contribute to its daily operations. Recently, we have made several organizational adjustments to strengthen PSJ's editorial infrastructure as the journal continues to grow and receive an increasing number of submissions. We extend our sincere appreciation to Ms. Erica Ivins (Syracuse University), who has served as Blog Managing Editor. Erica played an important role in maintaining the PSJ Blog as a platform that connects policy scholarship with broader audiences and encourages engagement across the policy studies community. As she moves on to pursue a new professional opportunity, we thank her for her dedication and contributions to the journal and wish her all the best in this exciting new chapter. We are pleased to announce that Mr. Ryan Ramaker (University of Arkansas) will serve as the new Blog Managing Editor, and we look forward to his leadership in continuing to expand the PSJ Blog's role in sharing research insights and connecting scholars and practitioners. We have also made several further adjustments to our editorial team. Dr. Eric Button (University of Arkansas) and Dr. Benjamin Galloway (University of Arkansas) have taken on expanded responsibilities as Senior Managing Editors, reflecting their continued leadership and commitment to supporting PSJ's editorial operations. Ms. Rinjisha Roy (University of Arkansas) now serves as a Managing Editor, where she will continue to play an essential role in coordinating the journal's day-to-day editorial workflow. Several members of our editorial team have also transitioned into new roles. Ms. Izehi Oriaghan, Mr. Travis Wagher, and Ms. Annette Nyoni (University of Arkansas) now serve as Editorial Associates. We are also delighted to welcome three new members to the editorial team as Editorial Assistants—Ms. Rachel Britton, Mr. Isaac Owusu, and Ms. Lina Garcia. Their support helps ensure that PSJ continues to operate efficiently while maintaining the high standards expected of a leading journal in policy studies. In addition to these internal developments, PSJ continues to engage actively with the broader policy community. Earlier this year, PSJ was proud to serve as a sponsor of the Conference on Policy Process Research (COPPR) held in Bern, Switzerland. COPPR has quickly become an important venue for scholars studying policy processes across theoretical traditions and methodological approaches. Several members of the PSJ editorial team participated in the conference, leading preconference workshops and contributing to a journal editors' roundtable discussion. These sessions provided an opportunity to engage directly with scholars interested in publishing their work in PSJ and to communicate important information about the journal's mission, editorial expectations, and review process. The conversations at COPPR reaffirmed the vibrancy of the policy process research community and highlighted the many innovative directions scholars are pursuing across institutional, behavioral, and comparative contexts. PSJ 54(1) includes a total of 20 articles, consisting of 14 Original Articles and six Short Articles. The Short Articles include three Perspectives pieces and three Research Notes, each offering concise but impactful contributions that advance theoretical debates, methodological innovation, and empirical inquiry. Taken together, the articles in this issue explore a wide range of topics central to the study of policy processes. They examine institutional arrangements, agenda-setting dynamics, coalition politics within policy subsystems, narrative mechanisms shaping political communication of policy issues, and the consequences of policy decisions across political and social contexts. By bringing together these diverse perspectives, this issue highlights the many ways in which institutions, political actors, ideas, and citizens interact to shape policymaking. The issue begins with several articles that explore the institutional foundations of policymaking and governance. Harleman and Weber (2026) examine whether collective action institutions can outperform state-centered governance arrangements, highlighting the conditions under which decentralized governance structures may produce more effective outcomes than traditional state authority. Shen et al. (2026) introduce the concept of “regularized campaigns” as a distinctive institutional arrangement for governance, demonstrating how recurring campaign-style governance practices can function as stable institutional mechanisms within administrative systems. Chen et al. (2026) investigate how legislative incumbency shapes policy innovation across U.S. states, providing evidence that institutional characteristics of political actors influence the emergence and diffusion of innovative policy solutions. A second group of articles focuses on agenda setting and the politics of attention. Eissler and Rutledge (2026) analyze agenda dynamics among the U.S. president, the House of Representatives, and the Senate, demonstrating how institutional competition and coordination shape issue prioritization in national policymaking. Ba et al. (2026) extend this line of inquiry by examining how legislative attention influences nonprofit sector efficiency, revealing how signals from political institutions affect organizational behavior across sectoral boundaries. The next set of contributions engages directly with major policy process theories, particularly those concerned with policy subsystems and coalition dynamics. Parth et al. (2026) examine spillovers across multiple streams in the case of fur farming bans during the COVID-19 pandemic, illustrating how crises can generate unexpected interactions among problem, policy, and political streams. Garic and Leifeld (2026) advance research on the Advocacy Coalition Framework (ACF) by proposing a three-stage model of the maturation of policy subsystems toward stable advocacy coalitions, drawing on evidence from the United Kingdom's response to COVID-19. Satoh et al. (2026) further expand the ACF research by examining how coalition opportunity structures shape advocacy coordination across consensus and majoritarian democracies, highlighting the role of institutional context in structuring coalition strategies. Another set of articles explores narratives, policy perceptions, and behavioral responses to policy design. Ruff (2026) provides a comprehensive scoping review of plot concepts and measurements within the Narrative Policy Framework (NPF), clarifying how narrative structure, valence, and causal mechanisms have been conceptualized and operationalized in existing research. Schaub et al. (2026) analyze the moralization of policy narratives in the contexts of climate change and public health, demonstrating how moral framing shapes political communication and public interpretation of policy issues. Jenkins and Gomez (2026) investigate the multidimensional nature of policy acceptability through a cross-national analysis, revealing how different dimensions of public evaluation influence citizens' support for policy interventions. Haeder (2026) examines how deservingness cues influence tolerance for administrative burdens, highlighting the importance of perceptions of fairness in shaping public responses to policy design. The final set of original articles focuses on policy consequences and feedback processes. Stobb et al. (2026) analyze tradeoffs and spillovers in U.S. criminal immigration enforcement, demonstrating how enforcement policies generate unintended consequences across policy domains. Schober (2026) examines the effects of cash assistance policies on mass consumption behavior in Mexico, providing new evidence of policy feedback mechanisms through which social policies influence economic behavior and political dynamics. The Perspectives articles in this issue continue PSJ's tradition of offering concise and thought-provoking contributions that engage broader theoretical debates. Lubell and Victor (2026) examine presidential powers and the evolution of polycentric governance systems, offering insights into how executive authority interacts with decentralized governance arrangements. Mewhirter et al. (2026) argue that the study of policing subsystems provides important opportunities for advancing policy process theory. Van Ryzin (2026) explores coproduction as a causal process, proposing a conceptual framework that clarifies the mechanisms through which citizen participation influences governance outcomes. The Research Notes in this issue highlight methodological and conceptual innovations that contribute to the advancement of policy scholarship. Churchill et al. (2026) provide an empirical exploration of GPT models for text annotation in policy research, demonstrating how emerging artificial intelligence tools may transform the analysis of policy texts and large-scale datasets. Lewallen (2026) introduces a new approach for measuring attention and participation diversity, offering a methodological advancement for scholars studying stakeholder engagement and policy processes. Waterschoot et al. (2026) examine perceptions of optimal group size in deliberative mini publics, shedding light on how institutional design influences public deliberation and participatory governance. The 20 contributions in this issue reflect the richness and diversity of contemporary policy scholarship. They demonstrate how advances in theory, methodology, and empirical analysis continue to deepen our understanding of the policy process and the many forces that shape policymaking. At the same time, it is difficult to ignore the broader global context in which policy scholars are working today. Around the world, societies are confronting profound uncertainty, from geopolitical tensions and armed conflict to economic volatility, climate pressures, and rapid technological change. Recent developments, including escalating tensions and conflict involving Iran, the United States, and Israel, serve as a sobering reminder of how fragile political stability can be and how consequential policy decisions often are. These realities underscore the importance of thoughtful, rigorous, and compassionate policy scholarship that helps illuminate complex governance challenges and informs more constructive paths forward. As we begin this new volume of PSJ, we extend our sincere appreciation to the authors who entrusted their work to the journal, the reviewers who generously shared their expertise, and the editorial team members and other contributors whose dedication makes the publication process possible. We are also grateful to the broader policy community for its continued engagement and support. In uncertain times, the connections within our scholarly community matter more than ever. We hope that the research presented in this issue not only advances theoretical and empirical debates but also reminds us of the shared purpose that unites policy scholars across disciplines, countries, and perspectives. As always, we encourage readers to continue supporting one another's work, fostering collaboration, and approaching the challenges of our field—and our world—with both intellectual rigor and genuine care. Take care!",
-            "abstract_zh": "随着我们开启《政策研究杂志》（PSJ）第54卷的首期，我们再次被提醒到支持该期刊的政策社区的力量和韧性。PSJ之所以能够持续繁荣，是因为作者、审稿人、读者、编辑团队成员以及其他贡献者共同努力，他们投入时间和专业知识以推进政策学术研究。我们对这一全球学者网络深表感激，他们的智力好奇心和合作精神使PSJ成为可能。新一卷的开始也提供了一个机会，让我们简要回顾一下期刊的持续活动和那些为其日常运作做出贡献的人。最近，我们进行了几项组织调整，以加强PSJ的编辑基础设施，因为期刊继续增长并收到越来越多的投稿。我们向埃里卡·艾文斯女士（雪城大学）表示衷心的感谢，她曾担任博客管理编辑。埃里卡在维护PSJ博客作为一个连接政策学术研究与更广泛受众的平台，并鼓励政策研究社区的参与方面发挥了重要作用。随着她转向追求新的职业机会，我们感谢她对期刊的奉献和贡献，并祝愿她在这一激动人心的新篇章中一切顺利。我们高兴地宣布，瑞安·拉马克先生（阿肯色大学）将担任新的博客管理编辑，我们期待他继续扩大PSJ博客在分享研究洞察和连接学者与实践者方面的作用。我们还对编辑团队进行了几项进一步调整。埃里克·巴顿博士（阿肯色大学）和本杰明·加洛韦博士（阿肯色大学）作为高级管理编辑承担了扩大的责任，反映了他们对支持PSJ编辑运营的持续领导和承诺。林吉莎·罗伊女士（阿肯色大学）现在担任管理编辑，她将继续在协调期刊的日常编辑工作流程中发挥关键作用。我们的编辑团队的一些成员也过渡到了新的角色。伊泽希·奥里亚根女士、特拉维斯·瓦格先生和安妮特·尼奥尼女士（阿肯色大学）现在担任编辑助理。我们也很高兴欢迎三位新成员加入编辑团队担任编辑助理——瑞秋·布里顿女士、艾萨克·乌苏先生和……",
+            "title_en": "Repeated Modifications in Policy Diffusion: Evidence From River Management Regulations in China's Cities",
+            "title_zh": "政策扩散中的反复修改：来自中国城市河流管理法规的证据",
+            "url": "https://doi.org/10.1111/psj.70109",
+            "abstract_en": "ABSTRACT Why do local governments repeatedly modify policies after their initial adoption? While policy diffusion research has focused on adoption, far less is known about why and how policies are revised over time. This study analyzes a city–year dataset of 293 Chinese prefecture‐level cities from 1986 to 2022, tracking both the adoption and subsequent modifications of River Management Regulations (RMR). A two‐stage modeling strategy combining a Probit model and a Prentice–Williams–Peterson Cox model is employed to analyze repeated modifications. The findings reveal three patterns. First, policy modifications at the provincial level and amendments to superior laws significantly increase the likelihood of local RMR revisions, whereas central‐level modifications do not exert a direct effect. Second, while neighboring jurisdictions' policy modifications do not significantly affect local revisions, adoption by neighboring late adopters generates a positive effect, indicating a form of “reverse diffusion.” Third, policies issued by local legislative branches are more likely to be modified than those issued by executive agencies, highlighting the role of institutional structure and procedural constraints. By shifting attention from adoption to repeated modification, this study extends policy diffusion theory and contributes to a broader understanding of post‐adoption policy dynamics in hierarchical and decentralized political systems.",
+            "abstract_zh": "摘要：为什么地方政府在政策初次采纳后会反复修改政策？尽管政策扩散研究集中于政策采纳，但关于政策随时间如何被修订的原因和方式知之甚少。本研究分析了1986年至2022年中国293个地级市的城市-年份数据集，追踪了《河道管理条例》（RMR）的采纳及其后续修改。采用两阶段建模策略，结合Probit模型和Prentice-Williams-Peterson Cox模型来分析重复修改。研究发现三个模式。首先，省级政策修改和上级法律的修订显著增加了地方RMR修订的可能性，而中央层面的修改没有直接效应。其次，尽管邻近地区的政策修改对地方修订没有显著影响，但邻近的后期采纳者采纳产生了积极效应，表明了一种“逆向扩散”。第三，由地方立法机构发布的政策比由行政机关发布的政策更有可能被修改，突出了制度结构和程序约束的作用。通过将注意力从采纳转移到重复修改，本研究扩展了政策扩散理论，有助于更广泛地理解等级制和分权政治系统中政策采纳后的政策动态。",
+            "matched_topics": [
+              "城市治理",
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Unpacking Welfare Deservingness Theory: Evidence From the Perceived Deservingness of Gig Workers",
+            "title_zh": "解析福利应得理论：来自对零工工作者感知应得性的证据",
+            "url": "https://doi.org/10.1111/psj.70103",
+            "abstract_en": "ABSTRACT The theory of welfare deservingness provides valuable insights into the social legitimacy of welfare programs and the principles underlying policy design. In examining the question of who deserves what and why, established deservingness criteria emphasize that individuals demonstrating motivation to work (“reciprocity”) are typically perceived as more deserving. However, little is known about how the nature of work might affect perceived deservingness. This study addresses this gap by investigating the perceived deservingness of gig workers, a rapidly growing segment of the labor force characterized by distinctive work arrangements. The flexibility and autonomy inherent in gig jobs are argued to amplify perceptions of personal responsibility and control, thereby reducing public support for benefits for gig workers. Through preregistered survey experiments conducted as part of the 2022 Cooperative Election Study, this research identifies a significant “gig work deservingness penalty,” where gig workers are perceived as less deserving of welfare benefits compared to traditional workers, even when demonstrating motivation to work. This penalty is especially pronounced for immigrant gig workers. These findings uncover the established criterion of “job searching” is not homogeneous, offering critical insights into the challenges of building consensus for policy reforms aimed at creating security systems for emerging precarious groups.",
+            "abstract_zh": "摘要：福利应得性理论为理解福利计划的社会合法性以及政策设计背后的原理提供了宝贵的洞见。在探讨谁应得到什么以及为什么应得到的问题时，已建立的应得性标准强调，表现出工作动机（“互惠性”）的个体通常被视为更应得福利。然而，关于工作性质如何影响感知的应得性知之甚少。本研究通过调查零工工人的感知应得性来填补这一空白，零工工人是劳动力中快速增长的一个部分，其特点是独特的工作安排。零工工作固有的灵活性和自主性被认为增强了对个人责任和控制的感知，从而减少了对零工工人福利的公众支持。通过作为2022年合作选举研究一部分进行的预注册调查实验，这项研究识别出一个显著的“零工工作应得性惩罚”，即零工工人被视为比传统工人更不应得福利，即使他们表现出工作动机。这种惩罚在移民零工工人中尤为明显。这些发现揭示了“求职”这一既定标准并非同质的，为构建针对新兴不稳定群体建立安全系统的改革政策共识的挑战提供了关键见解。",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "Coalition Opportunity Structures and Advocacy Coordination in Consensus and Majoritarian Democracies",
-            "title_zh": "联盟机会结构与共识民主和多数民主中的倡导协调",
-            "url": "https://doi.org/10.1111/psj.70067",
-            "abstract_en": "ABSTRACT Research on advocacy coalitions suggests that belief homophily—the tendency of actors to coordinate based on shared policy beliefs—drives coalition formation. However, coalition opportunity structures, which are shaped by institutional contexts, may influence the extent to which belief homophily matters. We argue that coordination dynamics differ between majoritarian and consensus democracies. While majoritarian systems promote moderate norms of compromise and open decision‐making processes, consensus democracies foster stronger norms of cross‐coalition cooperation. Consequently, belief homophily may be a stronger driver of coordination in majoritarian democracies than in consensus democracies, where broader cooperation is needed to introduce policy change. To test this hypothesis, we use data from climate change policy subsystems in nine countries and apply a multilevel structural equation model to examine coordination patterns. Our results show that the more majoritarian a country's institutions are, the more actors coordinate with like‐minded partners. Additionally, in majoritarian systems, coordination is more likely to involve influential actors, emphasizing power dynamics. Conversely, coordination in consensus democracies is less dependent on belief homophily, and broad‐based cooperation is more prevalent. These results underscore how institutional contexts shape advocacy coalitions and contribute to a comparative understanding of advocacy coordination.",
-            "abstract_zh": "摘要：关于倡导联盟的研究显示，信念同质性——行动者基于共享的政策信仰进行协调的倾向——推动了联盟的形成。然而，由制度环境塑造的联盟机会结构可能影响信念同质性的重要性。我们认为，在多数民主和共识民主之间，协调动态是不同的。多数民主制度促进了适度的妥协规范和开放的决策过程，而共识民主则培养了更强的跨联盟合作规范。因此，信念同质性可能是多数民主中协调的更强驱动力，而在需要更广泛合作以引入政策变化的共识民主中则不然。为了测试这一假设，我们使用了来自九个国家气候变化政策子系统的数据，并应用多层次结构方程模型来检验协调模式。我们的结果显示，一个国家的制度越是多数民主，行动者就越倾向于与志同道合的伙伴协调。此外，在多数民主制度中，协调更可能涉及有影响力的行动者，强调权力动态。相反，在共识民主中，协调不那么依赖于信念同质性，广泛的合作更为普遍。这些结果强调了制度环境如何塑造倡导联盟，并有助于比较理解倡导协调。",
-            "matched_topics": [
-              "婚姻"
-            ]
-          },
-          {
-            "title_en": "Legislative Attention and Nonprofit Efficiency: A Link Across Sectoral Boundaries",
-            "title_zh": "立法关注与非营利组织效率：跨部门边界的联系",
-            "url": "https://doi.org/10.1111/psj.70048",
-            "abstract_en": "ABSTRACT Government attention matters for nonprofit management and nonprofit‐government interactions. This study focuses on legislative attention, an important yet less‐studied aspect of government attention in public policy research, and examines its impact on nonprofit efficiency. By employing a longitudinal multi‐level regression design and utilizing data from state‐level legal proceedings and financial statements from a national sample of housing nonprofits, the findings suggest a positive impact of legislative attention on nonprofit efficiency, highlighting a complementary mode of nonprofit‐government relations. Additionally, this impact is more pronounced among nonprofits that receive government grants, suggesting the role of government support in enhancing nonprofits' responsiveness to government attention. Our study contributes to a macro–micro understanding of government‐nonprofit relationships and extends prior research on government attention by bridging the dynamics in the policy process with practices in other sectors.",
-            "abstract_zh": "摘要：政府关注对非营利组织管理及非营利组织与政府间的互动至关重要。本研究聚焦于立法关注——公共政策研究中一个重要但较少被研究的政府关注方面——并检验其对非营利组织效率的影响。通过采用纵向多层次回归设计，并利用来自国家级样本住房非营利组织的州级法律程序和财务报表数据，研究结果表明立法关注对非营利组织效率有积极影响，突出了非营利组织与政府关系的互补模式。此外，这种影响在获得政府补助的非营利组织中更为显著，表明政府支持在增强非营利组织对政府关注的反应性方面的作用。我们的研究有助于从宏观到微观理解政府与非营利组织之间的关系，并扩展了以往关于政府关注的研究，通过将政策过程中的动态与其它部门的实践联系起来。",
+            "title_en": "Issue Attention in Public Opinion Polls: Pollsters as Agenda Responders and Agenda Setters",
+            "title_zh": "民意调查中的问题关注：民意调查者作为议程响应者和议程设定者",
+            "url": "https://doi.org/10.1111/psj.70098",
+            "abstract_en": "ABSTRACT Polling organizations, like other policy actors, must prioritize certain issues. We argue that, for normative and financial reasons, pollsters prioritize issues that are viewed as important by other institutions and the public, leading them to focus survey questions on issues that are on congressional and media agendas, and which are public priorities. We also argue that it is possible that polling issue agendas shape the issue attention of those actors. Which issues pollsters survey and whether they lead or follow other institutions has important implications for understanding agenda setting, representation, and the use of poll results in research. Thus, we examine which issues are more likely to be surveyed and whether polling agendas predict or respond to the issue agendas of the New York Times, the U.S. Congress, and public priorities. The analysis uses an automated approach to code over 600,000 survey questions fielded from 1980 to 2015 into Comparative Agendas Project topic codes. We find wide disparities in how much attention polling organizations devote to different types of issues. While relationships are generally small, we also find evidence that topics in polls respond to public issue priorities, while also preceding issue attention in Congress and the New York Times.",
+            "abstract_zh": "摘要：与其他政策行动者一样，民意调查机构也必须对某些问题进行优先排序。我们认为，出于规范性和财务性原因，民意调查者会优先考虑其他机构和公众认为重要的问题，导致他们将调查问题集中在国会和媒体议程上，以及公共优先事项上。我们还认为，民意调查的问题议程可能塑造了这些行动者的问题关注。民意调查者调查哪些问题，以及他们是否领先或跟随其他机构，对于理解议程设置、代表性和民意调查结果在研究中的使用具有重要意义。因此，我们检验了哪些问题更有可能被调查，以及民意调查议程是否预测或响应《纽约时报》、美国国会和公共优先事项的问题议程。分析使用了一种自动化方法，将1980年至2015年间进行的60多万个调查问题编码为比较议程项目主题代码。我们发现民意调查机构对不同类型的问题关注程度存在很大差异。虽然关系通常较小，但我们也发现民意调查中的主题对公共问题优先事项做出反应的证据，同时也先于国会和《纽约时报》的问题关注。",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "A Three‐Stage Model of the Maturation of Nascent Policy Subsystems Toward Stable Advocacy Coalitions, With Evidence From the <scp>UK</scp> 's Response to <scp>COVID</scp> ‐19",
-            "title_zh": "标题：从萌芽政策子系统到稳定倡导联盟的三阶段成熟模型：以英国应对COVID-19的证据为例",
-            "url": "https://doi.org/10.1111/psj.70047",
-            "abstract_en": "ABSTRACT Policy subsystems are comprised of competing advocacy coalitions, in which public and private political actors with shared belief systems learn from each other and coordinate their strategies in the pursuit of influencing policy making in their favor. While numerous studies have focused on the longevity and structural stability of advocacy coalitions, there is scant theory and evidence on how nascent policy subsystems bifurcate into stable, competing coalitions. This article proposes a three‐stage model of problem discovery, differentiation, and consolidation. We apply discourse network analysis to the nascent subsystem of the UK's COVID‐19 response in order to study these phases and discuss their applicability and implications for other institutional and issue contexts.",
-            "abstract_zh": "摘要：政策子系统由相互竞争的倡导联盟组成，其中具有共同信仰体系的公共和私人政治行为者相互学习并协调他们的策略，以影响政策制定，使其对自己有利。尽管许多研究关注倡导联盟的持久性和结构稳定性，但关于新生政策子系统如何分化为稳定的、相互竞争的联盟的理论及证据却很少。本文提出了一个三阶段模型：问题发现、差异化和巩固。我们将话语网络分析应用于英国COVID-19应对措施的新生子系统，以研究这些阶段，并讨论它们在其他制度和问题背景下的适用性和影响。",
+            "title_en": "Policy Feedback and the 2021 Advanced Child Tax Credit",
+            "title_zh": "政策反馈与2021年儿童税收抵免提前支付",
+            "url": "https://doi.org/10.1111/psj.70077",
+            "abstract_en": "ABSTRACT Policy feedback theories suggest that experiencing government benefits can reshape political attitudes, but evidence of how quickly these effects develop and whether they persist after benefits are withdrawn remains limited. This paper examines the 2021 Advanced Child Tax Credit (ACTC), tracking public support through six surveys spanning the policy's complete lifecycle—from pre‐implementation through two years post‐expiration. Using a quasi‐experimental design comparing parents eligible for benefits to pre‐benefit baselines and non‐parents, we find that experiencing the ACTC generated substantial and lasting increases in support among Republican parents (28 percentage points), while non‐parent views remained mostly unchanged. While partisan differences persisted overall, the results nonetheless suggest that partisanship does not necessarily dominate self‐interest. By examining attitudes well after policy repeal, this study provides unique insights into how brief exposure to universal benefits can create durable constituency support, even in highly polarized environments where policy feedback fails to prevent policy retrenchment.",
+            "abstract_zh": "摘要：政策反馈理论认为，经历政府福利可以重塑政治态度，但关于这些效应多快发展以及在福利撤销后是否持续的证据仍然有限。本文考察了2021年的先进儿童税收抵免（ACTC），通过六个调查追踪了政策完整生命周期的公众支持——从实施前到政策到期后两年。使用准实验设计，比较有资格获得福利的父母与福利前基线和非父母，我们发现经历ACTC在共和党父母中产生了显著且持久的支持增加（28个百分点），而非父母的观点基本保持不变。尽管整体上党派差异持续存在，但结果仍表明党派身份并不一定主导自身利益。通过在政策废除后考察态度，本研究提供了独特的见解，即短暂的普遍福利暴露如何在高度极化的环境中创造持久的选民支持，即使在政策反馈未能阻止政策倒退的情况下。",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "<scp>GPT</scp> models for text annotation: An empirical exploration in public policy research",
-            "title_zh": "GPT模型在文本标注中的应用：公共政策研究中的实证探索",
-            "url": "https://doi.org/10.1111/psj.70034",
-            "abstract_en": "Abstract Text annotation, the practice of labeling text following a predetermined scheme, is essential to qualitative public policy research. Despite its importance, annotating large qualitative data faces challenges of high labor and time costs. Recent developments in large language models (LLMs), specifically models with generative pretrained transformers (GPTs), show a potential approach that may alleviate the burden of manual text annotation. In this report, we first introduce a small sample pretest strategy for researchers to decide whether to use Open AI's GPT models for text annotation. In addition, we test if GPT models can substitute human coders by comparing the results of two GPT models with different prompting strategies against human annotation. Using email messages collected from a national corresponding experiment in the US nursing home market as an example, on average, we demonstrate 86.25% percentage agreement between GPT and human annotations. We also show that GPT models possess context‐based limitations. Our report ends with reflections and suggestions for readers who are interested in using GPT models for text annotation.",
-            "abstract_zh": "摘要：文本标注，即按照预定方案对文本进行标记的做法，对定性公共政策研究至关重要。尽管其重要性不言而喻，但对大量定性数据进行标注面临着高昂的劳动和时间成本挑战。近期在大型语言模型（LLMs）的发展，特别是具有生成预训练变换器（GPTs）的模型，显示出可能减轻手动文本标注负担的潜在方法。在本报告中，我们首先介绍了一种小型样本预测试策略，供研究人员决定是否使用Open AI的GPT模型进行文本标注。此外，我们通过比较两种采用不同提示策略的GPT模型的结果与人工标注，测试GPT模型是否可以替代人工编码器。以美国养老院市场国家通信实验收集的电子邮件消息为例，平均而言，我们展示了GPT与人工标注之间86.25%的一致性百分比。我们还展示了GPT模型在基于上下文的局限性。我们的报告以对有兴趣使用GPT模型进行文本标注的读者的反思和建议结束。",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "The optimal group size of deliberative mini‐publics: A divide in perceptions",
-            "title_zh": "标题：协商型迷你公众的最佳群体规模：感知上的分歧",
-            "url": "https://doi.org/10.1111/psj.12592",
-            "abstract_en": "Abstract Deliberative mini‐publics (DMPs) have the potential to bolster political trust, although poorly organized ones may worsen existing distrust. Therefore, it is essential to consider citizens' perceptions regarding their implementation. This article examines a key aspect in this regard: the optimal group size of DMPs, as perceived by the public. Three studies were conducted: an exploratory pilot study ( n = 194 Belgian citizens), Study 1 ( n = 516 UK citizens), and Study 2 ( n = 527 UK citizens), which was a preregistered replication in a representative sample. In each study, participants evaluated various DMP sizes on four dimensions of legitimacy: representativeness, deliberation quality, efficiency, and efficacy. Our findings indicate that most participants intuitively make a trade‐off between these different dimensions when evaluating how many citizens should partake in DMPs. In particular, a group of 100 citizens was identified as the size for DMPs to be perceived as representative, without compromising the perceived deliberation quality, efficiency, and efficacy. Remarkably, however, there is also a distinct and substantial group of participants who demand more than 1000 participating citizens to be satisfied. Implications and directions for future research are discussed.",
-            "abstract_zh": "摘要：协商式迷你公众（DMPs）有潜力增强政治信任，但组织不善的DMPs可能加剧现有的不信任。因此，考虑公民对其实施的看法至关重要。本文考察了这方面的一个关键问题：公众认为DMPs的最佳群体规模。进行了三项研究：探索性先导研究（n=194比利时公民）、研究1（n=516英国公民）和研究2（n=527英国公民），后者是在代表性样本中的预注册复制。在每项研究中，参与者根据合法性的四个维度评估不同的DMP规模：代表性、讨论质量、效率和效力。我们的发现表明，大多数参与者在评估应有多少公民参与DMPs时，会本能地在这些不同维度之间进行权衡。特别是，100名公民的群体被确定为DMPs被感知为代表性的规模，而不会损害感知的讨论质量、效率和效力。然而，值得注意的是，也有一个独特且相当大的参与者群体要求有超过1000名参与公民才能感到满意。讨论了其含义和未来研究的方向。",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Big &amp; rich: A new way to measure attention and participation diversity",
-            "title_zh": "大型与富裕：衡量注意力与参与多样性的新方法",
-            "url": "https://doi.org/10.1111/psj.12593",
-            "abstract_en": "Abstract Policy process scholars often are interested in the relative diversity or concentration of attention across issues, or the relative participation of different groups and information sources within an issue domain or policy venue. Are policymakers devoting lots of attention to a small set of issues or dividing their attention more evenly across a larger agenda? Are a few groups dominating deliberation or is participation more evenly distributed among actors? The Shannon's H measure of information entropy has become the most common measure of diversity or concentration of attention and participation, with higher values indicating a relatively more diverse issue agenda and lower values indicating more concentration or less entropy. Many possible combinations of categories and the proportions of observations within those categories can produce statistically‐indistinguishable values, which makes Shannon's H less informative than we might like. This research note proposes new measures of richness and evenness to capture both the breadth and relative spread of attention or participation. The note provides examples of how to measure and visualize richness and evenness of attention across policy actors, the richness and evenness of actors across issues, and richness and evenness across time.",
-            "abstract_zh": "摘要：政策过程学者经常对问题间的关注多样性或集中度，或不同群体和信息来源在某一问题领域或政策场所中的相对参与度感兴趣。决策者是将大量注意力集中在少数问题上，还是更均匀地分配到更大的议程上？是少数群体主导讨论，还是参与者在行动者之间更均匀地分布？香农信息熵的H度量已成为衡量关注和参与多样性或集中度的最常用指标，值越高表示问题议程相对更多样化，值越低表示更集中或熵更低。许多可能的类别组合以及这些类别中观察值的比例可以产生统计上无法区分的值，这使得香农的H度量不如我们所希望的那样具有信息量。这篇研究笔记提出了新的丰富度和均匀度度量方法，以捕捉关注或参与的广度和相对分布。该笔记提供了如何测量和可视化政策行动者间关注丰富度和均匀度、行动者间问题丰富度和均匀度以及跨时间丰富度和均匀度的示例。",
+            "title_en": "The Five‐Thread Model &amp; Academic Policy Entrepreneurs: From the White Australia Policy to Multicultural Australia",
+            "title_zh": "五线模型与学术政策企业家：从白澳政策到多元文化澳大利亚",
+            "url": "https://doi.org/10.1111/psj.70075",
+            "abstract_en": "ABSTRACT Why did Australia go from the White Australia Policy, which excluded non‐whites, to institutionalizing multiculturalism policy in the 1970s? This question defies traditional political ideologies of the major political parties, which had long supported the White Australia Policy. This article is a rare empirical demonstration of the Five‐Thread Model—a synthesis of key policy theories—and refines it for a parliamentary setting to explain this policy change. With reference to partial couplings in policy change, it advances the notion of academics as significant policy entrepreneurs who gained access to and effected change in the policy advisory systems of the Department of Immigration and associated government bodies. The article illustrates how, throughout different policy stages, academics in Australia initiated, framed, and coupled threads to institutionalize multicultural policy from the 1960s onwards; and, on the other hand, how academics were pivotal in challenging multiculturalism policy in the 1980s. Both these sides test hypotheses of policy change relating to the role of agency, the power of shared beliefs in forming coalitions, and political power. It concludes that the FTM is demonstrably appropriate for addressing complicated and controversial policy changes like societal shifts from a white Australia to a multicultural Australia.",
+            "abstract_zh": "摘要：为什么澳大利亚从排斥非白人的白澳政策转变为20世纪70年代的制度化多元文化政策？这一问题挑战了长期支持白澳政策的主要政党的传统政治意识形态。本文是五线模型——关键政策理论的综合——在实证上的罕见展示，并将其细化为议会环境以解释这一政策变化。参考政策变化中的部分耦合，它推进了学者作为重要政策企业家的概念，他们获得了进入并影响了移民部及相关政府机构政策咨询系统的变化。文章说明了在不同政策阶段，澳大利亚学者如何启动、构建并耦合线索，从20世纪60年代起制度化多元文化政策；另一方面，学者在20世纪80年代挑战多元文化政策中的关键作用。这两方面都测试了与代理角色、共同信仰形成联盟的力量和政治权力相关的政策变化假设。它得出结论，五线模型明显适用于解决像从白澳到多元文化澳这样的复杂和有争议的社会政策变化。",
             "matched_topics": [
               "房地产"
             ]
@@ -1693,51 +1570,93 @@
         "query_name": "Urban Studies",
         "issn": "0042-0980",
         "resolved_name": "Urban Studies",
-        "issue_title": "Volume 63, Issue 7",
+        "issue_title": "Volume 63, Issue 8",
         "issue_url": "https://journals.sagepub.com/home/usj",
-        "matched_count": 4,
-        "total_in_issue": 12,
+        "matched_count": 8,
+        "total_in_issue": 13,
         "papers": [
           {
-            "title_en": "Americans meet congestion pricing: Reframing the equity debate around CBD tolling for auto-dependent countries",
-            "title_zh": "美国人面对拥堵收费：为汽车依赖国家重新构建CBD收费的公平性辩论",
-            "url": "https://doi.org/10.1177/00420980261419975",
-            "abstract_en": "This paper examines how equity claims were mobilized in the public debate over New York City’s Central Business District Tolling Program (CBDTP). We analyze approximately 8300 public comments submitted during the environmental review and use large language models (LLMs) for stance/equity classification followed by structural topic modeling to surface latent themes. Proponents’ equity arguments clustered around a compact set of frames: drivers paying their fair share, non-drivers reclaiming public space and road safety, air-quality improvements, and benefits to transit riders. Opponents advanced more varied arguments, ranging from fee regressivity and affordability pressures to distrust in the Metropolitan Transportation Authority’s management. Many opponents framed the fee as inequitable where driving is not discretionary—for example, medical/disability trips, off-peak and emergency workers with equipment, and contexts with unsafe or unreliable transit. These objections reflect Sandel’s critique of the market society, where willingness to pay (WTP) is mistaken for value, while ability to pay is overlooked. We extend this insight to transportation by highlighting unequal abilities to avoid paying. Even in New York, many commenters characterized the toll as an unavoidable levy. Congestion pricing’s legitimacy may depend not just on distributional effects, but also on whether payment is experienced as a genuine choice. Public comments reveal the enduring relevance of two choice-enhancing strategies in the literature: funding new mobility options for those who cannot pay, or preserving non-tolled alternatives for those who would rather wait than pay. If these concerns are being raised in New York, they are likely to dominate debate elsewhere in North America.",
-            "abstract_zh": "本文考察了在纽约市中央商务区收费计划（CBDTP）的公共辩论中，公平诉求是如何被动员起来的。我们分析了环境审查期间提交的大约8300条公众评论，并使用大型语言模型（LLMs）进行立场/公平分类，随后进行结构化主题建模以揭示潜在主题。支持者的公平论点围绕一组紧凑的框架聚集：驾驶员支付他们应支付的公平份额，非驾驶员重新获得公共空间和道路安全，空气质量改善，以及对公共交通乘客的益处。反对者提出了更多样化的论点，从费用的倒退性和负担能力压力到对大都会交通管理局管理的不信任。许多反对者将费用框定为不公平，因为在驾驶不是选择性的情况下——例如，医疗/残疾人士出行，非高峰时段和紧急工作人员携带设备，以及存在不安全或不可靠交通的情境。这些反对意见反映了桑德尔对市场社会的批评，其中支付意愿（WTP）被误认为是价值，而支付能力被忽视。我们将这一洞见扩展到交通领域，强调避免支付的不平等能力。即使在纽约，许多评论者也将收费描述为不可避免的征税。拥堵定价的合法性可能不仅取决于分配效应，还取决于支付是否被视为真正的选择。公众评论揭示了文献中两种增强选择的策略的持久相关性：为无法支付的人资助新的出行选择，或为宁愿等待而不愿支付的人保留非收费替代方案。如果这些关切在纽约被提出，它们很可能在北美其他地方的辩论中占据主导地位。",
+            "title_en": "Real estate dynamics and ordinary urban fabric in Algiers: Tactical adaptation, anticipation and land transformations",
+            "title_zh": "阿尔及尔房地产动态与普通城市结构：战术适应、预期与土地转型",
+            "url": "https://doi.org/10.1177/00420980251405782",
+            "abstract_en": "While academic research on the mechanisms of production of the built environment has often focused on large-scale real estate projects in alliance with public authorities, the nature and scale of micro-projects and small-scale investors are rarely explored. This article proposes to examine the ‘ordinary fabric of the city’ through these micro real estate projects, which oscillate between formal and informal practices, based on a qualitative study conducted with mainly resident investors and small-scale developers in a peripheral municipality of the Algerian capital, Algiers. Our starting point is the hypothesis that urban production is increasingly moving towards more insecure and unpredictable cities as a result of private initiatives that are less visible, but nonetheless decisive in urban transformation. The study examines the conditions under which these investments emerge, in undervalued urban spaces and in a partially or wholly informal context. It also focuses on the bricolage of the ordinary fabric, analyses forms of ‘tactics’ used by actors to mimic legality, takes into account the conflictual aspects of emerging projects and bears witness to the emergence of a quasi-informal property market. The findings point to a strong potential for policy to formalise informal practices. The results also indicate that a significant part of the city depends on free market mechanisms that are partially free of constraints, where non-conforming transactions and constructions shape a mixed urbanisation.",
+            "abstract_zh": "虽然学术研究经常关注与公共当局合作的大型房地产项目的建成环境生产机制，但对微观项目和小规模投资者的性质和规模却鲜有探讨。本文提出通过这些在正式和非正式实践之间摇摆的微观房地产项目来审视“城市的普通结构”，基于在阿尔及利亚首都阿尔及尔的一个边缘城市进行的定性研究，主要与居民投资者和小规模开发商进行。我们的出发点是假设，由于私人倡议的增加，城市生产正越来越多地转向更不安全和不可预测的城市，这些私人倡议不太可见，但在城市转型中却具有决定性作用。研究考察了这些投资在被低估的城市空间和部分或完全非正式的背景下出现的条件。它还关注普通结构的拼凑，分析行动者模仿合法性所使用的“策略”形式，考虑新兴项目的冲突方面，并见证了准非正式房地产市场的出现。研究结果指出，政策在正式化非正式实践方面具有很大的潜力。结果还表明，城市的一个重要部分依赖于部分或完全不受约束的自由市场机制，其中不符合规定的交易和建筑塑造了混合的城市化。",
+            "matched_topics": [
+              "城市治理",
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Priming the pump: Does Black and Hispanic gentrification predict White gentrification?",
+            "title_zh": "启动水泵：黑人和西班牙裔的士绅化是否预示着白人的士绅化？",
+            "url": "https://doi.org/10.1177/00420980251406003",
+            "abstract_en": "The discourse on gentrification, which centers on reinvestment in disadvantaged communities, often focuses on the influx of White residents into low-income Black and Hispanic neighborhoods. However, scholarly opinions diverge on the attractiveness of communities of color to White gentrifiers. This study aims to address this debate by utilizing US Census and American Community Survey data to identify the racial/ethnic factors influencing White-driven gentrification across the United States. Our findings indicate that neighborhoods that are at least 50% Black and have experienced gentrification by middle- or upper-income Black residents are more likely to see subsequent White gentrification. However, this “priming” effect weakens as the share of Black residents increases. In contrast, predominantly Hispanic neighborhoods, whether previously gentrified or not, have a chance of White gentrification. Only in neighborhoods with very high Hispanic populations does prior Hispanic gentrification significantly increase the likelihood of White gentrification.",
+            "abstract_zh": "关于绅士化的话语，以对弱势社区的再投资为中心，通常关注白人居民涌入低收入的黑人和西班牙裔社区。然而，学者对于有色人种社区对白人绅士化者的吸引力意见不一。本研究旨在通过利用美国人口普查和美国社区调查数据，识别影响全美白人驱动绅士化的种族/民族因素，以解决这一辩论。我们的发现表明，至少有50%的黑人居民，并且经历了中高收入黑人居民绅士化的社区，更有可能看到随后的白人绅士化。然而，随着黑人居民比例的增加，这种“启动”效应会减弱。相比之下，以西班牙裔为主的社区，无论之前是否经历过绅士化，都有白人绅士化的机会。只有在西班牙裔人口非常高的社区，之前的西班牙裔绅士化才显著增加了白人绅士化的可能性。",
+            "matched_topics": [
+              "城市治理",
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Echoes of well-being in city: Exploring the accumulation of activity episode well-being and day-level well-being of residents",
+            "title_zh": "城市幸福回声：探索居民活动片段幸福感与日幸福感的累积",
+            "url": "https://doi.org/10.1177/00420980251406850",
+            "abstract_en": "Current research extensively examines the relationship between geographical environment, spatio-temporal activities, and subjective well-being. However, how well-being accumulates across different temporal scales remains unclear. Based on activity diary data collected from intercity commuters in the city of Zhongshan in China, this study analyzes the accumulation process of subjective well-being from the activity episode level to the day level. The findings reveal that: (1) activity episode well-being (ESW) is influenced by both activity types and spatial contexts, while day-level well-being (DSW) is mainly affected by the type of activities conducted in the day; notably, the impact of travel on activity episode well-being is opposite to that on day-level well-being; (2) in general, the accumulation from ESW to DSW follows the average rule; and (3) considering different mobility patterns among residents, the accumulation from ESW to DSW for the fixed mobility group adheres to a “begin–end” rule, whereas for the flexible mobility group it follows a “peak (low)–end” rule. These findings establish a dialogue between geography and psychology in the field of residents’ well-being, contributing to a deeper understanding of the factors influencing and processes shaping different temporal scales of subjective well-being among urban residents. They offer valuable insights for more refined urban health planning and governance in the future.",
+            "abstract_zh": "当前研究广泛考察了地理环境、时空活动与主观幸福感之间的关系。然而，不同时间尺度上幸福感的累积过程尚不清楚。本研究基于中国中山市城际通勤者的活动日记数据，分析了主观幸福感从活动片段层面到日层面的累积过程。研究发现：（1）活动片段幸福感（ESW）受活动类型和空间环境的影响，而日层面幸福感（DSW）主要受当天进行的活动类型的影响；值得注意的是，出行对活动片段幸福感的影响与对日层面幸福感的影响相反；（2）总体而言，ESW到DSW的累积遵循平均规则；（3）考虑到居民不同的流动性模式，固定流动性群体的ESW到DSW的累积遵循“开始-结束”规则，而灵活流动性群体则遵循“峰值（低）-结束”规则。这些发现在居民幸福感领域建立了地理学与心理学之间的对话，有助于更深入地理解影响和塑造城市居民不同时间尺度主观幸福感的因素和过程。它们为未来更精细的城市健康规划和管理提供了宝贵的洞见。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "The politics of urban regime contention: A qualitative comparative analysis of 18 Spanish cases",
+            "title_zh": "城市政权争夺的政治学：对18个西班牙案例的定性比较分析",
+            "url": "https://doi.org/10.1177/00420980251405755",
+            "abstract_en": "This article contributes to urban regime theory by analysing the conditions enabling the electoral consolidation of social movement-led left coalitions in Spanish cities after 2015. It uses fuzzy-set qualitative comparative analysis to investigate combinations of economic and political factors influencing regime change across 18 cases. The analysis identifies civic capacity as a necessary condition and finds that no single factor is sufficient. Instead, consolidation results from particular combinations: in smaller cities, high representation in local councils and fiscal capacity compensate for hostile upper-tier governments; in larger cities, intergovernmental allies are more critical. Contrary to expectations, capital mobility plays only a small explanatory role, likely due to Spain’s intergovernmental fiscal transfers. These findings underscore the importance of political-institutional factors – especially civic mobilisation and multi-level alliances – for progressive urban governance.",
+            "abstract_zh": "本文通过分析2015年后西班牙城市中由社会运动领导的左翼联盟在选举中巩固的条件，为城市政权理论做出了贡献。它使用模糊集定性比较分析来研究影响18个案例中政权变化的经济和政治因素的组合。分析确定公民能力是一个必要条件，并发现没有任何单一因素是充分的。相反，巩固来自于特定的组合：在较小城市中，地方议会中的高代表性和财政能力补偿了敌对的上级政府；在较大的城市中，政府间盟友更为关键。与预期相反，资本流动性只起到了很小的解释作用，这可能是由于西班牙的政府间财政转移。这些发现强调了政治制度因素——特别是公民动员和多层次联盟——对于进步城市治理的重要性。",
             "matched_topics": [
               "城市治理"
             ]
           },
           {
-            "title_en": "Foreign infrastructure, local frictions: Contested mobility and social constructs of the Nairobi Expressway",
-            "title_zh": "外国基础设施，地方摩擦：内罗毕高速公路的争议性流动性与社会构建",
-            "url": "https://doi.org/10.1177/00420980261419328",
-            "abstract_en": "Enduring tensions between neoliberal hegemonies and indigenous responses prevail in post-colonial African urban discourses, particularly regarding the exclusion and reclamation of indigenous, informal, or non-state transport’s access to formal infrastructure systems. This paper examines the intricate relationships between Nairobi’s matatu system—a prominent symbol of African transport and indigenous social infrastructure—and emerging Chinese-backed mega infrastructures in Kenya. It examines how the matatu system, bearing both neoliberal policies and controversial social images since its inception, interacts with the emerging formal and transnational hegemony of Chinese infrastructure investments. This paper highlights novel tensions between the indigenous matatu system and the privatized, foreign, and monopolized public infrastructure, exemplified by the Nairobi Expressway: Kenya’s first major transport Public-Private Partnership (PPP) project funded, built, and operated by a Chinese contractor. With field observations, surveys, mappings, and interviews between 2022 and 2024, this paper explores socio-economic structures and spatial implications of these transnational interactions. It reveals how Chinese contractors, mainly engineering-focused state-owned enterprises (SOEs), export their domestic experiences and visions of modern infrastructural development abroad. It highlights distinct funding structures, operational patterns, development paths, and institutional agents of Chinese infrastructure, contrasting sharply with both indigenous self-organization and neo-liberalizing formal regulation in Kenya. It also documents, analyzes, and visualizes the socio-spatial dynamics of matatu’s struggle for access to formal transport infrastructures and the socio-technical construct behind. Highlighting intersections of indigenous transport systems with emerging Chinese presence, this paper enriches accounts of decolonizing African urbanism and contributes to broader discourses on Global South urbanization and infrastructural politics. It extends traditional post-colonial discussions to South-South contexts.",
-            "abstract_zh": "在后殖民非洲城市话语中，新自由主义霸权与土著回应之间的持久紧张关系尤为突出，特别是在排斥和重新夺回土著、非正式或非国家交通对正式基础设施系统的访问方面。本文考察了内罗毕的马塔图系统——非洲交通和土著社会基础设施的一个显著象征——与肯尼亚新兴的中国支持的巨型基础设施之间的复杂关系。它考察了自诞生以来就承载着新自由主义政策和有争议社会形象的马塔图系统，如何与新兴的中国基础设施投资的正式和跨国霸权互动。本文突出了土著马塔图系统与私有化、外国和垄断的公共基础设施之间的新紧张关系，以内罗毕高速公路为例：这是肯尼亚首个由中国承包商资助、建设和运营的主要交通公私合作伙伴关系（PPP）项目。通过2022年至2024年的实地观察、调查、制图和访谈，本文探讨了这些跨国互动的社会经济结构和空间影响。它揭示了中国承包商，主要是以工程为重点的国有企业（SOE），如何将他们对国内经验和现代基础设施发展愿景的出口到国外。它突出了中国基础设施的不同融资结构、运营模式、发展路径和制度代理，与肯尼亚的土著自组织和新自由主义化正式监管形成鲜明对比。它还记录、分析和可视化了马塔图争取正式交通基础设施访问的社会空间动态及其背后的社会技术构建。本文突出了土著交通系统与新兴中国存在之间的交汇点，丰富了非洲城市主义去殖民化的叙述，并为全球南方城市化和基础设施政治的更广泛话语做出了贡献。它将传统的后殖民讨论扩展到南南合作的背景下。",
+            "title_en": "A case for arts-integrative research on reparative spatial justice: Learning from Boston Chinatown",
+            "title_zh": "艺术整合研究在修复性空间正义中的应用：从波士顿唐人街学习",
+            "url": "https://doi.org/10.1177/00420980251400557",
+            "abstract_en": "Urban studies and planning researchers are increasingly investigating questions of reparative justice related to redressing racial harms of city making and creating more just urban futures. This critical commentary suggests community-based arts and cultural organizing as avenues for reparative justice research that moves away from damage-centered narratives toward desire-based accounts that emphasize people’s creative practices and illuminate processes of healing, reimagining, and remaking. Revisiting the history of Asian American reparations advocacy and drawing on urban studies and planning research by participatory researchers and artist activists embedded in Chinatown’s multigenerational social justice and cultural ecosystem, the article examines the emergence and role of arts practices within three community-led initiatives for reparative spatial justice. The analysis considers the role of key actors and groups involved with community-based art and cultural organizing efforts, different and overlapping functions of arts practices within community-based reparative justice work along with their facilitating factors and surrounding conditions. The concluding discussion reflects on how Chinatown reparative justice struggles can help reveal shared challenges with other reparations and reparative justice initiatives and generate mutual insights to address interrelated injustices.",
+            "abstract_zh": "城市研究和规划的研究人员越来越多地探讨与纠正城市制造过程中的种族伤害以及创造更公正的城市未来相关的修复性正义问题。这篇评论性文章建议将基于社区的艺术和文化组织作为修复性正义研究的途径，从以损害为中心的叙述转向以愿望为基础的叙述，强调人们的创造性实践，并阐明治愈、重新想象和重塑的过程。文章回顾了亚裔美国人赔偿倡导的历史，并借鉴了参与式研究者和艺术家活动家在唐人街多代社会正义和文化生态系统中嵌入的城市研究和规划研究，考察了艺术实践在三个社区领导的修复性空间正义倡议中的出现和作用。分析考虑了参与基于社区的艺术和文化组织工作的各主要行动者和团体的作用，艺术实践在基于社区的修复性正义工作中的不同和重叠功能以及它们的促进因素和周围条件。最后的讨论反思了唐人街修复性正义斗争如何帮助揭示与其他赔偿和修复性正义倡议的共同挑战，并产生相互见解以解决相互关联的不公正现象。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Lion in a jungle or lion in a cage? <i>Yojana</i> beyond planning power and powerlessness in Bangalore, India",
+            "title_zh": "丛林中的狮子还是笼中的狮子？《Yojana》超越规划权力与无力感在印度班加罗尔",
+            "url": "https://doi.org/10.1177/00420980251396004",
+            "abstract_en": "This article examines the relationship between planning, violations and powerlessness in Bangalore. It argues that although planning power is supposed to be produced in the public administration by urban planners and bureaucrats working with and through different protocols, it is never actually produced in reality. Engaging with this paradox and drawing on Latour and Nāgārjuna, this article suggests that planning power has no ontological substance and that planning is performatively constituted in real time by diverse collectives. I argue that the millions of observable everyday practices that mutually constitute the social, political and administrative cannot be explained, criticised or controlled by a single concept of ‘planning state power’ as a structural force. Instead, the article proposes Yojana as a context-sensitive vernacular concept to better understand the practice of planning in India and beyond.",
+            "abstract_zh": "本文探讨了规划、违规和无力感在班加罗尔之间的关系。文章认为，尽管规划权力本应由城市规划者和官僚通过不同的协议在公共行政中产生，但实际上从未真正产生。本文通过与这一悖论对话，并借鉴拉图尔和龙树的观点，提出规划权力没有本体论实质，规划是在实时中由多样化的集体表演性地构成的。作者认为，数百万可观察到的日常生活实践相互构成了社会、政治和行政，这些实践不能被单一的“规划国家权力”概念作为结构性力量来解释、批评或控制。相反，文章提出了Yojana作为一个对情境敏感的本土概念，以更好地理解印度乃至全球的规划实践。",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Between state–community partnerships and austerity: The everyday networked governance of Montreal’s solidarity greenhouses",
+            "title_zh": "国家-社区伙伴关系与紧缩政策之间：蒙特利尔团结温室的日常网络化治理",
+            "url": "https://doi.org/10.1177/00420980251398620",
+            "abstract_en": "Greenhouses are becoming a regular feature of the urban landscape, their popularity driven in part by an eco-futurist, techno-optimist vision of “vertical farming” that articulates with entrepreneurial green urbanism. In Montreal (Quebec, Canada), however, urban greenhouses tend to be small-scale, low-tech infrastructures operated by networks of state, non-profit, and community actors, with an equity-oriented mission of working in solidarity with–and providing material support for–marginalized populations. In this article, we characterize the everyday governance of these “solidarity greenhouses” ( serres solidaires ) and examine the conditions that mediate their emergence and success within twin contexts of austerity and entrepreneurial urbanism. Examining three key challenge areas–project definition, municipal regulations, and funding–and how project leaders navigate them, we reveal how everyday governance is a function of relational and differential power between partners and the ability to navigate a shifting funding landscape. Governance is further deeply influenced by Quebec’s unique “community action” model and the ongoing dismantling of a once-robust welfare state.",
+            "abstract_zh": "温室正成为城市景观的常见特征，其流行部分是由一种生态未来主义、技术乐观主义的“垂直农业”愿景推动的，这种愿景与创业型绿色城市主义相呼应。然而，在加拿大魁北克省的蒙特利尔，城市温室往往是由国家、非营利组织和社区行动者网络运营的小规模、低技术基础设施，其以公平为导向的使命是与边缘化群体团结合作，并为他们提供物质支持。在本文中，我们描述了这些“团结温室”（serres solidaires）的日常治理，并考察了在紧缩和创业型城市主义双重背景下，它们出现和成功的条件。通过检查三个关键挑战领域——项目定义、市政法规和资金——以及项目领导者如何应对这些挑战，我们揭示了日常治理是如何成为合作伙伴之间关系和差异权力的函数，以及如何导航不断变化的资金格局的能力。治理进一步深受魁北克独特的“社区行动”模式和曾经强大的福利国家不断解体的影响。",
             "matched_topics": [
               "城市治理",
+              "房地产",
               "婚姻"
             ]
           },
           {
-            "title_en": "Disrupted spaces, adaptive lives: Unequal impacts of Hanoi’s first urban railway lines",
-            "title_zh": "被打乱的空间，适应性的生活：河内首条城市铁路线的不平等影响",
-            "url": "https://doi.org/10.1177/00420980251363750",
-            "abstract_en": "In this article, we examine two urban railway projects in Hanoi, Vietnam: Line 2A, operational since 2021, and Line 3, currently partly operational and partly under construction. Despite high hopes for these ‘sustainable’ transportation projects, little scholarly attention has focused on the inequities and negative impacts associated with their construction and operations. Specifically, the displacements and insecurities faced by Hanoi residents living or working along these lines have been largely overlooked. Drawing on conceptual debates from the recent infrastructure turn, we examine how Hanoi’s first two urban railway lines have disrupted the lives and livelihoods of local residents. Our findings are based upon in-depth qualitative fieldwork conducted in 2019, 2022, and 2024, including interviews, a photovoice project along Line 2A, and an ethnographic case study of an alley partly destroyed by Line 3’s construction. We find that the land acquisition and construction processes have inflicted infrastructural violence on numerous nearby residents and workers, creating categories of ‘lucky’, ‘unlucky’, and ‘least lucky’ residents. We investigate how some residents are adapting by establishing new livelihoods beneath or alongside the lines, carving out opportunities in otherwise underutilised spaces. We argue that these individuals are engaging in careful urban spatial politics to navigate the impacts of these projects while avoiding conflict with urban officials focused on ‘modernisation’ discourses.",
-            "abstract_zh": "本文考察了越南河内两个城市铁路项目：自2021年运营的2A线和目前部分运营、部分在建的3号线。尽管这些“可持续”交通项目备受期待，但学术界对它们在建设和运营过程中产生的不平等和负面影响关注甚少。具体来说，居住或工作在这些线路沿线的河内居民所面临的流离失所和不安全感被严重忽视。借鉴近期基础设施转向的概念辩论，我们检视了河内前两条城市铁路线如何打乱了当地居民的生活和生计。我们的研究结果基于2019年、2022年和2024年进行的深入定性实地工作，包括访谈、2A线沿线的摄影发声项目，以及3号线建设部分摧毁的小巷的民族志案例研究。我们发现，土地征用和建设过程对许多附近居民和工人造成了基础设施暴力，创造了“幸运”、“不幸”和“最不幸”居民的类别。我们调查了一些居民如何通过在线路下方或旁边建立新生计，开拓在其他未充分利用空间中的机会来适应。我们认为，这些个体正在参与谨慎的城市空间政治，以应对这些项目的影响，同时避免与专注于“现代化”话语的城市官员发生冲突。",
+            "title_en": "Liberal cities in autocratizing states: Scholarly pathways and a research agenda",
+            "title_zh": "标题：走向专制国家中的自由城市：学术路径与研究议程",
+            "url": "https://doi.org/10.1177/00420980251385996",
+            "abstract_en": "This article explores the growing phenomenon of liberal cities operating within increasingly autocratizing national regimes. While tensions between cities and states are not new, recent developments in countries such as Hungary, Poland, Turkey, Israel, and the USA highlight a distinct and urgent dynamic: urban resistance in the face of democratic backsliding and autocratization. Drawing on emerging scholarship from urban studies, political science, and geography, the article synthesizes three burgeoning strands of literature: (1) city-level activism contesting autocratizing national policies, (2) the transnational engagement of cities through city diplomacy and alliances, and (3) state-led constraints on urban autonomy. These studies reveal unique patterns and settings shaped by the global autocratic turn, which go beyond more established frictions between cities and states. Through this scholarship, the article examines how municipalities governed by progressive actors respond to central state pressures, leveraging legal, financial, symbolic, and diplomatic tools to assert autonomy and uphold liberal-democratic values. Case studies such as Istanbul, Budapest, and the Pact of Free Cities illustrate how cities act as democratic enclaves, navigating structural constraints to mobilize resistance. By identifying research gaps and proposing new avenues for investigation, this article advances a research agenda that re-centers cities as critical actors in contemporary struggles for democracy.",
+            "abstract_zh": "本文探讨了自由城市在日益专制化的国家政权中运作的增长现象。尽管城市与国家之间的紧张关系并不新鲜，但近期在匈牙利、波兰、土耳其、以色列和美国等国家的进展突显了一个独特而紧迫的动态：在民主倒退和专制化面前的城市抵抗。文章借鉴了城市研究、政治科学和地理学中新兴的学术成果，综合了三个日益增长的文献领域：(1) 城市层面的活动主义挑战专制化国家政策，(2) 城市通过城市外交和联盟的跨国参与，以及 (3) 国家对城市自治的限制。这些研究揭示了由全球专制转向塑造的独特模式和环境，超越了城市与国家之间更成熟的摩擦。通过这些学术成果，文章考察了由进步行动者治理的市政当局如何回应中央国家的压力，利用法律、财政、象征和外交工具来维护自治和自由民主价值观。伊斯坦布尔、布达佩斯和自由城市公约等案例研究说明了城市如何作为民主飞地，导航结构性约束以动员抵抗。通过识别研究空白并提出新的调查途径，本文推进了一个将城市重新置于当代民主斗争中关键行动者的研究议程。",
             "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Mobility practices and the social construction of urban centralities in Belo Horizonte (Brazil) and Bogotá (Colombia)",
-            "title_zh": "流动性实践与贝洛奥里藏特（巴西）和波哥大（哥伦比亚）城市中心性的社会构建",
-            "url": "https://doi.org/10.1177/00420980251362648",
-            "abstract_en": "This paper examines how urban centralities are socially constructed through mobility practices in Bogotá (Colombia) and Belo Horizonte (Brazil). As socially constructed geographies, centralities are shaped not only by agglomeration and density but also intersubjectively by mobility practices that vary widely depending on situational and relational dimensions of individuals such as gender, age, income, and their modal transport choices. To identify the formation of centralities beyond ‘traditional’ urban cores, we developed two indexes: the Diversity Centralities Index, which identifies areas attracting a broad range of social groups, and the Differential Centralities Index, which identifies areas attracting specific groups such as older people, women, low-income individuals and active transport users. The results show that while obligatory travel patterns align with planned centralities, distinct local centralities also emerge based on the spatial patterns of different social groups. In both cities, these local centralities appear not only in traditional cores but also in peripheral areas. These findings challenge the central–peripheral dichotomy often emphasised in urban planning and reinterpret urban centralities as dynamic, socially constructed spaces shaped by diverse and differential mobility practices.",
-            "abstract_zh": "本文探讨了在波哥大（哥伦比亚）和贝洛奥里藏特（巴西）城市中心性是如何通过流动实践被社会构建的。作为社会构建的地理形态，中心性不仅由集聚和密度塑造，还由流动实践的主体间性塑造，这些流动实践因个体的情境和关系维度（如性别、年龄、收入及其交通方式选择）而大相径庭。为了识别超越“传统”城市核心的中心性形成，我们开发了两个指数：多样性中心性指数，它识别吸引广泛社会群体的区域；差异性中心性指数，它识别吸引特定群体如老年人、女性、低收入个体和积极交通使用者的区域。结果显示，虽然义务旅行模式与规划的中心性一致，但基于不同社会群体的空间模式也出现了独特的地方中心性。在这两个城市中，这些地方中心性不仅出现在传统核心区，也出现在边缘地区。这些发现挑战了城市规划中经常强调的中心-边缘二分法，并重新解释城市中心性为动态的、由多样化和差异化流动实践塑造的社会构建空间。",
-            "matched_topics": [
-              "城市治理",
-              "房地产"
+              "城市治理"
             ]
           }
         ],
