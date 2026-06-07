@@ -1,12 +1,19 @@
 {
-  "updated_at": "2026-05-31 07:15:07",
+  "updated_at": "2026-06-07 07:52:15",
   "translation": {
     "engine": "kimi",
     "model": "moonshot-v1-8k",
     "enabled": true,
-    "success_count": 34,
-    "fail_count": 0,
-    "failed_examples": [],
+    "success_count": 0,
+    "fail_count": 27,
+    "failed_examples": [
+      "Training Specificity and Occupational Mobility: Evidence From German Apprentices :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
+      "Apprenticeships play a key role in enabling successful school‐to‐work transition :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
+      "Fisher–Schultz Lecture: Contracting Over Pharmaceutical Formularies and Rebates :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
+      "We investigate how formularies used by pharmacy benefit managers (PBMs) affect e :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
+      "Assortative Matching on Income :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
+      "We analyze marital matching on income using an extremely rich Dutch data set con :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p"
+    ],
     "note": "Set KIMI_API_KEY to enable Chinese translation."
   },
   "urban_marriage_tracker": {
@@ -188,39 +195,50 @@
         "query_name": "Econometrica",
         "issn": "0012-9682",
         "resolved_name": "Econometrica",
-        "issue_title": "Volume 94, Issue 2",
+        "issue_title": "Volume 94, Issue 3",
         "issue_url": "https://onlinelibrary.wiley.com/journal/14680262",
-        "matched_count": 3,
-        "total_in_issue": 14,
+        "matched_count": 4,
+        "total_in_issue": 17,
         "papers": [
           {
-            "title_en": "Monotonicity and Robust Implementation Under Forward‐Induction Reasoning",
-            "title_zh": "单调性与前向归纳推理下的鲁棒实施",
-            "url": "https://doi.org/10.3982/ecta23709",
-            "abstract_en": "In sequential games, the set of paths consistent with rationality and forward‐induction reasoning may change nonmonotonically when adding transparent restrictions on players' beliefs. Yet, we prove that—in an incomplete‐information environment—predictions become sharper when the restrictions only concern initial beliefs about types. Thus, strong rationalizability for games with payoff uncertainty characterizes the path predictions of forward‐induction reasoning across all possible restrictions on players' hierarchies of exogenous beliefs. With this, we can solve an open problem: the implementation of social choice functions through sequential mechanisms under forward‐induction reasoning—which considerably expands the realm of implementable functions compared with simultaneous mechanisms (Müller (2016))—is indeed robust in the sense of Bergemann and Morris (2009).",
-            "abstract_zh": "在序贯博弈中，当对玩家信念的透明限制增加时，与理性和向前归纳推理一致的路径集合可能会非单调地变化。然而，我们证明了——在不完全信息环境中——当限制只涉及对类型的初始信念时，预测变得更加精确。因此，在具有收益不确定性的博弈中，强理性化特征化了向前归纳推理的路径预测，跨越了对玩家外生信念层次结构的所有可能限制。通过这一点，我们可以解决一个开放问题：通过序贯机制在向前归纳推理下实施社会选择函数——与同时机制（Müller 2016）相比，这显著扩展了可实施函数的范围——确实是Bergemann和Morris（2009）意义上的稳健的。",
+            "title_en": "Training Specificity and Occupational Mobility: Evidence From German Apprenticeships",
+            "title_zh": "",
+            "url": "https://doi.org/10.3982/ecta21835",
+            "abstract_en": "Apprenticeships play a key role in enabling successful school‐to‐work transitions in many countries, but in the presence of imperfect information, the specificity of this type of training may entail important costs for those working outside their training fields. I study this issue in one of the most prominent training settings, the German apprenticeship system. Using administrative data and a broad occupational classification, I find that 40% of individuals work in occupations different from their training. I estimate the cost of mismatch using vacancy instruments and extend methodological approaches in high‐dimensional selection settings. Lacking training in one's occupation entails an average wage penalty of 14%, the equivalent of two years of work experience. The penalty increases with the task distance between training and occupation. My findings suggest that retraining is crucial to mitigate the adverse consequences from imperfect information in specialized training settings.",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "The Complexity of Multidimensional Learning in Agriculture",
-            "title_zh": "农业中多维学习的复杂性",
-            "url": "https://doi.org/10.3982/ecta22974",
-            "abstract_en": "Studies on agricultural technology adoption often focus on one input, practice, or package, which is analytically useful, but may overlook the complexities involved with multidimensional learning needed for a lot of agricultural decisions. In Kenya, we study farmers' dynamic learning (from oneself and others) and adoption decisions over six seasons after randomly inviting them to participate in agronomic research trials, comparing different combinations of inputs during three consecutive seasons. As a response to the trials, adoption increases steadily despite the absence of positive profits multiple seasons after exposure to the trials. Know‐how increases rapidly and faster for high skill farmers who experiment the most, at the cost of making new mistakes. The findings are consistent with a theoretical model with multidimensionality of input and practice decisions and differential learning from one's own experience by skills, where complementarities imply that adoption of an input requires finding how to re‐optimize other dimensions, which adds to the cost of adoption.",
-            "abstract_zh": "研究农业技术采纳往往关注单一投入、实践或一揽子方案，这在分析上是有用的，但可能忽视了农业决策中多维学习所需的复杂性。在肯尼亚，我们研究了农民在随机邀请参加农艺研究试验后六个季节的动态学习（从自己和他人）和采纳决策，比较了连续三个季节中不同投入组合的效果。作为对试验的响应，尽管在接触试验后多个季节没有获得正利润，采纳仍然稳步增加。知识技能增长迅速，对于技能较高的农民来说增长更快，他们进行的实验最多，但代价是犯新错误。这些发现与一个理论模型一致，该模型考虑了投入和实践决策的多维性以及根据技能从个人经验中学习的差异性，其中互补性意味着采纳一种投入需要找到如何重新优化其他维度的方法，这增加了采纳的成本。",
+            "title_en": "Fisher–Schultz Lecture: Contracting Over Pharmaceutical Formularies and Rebates",
+            "title_zh": "",
+            "url": "https://doi.org/10.3982/ecta22488",
+            "abstract_en": "We investigate how formularies used by pharmacy benefit managers (PBMs) affect equilibrium manufacturer rebates for branded drugs through tiering and exclusion. We develop a theoretical model of multidimensional contracting in which a PBM negotiates with drug manufacturers over menus of formulary‐contingent rebates and chooses a formulary. We then estimate consumer demand responses to tier placement for statins using claims data from Princeton University, a large employer contracting with a single PBM to offer prescription drug coverage to its employees. Combining the theoretical model with demand estimates and observed list prices, we quantify how allowing for differential tier placement and exclusion affect equilibrium rebates. Our predictions are consistent with available aggregate rebate data, and we find that allowing a PBM to place branded drugs on preferred‐ and non‐preferred tiers can substantially increase negotiated rebate payments.",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "Spatial Economics for Granular Settings",
-            "title_zh": "细粒度环境下的空间经济学",
-            "url": "https://doi.org/10.3982/ecta19350",
-            "abstract_en": "We examine the application of quantitative spatial models to the growing body of fine spatial data used to study local economic outcomes. In granular settings in which people choose from a large set of potential residence‐workplace pairs, observed outcomes in part reflect idiosyncratic choices. Using analytical examples, Monte Carlo simulations, and event studies of neighborhood employment booms, we demonstrate that calibration procedures that equate observed shares and modeled probabilities perform very poorly in these high‐dimensional settings. Parsimonious specifications of spatial linkages deliver better counterfactual predictions. To quantify the uncertainty about counterfactual outcomes induced by the idiosyncratic component of individuals' decisions, we introduce a quantitative spatial model with a finite number of individuals. Applying this model to Amazon's proposed second headquarters in New York City reveals that its predicted consequences for most neighborhoods vary substantially across realizations of the individual idiosyncrasies.",
-            "abstract_zh": "我们研究了定量空间模型在日益增长的精细空间数据中的应用，这些数据被用来研究地方经济结果。在人们从大量潜在的居住-工作场所配对中做出选择的细粒度环境中，观察到的结果部分反映了个体的特定选择。通过分析性示例、蒙特卡洛模拟和邻里就业繁荣的事件研究，我们展示了在这些高维环境中，将观察到的份额等同于模型化概率的校准程序表现非常差。空间联系的简洁规范提供了更好的反事实预测。为了量化由个体决策的特定组成部分引起的反事实结果的不确定性，我们引入了一个有限数量个体的定量空间模型。将这一模型应用于亚马逊在纽约市提出的第二总部，揭示了其对大多数社区的预测后果在个体特异性的不同实现中差异很大。",
+            "title_en": "Assortative Matching on Income",
+            "title_zh": "",
+            "url": "https://doi.org/10.3982/ecta21097",
+            "abstract_en": "We analyze marital matching on income using an extremely rich Dutch data set containing all income tax files over seven years. We develop a novel methodology that directly extends previous contributions to allow for highly flexible matching patterns. Investigating all marriages that took place between 2013 and 2019, we find that marital patterns are particularly intriguing. While a majority of couples match assortatively, a small but significant minority display negative assortative matching. We also show that standard approaches, which consider all married couples using current incomes (as opposed to pre‐marriage incomes used in our approach), may generate misleading conclusions.",
+            "abstract_zh": "",
             "matched_topics": [
-              "城市治理"
+              "房地产",
+              "婚姻"
+            ]
+          },
+          {
+            "title_en": "Work Hours Mismatch",
+            "title_zh": "",
+            "url": "https://doi.org/10.3982/ecta21849",
+            "abstract_en": "We apply a revealed preference approach to administrative data from Washington to show that constraints on work hours are widespread: Workers have limited discretion over hours at a given employer, and there is substantial mismatch of workers who prefer long hours to employers that provide short hours. Voluntary job transitions imply a ratio of the marginal rate of substitution of earnings for hours to the wage rate of 0.5–0.6 for prime‐age workers. The average absolute deviation between observed and optimal hours is about 15%, and low‐wage workers face particularly acute constraints on hours. On average, observed hours tend to be less than preferred levels, and workers would require a 12% higher wage with their current employer to be as well off as with an employer offering ideal hours. These findings suggest that hour constraints are an equilibrium feature of the labor market because long‐hour jobs are costly to employers.",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
             ]
           }
         ],
@@ -299,7 +317,7 @@
         "issue_title": "Published 2026-08",
         "issue_url": "https://www.sciencedirect.com/journal/journal-of-urban-economics",
         "matched_count": 2,
-        "total_in_issue": 5,
+        "total_in_issue": 8,
         "papers": [
           {
             "title_en": "Development approval times and new housing supply: Evidence from Los Angeles",
@@ -315,7 +333,7 @@
             "title_en": "Fracking ghost towns: How neighborhood exposure drives population decline",
             "title_zh": "水力压裂鬼城：邻里暴露如何导致人口下降",
             "url": "https://doi.org/10.1016/j.jue.2026.103870",
-            "abstract_en": "",
+            "abstract_en": "The fracking revolution has exposed more than 15 million American residents to drilling within 3 miles, a tripling from conventional extraction methods. While the economic benefits are distributed across nearby counties, the environmental and neighborhood costs are concentrated within miles of a well. Using granular data on exposure and outcomes, I show that nearby fracking activity shrinks neighborhood population by 5%. The spatial decay, temporal pattern, and mechanisms of this treatment effect operate to debunk the stylized argument that fracking creates local boom towns.",
             "abstract_zh": "",
             "matched_topics": [
               "城市治理"
@@ -332,9 +350,21 @@
         "resolved_name": "Regional Science and Urban Economics",
         "issue_title": "Published 2026-07",
         "issue_url": "https://www.sciencedirect.com/journal/regional-science-and-urban-economics",
-        "matched_count": 0,
-        "total_in_issue": 1,
-        "papers": [],
+        "matched_count": 1,
+        "total_in_issue": 2,
+        "papers": [
+          {
+            "title_en": "Private provision of local public goods and housing market responses: Evidence from London",
+            "title_zh": "",
+            "url": "https://doi.org/10.1016/j.regsciurbeco.2026.104243",
+            "abstract_en": "• Both referees inquired why the effects in the main event studies fade after period 5. We believe that the main reason for the drop in effects is a reduction in the number of control groups over time. This estimator compares properties in earlier BIDs with properties in later treated ones. Hence, t=0 it compares the BIDs that first open with later treated ones, in t=1 compares those that open in t=0 and t=1 with those that open later and so on. As we move further, the number of control areas reduce. To attempt and answer this concerned we have added a robustness exercise where we consider BIDs that opened by 2010, and use instead never treated units as controls. The event-studies of this exercise reveal now more persistent effects, with a positive and significant coefficient being found in the 10-year post-treatment period. We have added the corresponding figures to the appendix. • To address the comments from Referee 2, we have included an additional specification using local authority trends, with results remaining largely consistent. We have also added a figure that further explores BID heterogeneity by splitting around the median share of deprived households and vacant space, using data from the 2001 Census. The corresponding Table and Figure were added to the appendix. • Both referees inquired about the rationale behind using a two-stage process, here firstly prices are residualized using observable characteristics, then we apply the Callaway and Sant’Anna (CS) DID estimator to these residuals. We have clarified, both in the letters to the referees and in the manuscript, that the reason why we do not incorporate these observable characteristics directly into the estimator as controls is because the csdid Stata package sets the value of the covariate to be equal to the value of the covariate in the “base period”. In post-treatment periods the base period is the period immediately before observations in a particular group become treated (when there is anticipation, it is before anticipation effects start too), and in pre-treatment periods the base period is the period right before the current period. While this is of clear interpretation with analyses of “fixed units” over time (such as individuals, blocks, municipalities), we believe that applying the same reasoning to repeated cross-sectional settings like ours would not be correct.",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理",
+              "房地产"
+            ]
+          }
+        ],
         "error": null
       },
       {
@@ -346,7 +376,7 @@
         "issue_title": "Published 2026-07",
         "issue_url": "https://www.sciencedirect.com/journal/china-economic-review",
         "matched_count": 0,
-        "total_in_issue": 1,
+        "total_in_issue": 4,
         "papers": [],
         "error": null
       },
@@ -623,7 +653,7 @@
         "issue_title": "Volume 54, Issue 4",
         "issue_url": "https://www.cambridge.org/core/journals/british-journal-of-political-science",
         "matched_count": 4,
-        "total_in_issue": 20,
+        "total_in_issue": 19,
         "papers": [
           {
             "title_en": "Party Positioning Under Populist State Leaders",
@@ -793,7 +823,7 @@
             "title_zh": "为政策设计行为洞察：过程、能力与机构 作者：伊沙尼·穆克吉和阿塞尔·穆萨古洛娃，剑桥大学出版社，英国剑桥，2024年。84页，23美元。ISBN：978-1-00-926446-4",
             "url": "https://doi.org/10.1111/puar.70119",
             "abstract_en": "Much scholarship on Behavioral Public Policy focuses on questions of ethics, effectiveness, and implementation (Einfeld 2025). Designing Behavioural Insights for Policy: Processes, Capacities and Institutions from Ishani Mukhurjee and Assel Mussagulova brings a new perspective to an under-theorized area of scholarship, focusing on the policy design, instrumentation, and innovation of behavioral insights. Designing Behavioural Insights for Policy is a Cambridge Element, which are succinct academic publications that sit in length between a traditional book and a journal article. The use of Behavioral Public Policy continues to grow. The approach has been described as a “paradigm shift” by the OECD, and there are now over 300 behavioral insights teams around the world (OECD 2023). Academic scholarship is also increasingly attending to behavioral insights (Leong and Howlett 2020). This scholarship has focused on defining behavioral insights and evaluating outcomes, with less attention paid to the administrative processes in the design and decisions to use behavioral public policy. This Element theorizes the support needed to embed behavioral insights in policy practice. It asks the compelling question “What are the key capacity and procedural prerequisites for the integration of BI into the design of policy tools?” It proceeds to answer the question through a framework that brings together theory on policy capacity, policy design and tools, and policy innovation. In doing so it makes a useful contribution to the policy and public administration literature, building on the authors' expertise in these areas. Ishani Mukherjee is a policy expert who has written extensively on policy design, as well as policy advice and policy capacity. The Element also demonstrates Assel Mussagulova's expertise in public administration and innovation. The authors cleverly bring their knowledge together with the hopes of developing more nuance in policy design with regards to rationality, and a more rigorous understanding of the tools in behavioral insights. Chapter 1 introduces behavioral insights in the policy design and instrumentation literature. The authors argue convincingly that policy design and instrumentation is one approach that would help theorize behavioral public policy processes, while also enriching the policy design literature by developing a more nuanced account of assumptions of rationality in policy communities. Chapter 2 then identifies the limited engagement between behavioral public policy and policy design theory. The chapter provides an overview of Hood and Margetts (2007) influential NATO framework, considering the role of behavior in Nodality, Authority, Treasury, and Organization. The authors note the gap theorizing the organizational design and administration of behavioral public policy and introduce the role of procedural tools and the analytical capacities. Chapter 3 considers the capacity requirements using the framework of innovation adoption. Each stage of innovation adoption is examined and considered in light of the institutionalization of behavioral insights, an analysis they develop in their case studies in Chapter 4. These case studies of the Netherlands, Australia, and Singapore are well-researched areas of behavioral insights adoption, with the countries enthusiastically leading the way in institutionalization of the approach. Australia provides an example of a structured collaborative approach, the Netherlands a networked, bottoms-up approach, and Singapore as a centrally supported networked approach. Chapter 5 re-emphasizes the gap in the literature on the lack of theory of the administrative requirements to support BI. It offers a framework that can be used to understand the different capacities and capabilities needed in a typical project, before highlighting some of the remaining puzzles, including the need to categorize different behavioral tools. Designing Behavioural Insights for Policy represents an impressive effort to marry academic scholarship on the form of behavioral public policy and practice literature on the experience of using behavioral insights, clearly identifying the gap of using policy design theory with behavioral insights. The case studies are well chosen, given that the Netherlands, Australia, and Singapore were all at the forefront of the development and adoption of behavioral public policy. It would be interesting in the future to compare this to other bureaucracies, particularly in the global south with different administrative contexts. The authors aim for neutrality and deliberately do not engage in the raging ethical, normative and political debates on behavioral insights, beyond a brief mention of politics in the case studies. Greater engagement with more critical work might have enriched the work further. Foregrounding the ethical and political reasons why behavioral insights may or may not assume the same innovation trajectory or institutionalization in different contexts would make the theoretical framework more compelling. The Element covers policy capacity, policy design and tools, and innovation adoption. In providing the necessary summaries and justifications of including these theories to develop insights, Designing Behavioural Insights for Policy struggles for space to develop its application and analysis to behavioral insights. For example, in the Netherlands case, the authors note that organizational arrangements and political support for a more formal approach to behavioral public policy came later, but include limited examination of what capacity was needed for this organizational support and what institutional contestations and challenges were faced. In bringing together so many concepts, the commitment to exploring these in the context of behavioral public policy is somewhat left diluted. The short form of the Element may also be why other interesting questions, such as the need to conceptualize the proliferation of behavioral public policy tools, were ultimately left as remaining puzzles. Focusing on fewer theoretical frameworks and deeper engagement with behavioral public policy would brought greater balance to the Element. Nonetheless, Designing Behavioural Insights for Policy demonstrates an innovative approach to theory development in bringing together multiple policy theories to develop new understandings of policy processes. The author declares no conflicts of interest.",
-            "abstract_zh": "许多关于行为公共政策的学术研究集中在伦理、效果和实施问题上（Einfeld 2025）。Ishani Mukhurjee和Assel Mussagulova的《为政策设计行为洞察：过程、能力和机构》为这个理论不足的学术领域带来了新视角，专注于行为洞察的政策设计、工具和创新。《为政策设计行为洞察》是一部剑桥元素作品，这是一种简洁的学术出版物，篇幅介于传统书籍和期刊文章之间。行为公共政策的使用持续增长。经合组织将其描述为“范式转变”，全球现在有超过300个行为洞察团队（OECD 2023）。学术研究也越来越关注行为洞察（Leong和Howlett 2020）。这些研究集中于定义行为洞察和评估结果，对设计和决策中使用行为公共政策的行政过程关注较少。这一元素理论化了将行为洞察嵌入政策实践所需的支持。它提出了一个引人入胜的问题：“将行为洞察（BI）整合到政策工具设计中的关键能力和程序先决条件是什么？”然后通过一个框架来回答这个问题，该框架汇集了政策能力、政策设计和工具以及政策创新的理论。这样做为政策和公共行政文献做出了有益的贡献，基于作者在这些领域的专业知识。Ishani Mukherjee是一位政策专家，广泛撰写了关于政策设计、政策建议和政策能力的文章。该元素还展示了Assel Mussagulova在公共行政和创新方面的专业知识。作者巧妙地将他们的知识结合起来，希望在政策设计中发展出更细微的理性理解，以及对行为洞察工具更严格的理解。第1章介绍了政策设计和工具文献中的行为洞察。作者有说服力地论证了政策设计和工具是帮助理论化行为公共政策过程的一种方法，同时也通过发展对政策社区中理性假设的更细微解释，丰富了政策设计文献。第2章随后识别了有限的参与……",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
@@ -803,7 +833,7 @@
             "title_zh": "公共部门的创新与创业。陈文迪、大卫·B·奥德里斯科尔著，纽约：牛津大学出版社，2025年。221页，39.95美元。ISBN：978‐0‐19‐767944‐9",
             "url": "https://doi.org/10.1111/puar.70120",
             "abstract_en": "It was a pleasure to read INNOVATION AND ENTREPRENEURSHIP IN THE PUBLIC SECTOR by Wendy Chen and David Audretsch. Within the pages of 10 well-written chapters, the authors take the reader from a historical overview of the role of the public sector in socially important innovation to a meaningful appreciation of decades of academic and policy thought about the manifestation of entrepreneurial behavior within an innovation process. Chapter 2 asks the question: Where did public innovation begin? The authors are meticulous in their trace that begins with the ancient powers in the Mesopotamian Region and with the establishment of the National Science Foundation in the United States. This is the most comprehensive such history that I have seen, and it offers appropriate context for the topics that follow. Chapter 3 addresses new frontiers in public innovation that have been brought about through digitization. All forms of electric information exchanges are described, in an evolutionary perspective, in a readable and understandable manner. Others will likely rely on this foundation to begin their own study of quantum technologies and the role of the public sector in its development. Hinting at the inevitable, namely policies to enhance entrepreneurial-based public innovation, collaboration is the topic of Chapter 4. It is touted as a mechanism for the exchange of information that is needed to develop entrepreneurial perceptions for potential government innovation. The authors make the case that government can advocate collaboration as well as facilitate collaborations in which it itself participates. The direction that public innovation should proceed to maximize the social impact of new innovative technology is the topic of Chapter 5. And the key takeaway from this chapter, again with an eye toward public policy, is that the role of government is to enhance bottom-up approaches for the creation of new innovations. This so-called democratic perspective eschews government picking winner and loser technologies. That perspective forms the scope of Chapter 6. In what might be called a forward looking perspective by the authors who come from different disciplines, an innovation ecosystem is set forth in Chapter 7. A hallmark of the strength of such an ecosystem will be for the government training of public entrepreneurs, which will require a culture change for the public domain. This view is set forth in a justifiable manner. Drawing on the demonstrated expertise of other notables who are introduced in Chapter 8, the authors offer a roadmap for how to increase an entrepreneurial ecosystem and environment that fosters public entrepreneurs. As expected, that roadmap begins with a change in governmental culture that would initiate incentives through organizational leadership. And, before a final summary chapter, the authors demonstrate their own insight by offering a detailed discussion of the challenges a government faces in managing an entrepreneurial innovation nexus. This objective approach to the arguments set forth in the earlier chapters is to be applauded, as is the entire book.",
-            "abstract_zh": "很高兴阅读了陈文迪和大卫·奥德里斯奇合著的《公共部门的创新与创业》。在10章精心撰写的内容中，作者带领读者从公共部门在社会重要创新中的历史角色概述，到对数十年来关于创新过程中创业行为表现的学术和政策思想的深刻理解。第2章提出了一个问题：公共创新从何开始？作者们一丝不苟地追溯，从美索不达米亚地区的古代力量开始，到美国国家科学基金会的建立。这是我见过的最全面的此类历史，为后续主题提供了适当的背景。第3章讨论了数字化带来的公共创新新前沿。所有形式的电子信息交换都在进化的视角下，以一种可读且易于理解的方式被描述。其他人可能会依赖这个基础来开始他们自己对量子技术和公共部门在其发展中作用的研究。第4章暗示了不可避免的趋势，即增强基于创业的公共创新的政策，合作是本章的主题。它被吹捧为交换信息的机制，这是发展潜在政府创新的创业观念所需的。作者们认为，政府可以倡导合作，也可以促进它自己参与的合作。第5章讨论了公共创新应该朝哪个方向发展，以最大化新创新技术的社会影响。本章的关键收获，再次着眼于公共政策，是政府的角色是增强自下而上的方法来创造新创新。这种所谓的民主视角摒弃了政府挑选胜者和败者技术的做法。这种视角构成了第6章的范围。在第7章中，作者们提出了一个创新生态系统，这可以被称为一种前瞻性的视角，他们来自不同的学科。这样一个生态系统的强项将是政府培训公共企业家，这将需要公共领域的文化变革。这一观点以一种合理的方式提出。",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
@@ -905,7 +935,7 @@
         "issue_title": "Volume 39, Issue 3",
         "issue_url": "https://onlinelibrary.wiley.com/journal/14680491",
         "matched_count": 4,
-        "total_in_issue": 9,
+        "total_in_issue": 10,
         "papers": [
           {
             "title_en": "Do Medical Health Ministers Make Different Health System Choices?",
@@ -1270,27 +1300,47 @@
         "query_name": "European Sociological Review",
         "issn": "0266-7215",
         "resolved_name": "European Sociological Review",
-        "issue_title": "Volume 42, Issue 2",
+        "issue_title": "Volume 42, Issue 3",
         "issue_url": "https://academic.oup.com/esr",
-        "matched_count": 2,
-        "total_in_issue": 11,
+        "matched_count": 4,
+        "total_in_issue": 10,
         "papers": [
           {
-            "title_en": "Professors in the media: dynamics of cumulative advantage, reputation, and gender",
-            "title_zh": "媒体中的教授：累积优势、声誉与性别的动态",
-            "url": "https://doi.org/10.1093/esr/jcaf037",
-            "abstract_en": "Abstract Translation of science to a general public is increasingly important in modern academia. Yet, there is little knowledge on whether and why scientists do so. Here, we provide an account of a population of social science professors in Germany (N = 2,207). We ask whether and to what extent scientists appear in German printed media (N = 26,729) as a result of cumulative advantage, reputation, and gender. We link bibliometric data on professors’ careers and data on their appearances in printed media through unique, principled crosswalks of different databases. Departing from the literature on inequality in science, we develop hypotheses on how cumulative advantage, reputation, and gender relate to professors’ media appearances. Employing a series of longitudinal logistic and linear regression analyses we find support for the majority of our conjectures. Cumulative advantages are particularly positively related to newspaper appearances. Once a scientist has been mentioned in the media they seem ‘short-listed’ and this dynamic is more pronounced among men rather than women professors. Reputable professors are also more likely to be in printed news. And men have a higher frequency of newspaper appearances than women, which seems driven by men more likely to be top mediagenic professors. We discuss the implications of these results for media practice and science evaluation.",
-            "abstract_zh": "摘要：在现代学术界，将科学知识普及给大众变得越来越重要。然而，关于科学家是否以及为何这样做的知识却很少。在这里，我们提供了一个关于德国社会科学教授群体的描述（N = 2,207）。我们询问科学家是否以及在多大程度上出现在德国印刷媒体中（N = 26,729），这是由于累积优势、声誉和性别的影响。我们通过不同数据库之间独特的、有原则的交叉索引，将教授职业生涯的文献计量数据与他们在印刷媒体中出现的记录联系起来。从科学不平等的文献出发，我们提出了关于累积优势、声誉和性别如何与教授媒体露面相关的假设。通过一系列纵向逻辑和线性回归分析，我们发现支持我们大部分猜想的证据。累积优势与报纸露面特别正相关。一旦科学家在媒体中被提及，他们似乎被“预选”，这种动态在男性教授中比女性教授更为明显。有声誉的教授也更有可能出现在印刷新闻中。男性在报纸露面的频率高于女性，这似乎是由男性更有可能成为顶级媒体人物的教授所驱动的。我们讨论了这些结果对媒体实践和科学评价的影响。",
+            "title_en": "Assessing age trajectories (of subjective well-being): clarifying estimands, identification assumptions, and estimation strategies",
+            "title_zh": "",
+            "url": "https://doi.org/10.1093/esr/jcaf038",
+            "abstract_en": "Abstract Assessments of age trajectories are crucial for various strands of sociological research. This study provides guidance on how to estimate age trajectories by discussing a research design to answer the question, ‘How does aging affect subjective well-being?’ We define the estimand, discuss key identification and estimation assumptions, and propose—informed by this discussion—a research design. By contrasting our design with those of previous studies, we conclude that many prior investigations were affected by three biases related to identification and one bias concerning estimation. Using extensive panel data from the German Socio-Economic Panel Study (SOEP), we demonstrate that these four biases contributed to mixed empirical evidence, producing distortions that led to even qualitatively different conclusions. Finally, we discuss implications of our study for life course research and for enhancing the credibility of social science more broadly.",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "Attitudes towards education spending when facing a fiscal trade-off: an analysis of stakeholders",
-            "title_zh": "面对财政权衡时对教育支出的态度：利益相关者分析",
-            "url": "https://doi.org/10.1093/esr/jcaf043",
-            "abstract_en": "Abstract Public investment in education is popular in advanced countries. This paper examines whether such public support prevails when individuals are asked to pay additional income taxes. Focusing on Spain, it draws on one original survey (with parents and young people aged 16–24) featuring a trade-off experiment to gauge individuals’ willingness to accept additional income taxes in exchange for increased education spending. Investigating the moderators of this trade-off, we explore how sociodemographic variables and personal evaluations of education influence attitudes. We find strong support for increased spending, yet this support is notably cost-sensitive in the presence of a fiscal trade-off. Our analysis shows that support diminishes when it affects individuals’ pockets across diverse groups and ideologies. We test whether evaluations of one's own/children’s schooling (egocentric) and assessment of the education system (sociotropic) curb cost sensitivity and find that the positive egocentric evaluations are the only parameter that robustly curbs cost sensitivity.",
-            "abstract_zh": "摘要：在发达国家，公共教育投资受到普遍欢迎。本文考察了当要求个人支付额外所得税时，这种公共支持是否仍然存在。以西班牙为研究对象，本文利用一项原创调查（针对16-24岁的父母和年轻人）进行了权衡实验，以衡量个人是否愿意接受额外的所得税以换取增加的教育支出。研究探讨了这种权衡的调节因素，我们研究了社会人口统计变量和个人对教育的评价如何影响态度。我们发现对增加支出有强烈支持，但这种支持在财政权衡面前明显对成本敏感。我们的分析表明，当影响到不同群体和意识形态中个体的口袋时，支持会减少。我们测试了对自身/子女学校教育（自我中心）的评价和对教育系统（社会中心）的评估是否能够抑制成本敏感性，发现积极的自我中心评价是唯一能够稳健抑制成本敏感性的参数。",
+            "title_en": "The political consequences of the mental load",
+            "title_zh": "",
+            "url": "https://doi.org/10.1093/esr/jcaf019",
+            "abstract_en": "Abstract How do levels of cognitive household labour—the ‘mental load’ involved in anticipating, fulfilling, and monitoring household needs—affect political interest? The mental load is distinct from the physical tasks of e.g. cooking and cleaning, and thought to be disproportionately undertaken by women. I argue that while low levels of mental load can foster political interest, at high levels the mental (over)load crowds out cognitive space for political issues, especially issues distant from family life. To test this argument, I field a novel survey on politics and household work to a sample of parents in the United States. I find a large gender gap, with mothers reporting primary responsibility for 71 percent of cognitive household labour, compared to fathers’ 45 percent. Low levels of mental load are positively linked to political interest, while high levels of mental load decrease interest in certain issues, including national politics and inflation. I report similar effects for fathers and mothers, but due to the gendered distribution of mental load (mothers carrying more load, on average), negative consequences are much more common among mothers. The findings offer new evidence about a gender gap too often hidden, and its consequences for political life.",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Changing flux, persisting barriers: assessing the career mobility regime changes in France",
+            "title_zh": "",
+            "url": "https://doi.org/10.1093/esr/jcaf012",
+            "abstract_en": "Abstract Recent empirical research has shown a modest increase in career complexity throughout 20th century Europe. Little is known, however, about the career class mobility, despite the fact that social class is recognized as one of the main career boundaries. Modernization theory provides conflicting expectations regarding how social mobility should evolve over the life course as contemporary societies converge towards education-based meritocracies. Drawing on the French survey Formation-Qualification Professionnelle (Insee, 1970; 1977; 1985; 1993; 2003; 2014–2015) and using the EGP schema, I analyse both the absolute and relative measures of career class mobility, and I rely on the latter to define career class regimes, that I qualify in terms of the strength of the association between class positions held at different career stages and its structure (i.e., qualitative patterns). The findings of this article point to increasing career fluidity across cohorts, which implies a greater permeability of class barriers to career mobility. They also show, however, that these changes have not been associated with any significant modification in mobility patterns, meaning that the social distance and proximity of different social classes remain largely intact over time. Overall, the transformation in contemporary life courses and careers was not only slight but also partial when it comes to career class regimes in France: there is a changing flux, but persisting barriers to career mobility. Therefore, it seems not only exaggerated, but also misleading to speculate on a fundamental change in career dynamics, as most variants of modernization theory tend to do.",
+            "abstract_zh": "",
+            "matched_topics": [
+              "房地产"
+            ]
+          },
+          {
+            "title_en": "Do parents suffer too? Children’s unemployment and their parents’ mental health in 12 European countries",
+            "title_zh": "",
+            "url": "https://doi.org/10.1093/esr/jcaf018",
+            "abstract_en": "Abstract Unemployment is not only a significant risk for the mental health of those affected but also to their interlinked family members, such as their parents. Recent studies have shown a negative association between children’s unemployment and their parents’ mental health, drawing on mechanisms based on linked lives and stress processing within the intergenerational family. However, the role of the broader economic context for this association, particularly regarding prevailing family support cultures, remains less understood. Therefore, our study aims to investigate the association between children’s unemployment and their parents’ mental health in 12 European countries with varying (de)familism regimes before, during, and after the Great Recession of 2008. Using longitudinal panel data from the Survey of Health, Ageing, and Retirement in Europe (SHARE), we analysed 14,954 parents and their 26,382 children over 5 SHARE waves from 2004 to 2015 (N = 92,667) applying pooled longitudinal and fixed-effects linear probability regression. We found significant mental health declines in mothers with their children's unemployment, which was, however, not generally moderated by the economic context. The associations varied across European regions and (de)familism regimes, particularly for mothers in Southern Europe when accounting for individual confounding. Our study provides novel and robust evidence for intergenerational mental health effects of family economic stress, especially in more familistic regime contexts.",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
@@ -1883,25 +1933,35 @@
         "query_name": "Housing Policy Debate",
         "issn": "1051-1482",
         "resolved_name": "Housing Policy Debate",
-        "issue_title": "Volume 36, Issue 2",
+        "issue_title": "Volume 36, Issue 3",
         "issue_url": "https://www.tandfonline.com/journals/rhpd20",
-        "matched_count": 6,
+        "matched_count": 5,
         "total_in_issue": 7,
         "papers": [
           {
-            "title_en": "“It’s a Process—But It Shouldn’t Take This Long”: The Psychological Burden of Waiting for Rental Assistance",
-            "title_zh": "“这是一个过程——但不应该这么久”：等待租房援助的心理负担",
-            "url": "https://doi.org/10.1080/10511482.2026.2622683",
-            "abstract_en": "A growing and severe shortage of affordable housing in the U.S. has led to an increase in cost-burdened households and housing insecurity nationwide. The U.S. Department of Housing and Urban Development (HUD) provides rental assistance through programs such as Housing Choice Vouchers and public or project-based housing to increase access to affordable housing. However, available funding for these programs limits their supply, creating extensive waitlists for rental assistance. While the physical and mental health consequences of housing insecurity and cost-burdens are well documented, less is known about how the experience of waiting for rental assistance may contribute to these adverse outcomes. This paper examines qualitative data from a longitudinal mixed-methods study about rental assistance and diabetes self-management. Through thematic analysis of 116 semi-structured interviews collected from 30 unique participants, we describe how the uncertainty of one's waitlist status, an obligation to wait, and a sense of powerlessness in the waiting process contribute to poor mental health among rental assistance applicants. Our findings suggest that the experience of waiting and specific features of the waiting process may exacerbate stressors associated with housing insecurity to the detriment of applicants' psychological wellbeing.",
-            "abstract_zh": "美国日益严重的经济适用房短缺导致全国成本负担过重的家庭和住房不安全问题增加。美国住房和城市发展部（HUD）通过住房选择券和公共或项目基础住房等项目提供租赁援助，以增加经济适用房的获取。然而，这些项目的可用资金限制了它们的供应，导致租赁援助的等待名单非常长。虽然住房不安全和成本负担对身心健康的影响已有充分记录，但关于等待租赁援助的经历如何导致这些不良结果的了解较少。本文通过定性数据分析，研究了一项关于租赁援助和糖尿病自我管理的纵向混合方法研究。通过对30名独特参与者收集的116次半结构化访谈进行主题分析，我们描述了等待名单状态的不确定性、等待的义务以及等待过程中的无力感如何导致租赁援助申请者中普遍存在的心理健康状况不佳。我们的发现表明，等待的经历和等待过程的特定特征可能会加剧与住房不安全相关的应激因素，从而损害申请者的心理福祉。",
+            "title_en": "Translating Community Land Trusts: Institutional Barriers and Stakeholder Sense-Making in Argentina and Chile",
+            "title_zh": "",
+            "url": "https://doi.org/10.1080/10511482.2026.2625823",
+            "abstract_en": "This paper investigates the potential for Community Land Trust (CLT) adoption in two Latin American contexts: Bahía Blanca, Argentina, and Temuco, Chile, where housing systems are shaped by neoliberal legacies, legal centralism, and cultural attachments to individual ownership. Drawing on two multi-stakeholder focus groups where participants were largely unfamiliar with the CLT model, the findings capture a crucial early stage of sense-making in which stakeholders interpret, negotiate, and localise the concept of collective landholding. Applying a multi-theoretical framework combining structuration theory, institutional planning, and agency typologies, the paper reveals how institutional constraints, discursive imaginaries, and actor strategies shape the (im)possibility of CLTs. While Argentine stakeholders identified pragmatic opportunities to adapt legal and financial instruments for collective tenure, Chilean participants expressed cultural and institutional scepticism rooted in strong individualist land values. The findings highlight the importance of context-sensitive policy imaginaries and institutional agency in advancing tenure innovation. The paper contributes to housing debates by revealing how cultural norms and actor strategies shape the initial buy-in and translation of CLTs within existing understandings of land, housing, and ownership",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
           },
           {
-            "title_en": "Economic Mobility or Safety Net? Examining Employment Status and Wage Trajectories of Housing Choice Voucher Recipients",
-            "title_zh": "经济流动性还是安全网？考察住房选择券领取者的就业状况和工资轨迹",
-            "url": "https://doi.org/10.1080/10511482.2025.2591667",
+            "title_en": "How Does Upzoning Impact Residential Mobility Among Low-Income Households? Evidence from New York City",
+            "title_zh": "",
+            "url": "https://doi.org/10.1080/10511482.2026.2649483",
+            "abstract_en": "",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理"
+            ]
+          },
+          {
+            "title_en": "Moving Into Debt: Impacts of Housing Affordability and Transportation Access on Consumer Credit Outcomes",
+            "title_zh": "",
+            "url": "https://doi.org/10.1080/10511482.2026.2649490",
             "abstract_en": "",
             "abstract_zh": "",
             "matched_topics": [
@@ -1909,9 +1969,9 @@
             ]
           },
           {
-            "title_en": "Mitigating the Stress of Housing Instability: The Impact of Housing Choice Vouchers on Social Supports, Behavioral Health, and Criminal Justice Involvement",
-            "title_zh": "缓解住房不稳定的压力：住房选择券对社会支持、行为健康和刑事司法参与的影响",
-            "url": "https://doi.org/10.1080/10511482.2025.2578944",
+            "title_en": "“It’s Like Trying to Put Out a Fire With a Dixie Cup”: Understanding Disconnects Between Local Level Administrators’ Challenges, Resources, and Needs in Implementing State Affordable Housing Programs",
+            "title_zh": "",
+            "url": "https://doi.org/10.1080/10511482.2026.2624020",
             "abstract_en": "",
             "abstract_zh": "",
             "matched_topics": [
@@ -1919,29 +1979,9 @@
             ]
           },
           {
-            "title_en": "Evaluating Rent Control Intensity in California Cities, 2010–2019",
-            "title_zh": "2010-2019年加州城市租金控制强度评估",
-            "url": "https://doi.org/10.1080/10511482.2025.2582717",
-            "abstract_en": "",
-            "abstract_zh": "",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Rent and Eviction Filing at Enterprise-Backed Rental Properties",
-            "title_zh": "企业支持的租赁房产中的租金和驱逐申请",
-            "url": "https://doi.org/10.1080/10511482.2025.2581673",
-            "abstract_en": "",
-            "abstract_zh": "",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "State Affordable Housing Tax Credits and Renter Outcomes: Evidence from Illinois",
-            "title_zh": "州级经济适用房税收抵免与租户结果：来自伊利诺伊州的证据",
-            "url": "https://doi.org/10.1080/10511482.2025.2578166",
+            "title_en": "Racial and Ethnic Disparities in the Relationship Between Homeownership, Income, and Energy Insecurity",
+            "title_zh": "",
+            "url": "https://doi.org/10.1080/10511482.2025.2566012",
             "abstract_en": "",
             "abstract_zh": "",
             "matched_topics": [
