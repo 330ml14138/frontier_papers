@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-07 07:52:15",
+  "updated_at": "2026-06-14 08:15:06",
   "translation": {
     "engine": "kimi",
     "model": "moonshot-v1-8k",
     "enabled": true,
     "success_count": 0,
-    "fail_count": 27,
+    "fail_count": 33,
     "failed_examples": [
       "Training Specificity and Occupational Mobility: Evidence From German Apprentices :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
       "Apprenticeships play a key role in enabling successful school‐to‐work transition :: HTTP 429: {\"error\":{\"message\":\"Your account org-f5cb2249a1e745759f8188d8670859b4 \\u003cak-f8nrxz4yo6ti11ajt86i\\u003e is suspended due to insufficient balance, p",
@@ -316,8 +316,8 @@
         "resolved_name": "Journal of Urban Economics",
         "issue_title": "Published 2026-08",
         "issue_url": "https://www.sciencedirect.com/journal/journal-of-urban-economics",
-        "matched_count": 2,
-        "total_in_issue": 8,
+        "matched_count": 3,
+        "total_in_issue": 10,
         "papers": [
           {
             "title_en": "Development approval times and new housing supply: Evidence from Los Angeles",
@@ -338,6 +338,17 @@
             "matched_topics": [
               "城市治理"
             ]
+          },
+          {
+            "title_en": "Flattening governments, flattening growth: Equalization–efficiency trade-off in jurisdictional reform",
+            "title_zh": "",
+            "url": "https://doi.org/10.1016/j.jue.2026.103885",
+            "abstract_en": "Flattening government hierarchies not only reduces organizational layers but also restructures fiscal capacity, reshaping both local growth incentives and regional redistribution. This paper identifies a fundamental trade-off: while flattening promotes equalization across regions, it simultaneously undermines economic efficiency at the local level. We develop a multi-tier government model showing that reallocating fiscal authority upward enlarges common revenue pools, which enhance redistribution but dilute local governments’ incentives to foster growth. Empirically, we exploit China’s staggered Province-Managing-County (PMC) reform as a quasi-natural experiment and apply a stacked difference-in-differences strategy to county-level panel data from 2000 to 2007. We find that the PMC reform significantly reduced intra-provincial inequality—measured by Gini, Theil, and related indices—but concurrently lowered county GDP per capita. Reductions in physical investment and firm-level productivity, rather than shifts in labor input, drove the efficiency loss. Heterogeneity analysis reveals that provinces with stronger fiscal pooling (higher VAT-sharing ratios) and broader administrative spans experienced a more severe equalization–efficiency trade-off. Our findings extend fiscal federalism and organizational structure theories by showing how hierarchy flattening and fiscal pooling jointly shape the balance between redistribution and local economic performance.",
+            "abstract_zh": "",
+            "matched_topics": [
+              "城市治理",
+              "房地产"
+            ]
           }
         ],
         "error": null
@@ -351,7 +362,7 @@
         "issue_title": "Published 2026-07",
         "issue_url": "https://www.sciencedirect.com/journal/regional-science-and-urban-economics",
         "matched_count": 1,
-        "total_in_issue": 2,
+        "total_in_issue": 3,
         "papers": [
           {
             "title_en": "Private provision of local public goods and housing market responses: Evidence from London",
@@ -376,7 +387,7 @@
         "issue_title": "Published 2026-07",
         "issue_url": "https://www.sciencedirect.com/journal/china-economic-review",
         "matched_count": 0,
-        "total_in_issue": 4,
+        "total_in_issue": 6,
         "papers": [],
         "error": null
       },
@@ -652,7 +663,7 @@
         "resolved_name": "British Journal of Political Science",
         "issue_title": "Volume 54, Issue 4",
         "issue_url": "https://www.cambridge.org/core/journals/british-journal-of-political-science",
-        "matched_count": 4,
+        "matched_count": 3,
         "total_in_issue": 19,
         "papers": [
           {
@@ -661,16 +672,6 @@
             "url": "https://doi.org/10.1017/s0007123424000644",
             "abstract_en": "Abstract The implications of rising parliamentary representation of populist parties have been thoroughly studied but little is known about the impact of populist state leaders on party positions. In this article, we study mainstream parties' strategic responses when a populist takes over as the leader of a nation. We use content-analytical data and large language modelling to measure positions expressed in manifestos from parties from 51 democracies between 1989 and 2018. Employing methods for causal inference from observational data, we find that right-wing populist state leaders induce mainstream parties to differentiate their positions on multiculturalism, possibly leading to polarization of the party system. Under left-wing populist leaders, mainstream parties adopt more homogenous or differentiated positions, depending on the policy category and other contextual factors. Parties are generally more responsive in emerging than advanced countries and in presidential than parliamentary systems.",
             "abstract_zh": "摘要：关于民粹主义政党在议会中代表权上升的影响已经得到了充分研究，但对民粹主义国家领导人对政党立场影响的研究却知之甚少。在本文中，我们研究了主流政党在民粹主义者成为国家领导人时的战略反应。我们使用内容分析数据和大型语言模型来衡量1989年至2018年间来自51个民主国家的政党在宣言中表达的立场。采用观察数据的因果推断方法，我们发现右翼民粹主义国家领导人促使主流政党在多元文化主义问题上区分自己的立场，可能导致政党体系的极化。在左翼民粹主义领导人领导下，主流政党根据政策类别和其他背景因素采取更加同质化或差异化的立场。与发达国家相比，新兴国家的政党通常反应更为灵敏，总统制国家比议会制国家的政党反应更为灵敏。",
-            "matched_topics": [
-              "房地产"
-            ]
-          },
-          {
-            "title_en": "Do Minorities Feel Welcome in Politics? A Cross-Cultural Study of the United States and Sweden – ERRATUM",
-            "title_zh": "少数群体在政治中感到受欢迎吗？美国与瑞典跨文化研究——勘误表",
-            "url": "https://doi.org/10.1017/s0007123424000735",
-            "abstract_en": "Racial and ethnic minorities are underrepresented in most Western democracies.This article investigates one potential root cause behind this pattern: minority and majority citizens might differentially expect to feel discriminated against if they were to enter politics.",
-            "abstract_zh": "在大多数西方民主国家中，种族和民族少数群体代表性不足。本文探讨了这一现象背后可能的根本原因之一：少数群体和多数群体公民可能对进入政治领域时感受到的歧视有不同的预期。",
             "matched_topics": [
               "房地产"
             ]
@@ -900,7 +901,7 @@
         "issue_title": "Volume 45, Issue 3",
         "issue_url": "https://onlinelibrary.wiley.com/journal/15206688",
         "matched_count": 2,
-        "total_in_issue": 13,
+        "total_in_issue": 15,
         "papers": [
           {
             "title_en": "Measuring the effects of <i>Obergefell v. Hodges</i> : Revisiting same‐sex marriage legalization and mortgage demand",
@@ -1051,17 +1052,17 @@
         "query_name": "American Sociological Review",
         "issn": "0003-1224",
         "resolved_name": "American Sociological Review",
-        "issue_title": "Volume 91, Issue 2",
+        "issue_title": "Volume 91, Issue 3",
         "issue_url": "https://journals.sagepub.com/home/asr",
         "matched_count": 1,
         "total_in_issue": 6,
         "papers": [
           {
-            "title_en": "Living with Ghosts: How Physical Traces of the Past Shape Cultural Trauma in Chinatowns",
-            "title_zh": "与幽灵共存：过去物质痕迹如何塑造唐人街的文化创伤",
-            "url": "https://doi.org/10.1177/00031224261422414",
-            "abstract_en": "Cultural trauma refers to how past experiences of harm can fundamentally transform a community’s shared identity, potentially generating feelings of solidarity and providing communities with a sense of common purpose. This article examines the role of cultural trauma in motivating and guiding ongoing efforts to preserve historic Chinatowns in Canada and the United States in the face of contemporary challenges such as gentrification. We demonstrate how activists understand themselves to be continuing a struggle against anti-Chinese racism that extends back to the nineteenth century. Explaining the contemporary salience of trauma, we conceptualize Chinatowns as “cultural reservoirs” that have accumulated physical traces of past harms. These traces serve as iconic representations of trauma: haunting reminders of the tenuous place of Chinatowns in North American cities. We identify three types of icons produced by distinct material processes: stubborn, entropic, and remedial. By identifying the importance of the physical environment in the trauma process, we reconcile a realist focus on historical events themselves with a constructivist account of their subsequent incorporation into collective memory. Cultural reservoirs do not determine how contemporary communities will remember their past, but the physical traces they preserve create experiences and situations in which trauma narratives seem intuitive and salient to contemporary communities.",
-            "abstract_zh": "文化创伤指的是过去的伤害经历如何根本性地转变一个社区的共享身份，可能产生团结感，并为社区提供共同目标感。本文考察了文化创伤在激励和指导加拿大和美国历史唐人街在面对当代挑战（如士绅化）时保护努力中的作用。我们展示了活动家如何理解自己是在继续一场反对反华种族主义的斗争，这场斗争可以追溯到19世纪。在解释创伤的当代相关性时，我们将唐人街概念化为“文化水库”，它们积累了过去伤害的物质痕迹。这些痕迹作为创伤的标志性代表：提醒人们唐人街在北美城市中的不稳定地位。我们识别了由不同物质过程产生的三种类型的图标：顽固的、熵增的和补救的。通过识别物质环境在创伤过程中的重要性，我们将对历史事件本身的现实主义关注与随后将它们纳入集体记忆的建构主义解释相协调。文化水库并不决定当代社区将如何记住他们的过去，但它们保存的物质痕迹创造了体验和情境，在这些体验和情境中，创伤叙事对当代社区来说似乎是直观和相关的。",
+            "title_en": "Between Two Rituals: Face and Effervescence as Moments of Social Life",
+            "title_zh": "",
+            "url": "https://doi.org/10.1177/00031224261441865",
+            "abstract_en": "Many of the social outcomes and patterns located at the very center of sociological inquiry are grounded in interaction ritual dynamics. Yet, while broadly used across subdisciplinary divides, such rituals are depicted in radically different ways. Drawing from a Durkheimian tradition, and following Erving Goffman and Randall Collins, we distinguish between what we term “rituals of face” and “rituals of effervescence”—rituals aimed at defending the self, and rituals that produce emotional entrainment. Leveraging two very different empirical research projects—patterns of ethnoracial stigmatization in Norway and an ethnography of creative songwriting sessions in Canada—we show that these two kinds of rituals are simultaneously at play. Using the first empirical case, we show how actors ritually segregate their social worlds, saving face with white audiences while often producing effervescence with minority audiences. Using the second, we show how rituals of face and of effervescence are recursively intertwined. We then argue that distinguishing these interaction ritual forms, and attending to their situational dynamics, allows us to ask new empirical questions and to develop a better understanding of the interactional structure of diverse processes: from social movement dynamics to discrimination.",
+            "abstract_zh": "",
             "matched_topics": [
               "房地产"
             ]
@@ -1837,7 +1838,7 @@
             "title_en": "Transgressive City-Making and Governance. Housing struggles, occupations and evictions in the Lisbon Metropolitan Area",
             "title_zh": "越界城市制造与治理：里斯本大都会区的住房斗争、占领与驱逐",
             "url": "https://doi.org/10.1080/02673037.2025.2576739",
-            "abstract_en": "",
+            "abstract_en": "The rapid transformations that have characterised urban Portugal and metropolitan Lisbon since the years of crisis/austerity and, with further acceleration, the following economic rebound have attr...",
             "abstract_zh": "",
             "matched_topics": [
               "城市治理",
@@ -1878,7 +1879,7 @@
             "title_en": "Understanding heterogeneous preferences for community-based housing among older adults in China: a latent class choice analysis",
             "title_zh": "理解中国老年人对社区型住房异质性偏好：潜在类别选择分析",
             "url": "https://doi.org/10.1080/02673037.2025.2552399",
-            "abstract_en": "",
+            "abstract_en": "China’s rapidly growing ageing population fuels growing demand for healthcare. Yet institutional care facilities remains inaccessible to many. Policymakers have addressed this situation by emphasising community-based housing models that foster ageing in place. However, so far, the preferences of older people for the attributes of such community-based housing are not sufficiently known. This research performed a latent class choice analysis of Beijing survey data, identifying three distinct groups with differentiated housing preferences based on their health status, socioeconomic status, and current living situations. Respondents in the prosperous group exhibited preferences for spacious dwellings with professional healthcare. Respondents with physical disabilities favoured compact living spaces requiring healthcare to maintain their daily living. The marginal utilities for meal delivery services, dwelling location, and shared recreational spaces are highest among economically disadvantaged respondents. The findings of this study inform targeted community-based housing development for older people.",
             "abstract_zh": "",
             "matched_topics": [
               "房地产"
